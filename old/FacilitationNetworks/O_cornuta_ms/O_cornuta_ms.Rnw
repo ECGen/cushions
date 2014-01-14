@@ -1,0 +1,441 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{/Library/Frameworks/R.framework/Resources/share/texmf/Sweave}
+
+\title{Intraspecific variation influences community network structure: Tracing the roots of interactions to genetics.}
+\author{M.K. Lau, R. Michalet and J.P. Malouf}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+\begin{enumerate}
+\item Main Question: Does selection produce ecological network
+  nestedness? Or, is nestedness primarily a statistical artifact
+  (i.e. more abundance species will be more connected and typically
+  there is an asymptotic shape of ordered species abundance)?
+\item How does this analysis parallel more common analyses of
+  diversity?
+\item Read the Geum papers    
+\item Other things to try:
+  \begin{enumerate}
+  \item Can we look at the inter-connectedness of cushions based on
+    significantly similar? or different communities?
+  \end{enumerate}
+\end{enumerate}
+
+\subsection{Questions}
+
+\begin{itemize}
+  \item Do the most numerically abundant species have the most
+    connections?
+  \item What traits would increase or decrease the diversity of
+    beneficiary species (i.e. facilitation connections)?
+\end{itemize}
+
+
+%%NOTES FROM MEETING WITH RICHARD AND YOANN:
+%%2) Caviarres 2009
+%%3) Xia Xiao 2009 or 2010
+%%4) What are the ecological consequences? Diversity, evolution,
+%%response to climate change?
+%%5) NOTE that for Astragalus the edge of the cushion was the
+%%available habitat.
+%%6) Check how negative RII are being handled
+%%7) Incorporate the O. corunta phenotype groups. Get the individual
+%%abudnance thresholds from Richard.Flower data indicates reproductive success. For both Geum and
+%%Onobrychis there is an asymptotic decrease of flower production with
+%%increasing beneficiary abundance. In addition for both species there
+%%is an distinct grouping of beneficiary abundance into phenotypic
+%%classes with tighter cushions having fewer beneficiaries.
+%%8) Look at species covariance networks using the co-occurrence data,
+%%especially Bromus which is likely a competitive species that
+%%excludes others.
+%%9) Consider modeling all the data together in a tri-partite network
+
+%%Papers to read:
+%%Caviarres papers
+%%Geum paper Ecology Letters
+%%Xia Xiao's paper from geum
+%%Schob (Spain) cost and benefit of facilitation
+%%Brad's SEM paper and the Nature paper
+
+\section{Individual level facitilation network models}
+
+<<echo=false,results=hide>>=
+  ##turn off the ecosimu tests
+  perm.test <- FALSE
+@ 
+
+
+\subsection{Dependent Functions}
+
+<<echo=false>>=
+  library(gdata)
+library(gplots)
+library(bipartite)
+library(xtable)
+library(sna)
+library(igraph)
+
+source('/Users/Aeolus/Documents/Active_Projects/CorNets/CorNets.R')
+
+##standard error
+se <- function(x){sd(x)/sqrt(length(x))}
+
+
+##Use the response statistic = (I-O)/(I+O)
+rs=function(x){if ((x[1]-x[2])==0){0}else{(x[1]-x[2])/(sum(x))}}
+
+##Presence absence function
+bin.sum=function(x){x[x!=0]<-1;sum(x)}
+
+##Binomial distibution test for the significance of each response statistic
+rs.binom=function(x,alpha=0.05){
+  total=sum(x)
+  p=sum(dbinom(max(x):total,total,0.5))+sum(dbinom(0:min(x),total,0.5))
+  if (p<=alpha){x=x}else if (p>alpha){x=c(0,0)}
+  return(x)
+}
+
+
+##Calculate response statistic
+rii=function(x,rep,site,alpha=0.05,decreasing=TRUE,b.test=TRUE,label='n',sep='',zero.na=TRUE){
+  
+  y <- array(NA,c(length(unique(rep)),ncol(x)))
+  y <- data.frame(y)
+  
+  for (i in seq(along=unique(rep))){
+    z=x[rep==unique(rep)[i],]
+    z=z[order(site[rep==unique(rep)[i]],decreasing=decreasing),]
+    for (j in seq(along=(1:ncol(z)))){
+      
+      if (b.test == TRUE){z[,j]=rs.binom(z[,j],alpha=(alpha/ncol(z)))}else{}
+      
+    }
+    y[i,]=apply(z,2,rs)
+    rownames(y)[i] <- paste(label,unique(rep)[i],sep=sep)
+  }
+  
+  colnames(y) <- colnames(x)
+  if (zero.na == TRUE){y[is.na(y)] <- 0}
+  
+  return(y)	
+}
+
+@ 
+
+\subsection{Generate Network Models}
+
+\subsection*{No Test for Significance}
+%%Onobrychis cornuta
+
+<<echo=false,results=hide>>=
+  Oc.com <- read.csv('data/OnobrychisCushions.csv')
+Oc.com <- Oc.com[,7:ncol(Oc.com)]
+Oc.env <- read.csv('data/OnobrychisCushions.csv')[,1:2]
+
+attach(Oc.env)
+names(Oc.env)
+
+##Calculate response statistic (rii)
+Oc.rs <- rii(Oc.com,rep,microsite,b.test=FALSE,label='Oc') #Without Test of significance
+Oc.rs.. <- rii(Oc.com,rep,microsite,b.test=TRUE,label='Oc') #Test of significance (..)
+Oc.order <- Oc.rs
+Oc.order.. <- Oc.rs..
+
+detach(Oc.env)
+
+##Import and sort the surface area values
+surface <- read.csv('data/OnobrychisCushions.csv')[Oc.env$microsite=='on cushion',5]
+Oc.surf <- surface[order(apply(Oc.order,1,bin.sum),decreasing=TRUE)]
+Oc.surf.. <- surface[order(apply(Oc.order..,1,bin.sum),decreasing=TRUE)]
+names(Oc.surf) <- rownames(Oc.rs)
+names(Oc.surf..) <- rownames(Oc.rs..)
+
+##Reorder the matrices by their rii
+##Without test
+Oc.binary <- Oc.rs
+Oc.binary[Oc.binary != 0] <- 1
+Oc.order <- Oc.rs
+Oc.order <- Oc.order[order(apply(Oc.order,1,bin.sum),decreasing=TRUE),]
+Oc.order <- Oc.order[,order(apply(Oc.order,2,bin.sum),decreasing=TRUE)]
+Oc.order[rownames(Oc.order) == 'Oc1',order(colnames(Oc.order))] - Oc.rs[rownames(Oc.rs) == 'Oc1',order(colnames(Oc.rs))]
+##With test
+Oc.binary.. <- Oc.rs..
+Oc.binary..[Oc.binary.. != 0] <- 1
+Oc.order.. <- Oc.rs..
+Oc.order.. <- Oc.order..[order(apply(Oc.order..,1,bin.sum),decreasing=TRUE),]
+Oc.order.. <- Oc.order..[,order(apply(Oc.order..,2,bin.sum),decreasing=TRUE)]
+Oc.order..[rownames(Oc.order..) == 'Oc1',order(colnames(Oc.order..))] - Oc.rs..[rownames(Oc.rs..) == 'Oc1',order(colnames(Oc.rs..))]
+
+##Cushion phenotype groupings based on the numbers of individuals (another dataset suggests a strong pattern of correlation between the phenotypes Dense, Loose and Intermediate and the number of individuals). The number of individuals also correlates strongly with the number of flowers produced (more beneficiary individuals means fewer flowers.)
+
+#####SORT THE PHENOTYPE ACCORDING TO THE SORTING OF THE CUSHIONS!!!!!
+
+##Without test
+pheno <- read.xls('data/Affectation phenotype.xls')
+Oc.pheno <- as.character(sapply(rownames(Oc.order),function(x) unlist(strsplit(x,split='c'))[2]))
+marker <- unique(Oc.pheno)
+for (i in 1:length(marker)){
+  Oc.pheno[Oc.pheno == marker[i]] <- as.character(pheno[,2])[pheno[,1] == marker[i]]
+}
+##With test
+pheno.. <- read.xls('data/Affectation phenotype.xls')
+Oc.pheno.. <- as.character(sapply(rownames(Oc.order..),function(x) unlist(strsplit(x,split='c'))[2]))
+marker.. <- unique(Oc.pheno..)
+for (i in 1:length(marker..)){
+  Oc.pheno..[Oc.pheno.. == marker..[i]] <- as.character(pheno..[,2])[pheno..[,1] == marker..[i]]
+}
+
+
+@ 
+
+\subsection{Figures}
+
+
+<<fig=true,echo=false,width=15,height=9>>=
+  par(mfrow=c(1,2))
+##Histograms
+hist(Oc.order[Oc.order != 0],xlab='RII',main='All RII')
+hist(Oc.order..[Oc.order.. != 0],xlab='RII',main='Significant RII')
+
+@
+
+<<echo=false>>=
+##Without test
+Oc.bin <- as.matrix(Oc.order)
+Oc.bin[Oc.bin != 0] <- 1
+Oc.temp <- nestedtemp(abs(as.matrix(Oc.bin)))
+nestedchecker(Oc.order)
+if (perm.test == TRUE){Oc.nest <- oecosimu(as.matrix(Oc.order),nestedchecker,'quasiswap',nsimul=1000,alternative='less',burnin=0)}
+##With test
+Oc.bin.. <- as.matrix(Oc.order..)
+Oc.bin..[Oc.bin.. != 0] <- 1
+Oc.temp.. <- nestedtemp(abs(as.matrix(Oc.bin..)))
+nestedchecker(Oc.order..)
+if (perm.test == TRUE){Oc.nest.. <- oecosimu(as.matrix(Oc.order..),nestedchecker,'quasiswap',nsimul=1000,alternative='less',burnin=0)}
+
+Oc.nest
+Oc.nest..
+cbind(c('D','I','L'),c('RED','BLACK','GREEN'))
+
+@ 
+
+
+<<fig=true,echo=false,width=15,height=15>>=
+  par(mfrow=c(2,2))
+##Nestedness Plots
+plot(Oc.temp,kind='temp',col=grey(seq(1,0,length=25)),main='All RII')
+plot(Oc.temp..,kind='temp',col=grey(seq(1,0,length=25)),main='Significant RII')
+##Bipartite Graph
+plotweb(abs(Oc.order),method='normal',text.rot=90,empty=FALSE,col.low=as.numeric(factor(Oc.pheno)))
+plotweb(abs(Oc.order..),method='normal',text.rot=90,empty=FALSE,col.low=as.numeric(factor(Oc.pheno..)))
+
+@
+
+
+<<echo=false>>=
+  
+##Without test
+Oc.edge <- apply(Oc.order,2,function(x) length(x[x!=0]))
+Oc.abun <- apply(Oc.com,2,sum)
+Oc.edge <- Oc.edge[order(names(Oc.edge))]
+Oc.abun <- Oc.abun[order(names(Oc.abun))]
+Oc.edge.cush <- apply(Oc.order,1,function(x) length(x[x!=0]))
+Oc.edge.cush <- Oc.edge.cush[order(names(Oc.edge.cush))]
+names(Oc.surf) <- rownames(Oc.rs)
+Oc.surf <- Oc.surf[order(names(Oc.surf))]
+
+##With test
+Oc.edge.. <- apply(Oc.order..,2,function(x) length(x[x!=0]))
+Oc.abun.. <- apply(Oc.com,2,sum)
+Oc.edge.. <- Oc.edge..[order(names(Oc.edge..))]
+Oc.abun.. <- Oc.abun..[order(names(Oc.abun..))]
+Oc.edge.cush.. <- apply(Oc.order..,1,function(x) length(x[x!=0]))
+Oc.edge.cush.. <- Oc.edge.cush..[order(names(Oc.edge.cush..))]
+names(Oc.surf..) <- rownames(Oc.rs..)
+Oc.surf <- Oc.surf[order(names(Oc.surf))]
+
+@ 
+
+<<fig=true,echo=false,width=15,height=15>>=
+par(mfrow=c(2,2))
+##Without test
+
+plot(Oc.edge~Oc.abun,pch=19,xlab='Species Total Abundance (in and out)',ylab='Number of Connections to Cushions',main='All RII')
+abline(lm(Oc.edge~Oc.abun))
+plot(Oc.edge.cush~Oc.surf,pch=19,xlab='Cushion Surface Area',ylab='Number of Connections to Species',main='All RII')
+abline(lm(Oc.edge.cush~Oc.surf))
+##With test
+
+plot(Oc.edge..~Oc.abun..,pch=19,xlab='Species Total Abundance (in and out)',ylab='Number of Connections to Cushions',main='Significant RII')
+abline(lm(Oc.edge..~Oc.abun..))
+plot(Oc.edge.cush..~Oc.surf..,pch=19,xlab='Cushion Surface Area',ylab='Number of Connections to Species',main='Significant RII')
+abline(lm(Oc.edge.cush..~Oc.surf..))
+
+@ 
+
+<<results=tex,echo=false>>=
+                                        #calculate the average connection weight using the RII values 
+Oc.acw <- apply(Oc.rs,1,function(x) mean(x[x != 0]))
+Oc.acw.. <- apply(Oc.rs..,1,function(x) mean(x[x != 0]))
+Oc.acw[is.na(Oc.acw)] <- 0
+Oc.acw..[is.na(Oc.acw..)] <- 0
+                                        #number of positive and negative RII
+Oc.pos <- apply(Oc.rs,1,function(x) length(x[x > 0]))
+Oc.pos.. <- apply(Oc.rs..,1,function(x) length(x[x > 0]))
+Oc.neg <- apply(Oc.rs,1,function(x) length(x[x < 0]))
+Oc.neg.. <- apply(Oc.rs..,1,function(x) length(x[x < 0]))
+
+@ 
+
+<<fig=true,echo=false,width=9,height=9>>=
+#Connections by phenotype
+par(mfrow=c(2,2))
+barplot(tapply(Oc.edge.cush,Oc.pheno,mean),ylab='Mean Number of Interactions')
+barplot(tapply(Oc.edge.cush..,Oc.pheno..,mean),ylab='Mean Number of Interactions')
+barplot(tapply(Oc.acw,Oc.pheno,mean),ylab='Mean Connection Strength')
+barplot(tapply(Oc.acw..,Oc.pheno..,mean),ylab='Mean Connection Strength')
+
+@ 
+
+<<>>=
+@ 
+
+<<fig=true,echo=false,width=9,height=9>>=
+##Correlation of number of individuals per cushion and the size of the cushion
+Oc.ind <- apply(Oc.com[Oc.env$microsite=='on cushion',],1,sum)
+names(Oc.ind) <- paste('Oc',Oc.env$rep[Oc.env$microsite=='on cushion'],sep='')
+plot(Oc.ind~surface,xlab='Cushion Surface Area',ylab='Number of Individuals',pch=19)
+abline(lm(Oc.ind~surface))
+
+@ 
+
+<<fig=true,echo=false,width=15,height=9>>=
+##Correlation of the number of individuals in the cushion and the number of connections
+all(rownames(Oc.rs) == names(Oc.ind))
+Oc.con <- apply(Oc.rs,1,bin.sum)
+Oc.con.. <- apply(Oc.rs..,1,bin.sum)
+##plot
+par(mfrow=c(1,2))
+plot(Oc.con~Oc.ind,xlab='Number of Individuals',ylab='Number of Connections',pch=19)
+abline(lm(Oc.con~Oc.ind))
+
+
+plot(Oc.con..~Oc.ind,xlab='Number of Individuals',ylab='Number of Connections',pch=19)
+abline(lm(Oc.con..~Oc.ind))
+
+
+@ 
+
+
+<<results=tex,echo=false>>=
+xtable(summary(lm(Oc.con~Oc.ind)))
+xtable(summary(lm(Oc.con..~Oc.ind)))
+
+@ 
+
+\section{Facilitation vs Exclusion}
+
+Bromus seems to be the most highly facilitated species, although this
+could be because it's the most numerically abundant.
+
+<<>>=
+Oc.fac <- apply(Oc.order,2,function(x) length(x[x > 0]))
+Oc.exc <- apply(Oc.order,2,function(x) length(x[x < 0]))
+barplot(rbind(Oc.fac,Oc.exc),beside=TRUE,las=2)
+Oc.fac
+
+Oc.fac.. <- apply(Oc.order..,2,function(x) length(x[x > 0]))
+Oc.exc.. <- apply(Oc.order..,2,function(x) length(x[x < 0]))
+barplot(rbind(Oc.fac..,Oc.exc..),beside=TRUE,las=2)
+Oc.fac..
+
+par(mfrow=c(1,2))
+barplot(rbind(Oc.fac,Oc.exc),beside=TRUE,las=2)
+barplot(rbind(Oc.fac..,Oc.exc..),beside=TRUE,las=2)
+
+@ 
+
+<<>>=
+##look at the inter-correlation network for inside and outside the cushions
+
+#separate inside and outside communities
+Oc.l <- list()
+Oc.l[[1]] <- Oc.com[Oc.env$microsite == 'in open',]
+Oc.l[[2]] <- Oc.com[Oc.env$microsite == 'on cushion',]
+names(Oc.l) <- levels(Oc.env$microsite)
+
+Oc.net <- list()
+Oc.net[[1]] <- kendall.pairs(Oc.l[[1]],adj.method='fdr',p.adj=FALSE)
+Oc.net[[2]] <- kendall.pairs(Oc.l[[2]],adj.method='fdr',p.adj=FALSE)
+names(Oc.net) <- names(Oc.l)
+
+gplot(abs(Oc.net[[1]]),displaylabels=TRUE,main='In Open',label.cex=0.5)
+gplot(abs(Oc.net[[2]]),displaylabels=TRUE,main='On Cushion',label.cex=0.5)
+
+@ 
+
+\section{Conduct module detection and then see if there is overlap
+  with the cushion phenotype}
+
+<<>>=
+#convert to igraph bipartite graph structure
+Oc.bg <- graph.incidence(incidence=as.matrix(Oc.order)) 
+Oc.bg. <- graph.incidence(incidence=as.matrix(Oc.order..)) 
+
+clusters(Oc.bg)
+clusters(Oc.bg.)
+
+
+
+@ 
+
+\section{Examine the monopartite structure and groupings by phenotype}
+
+<<fig=true>>=
+
+#project the bipartite network onto a monopartite structure of cushions linked by shared connections
+Oc.om <- as.one.mode(Oc.order,project='lower')
+Oc.om. <- as.one.mode(Oc.order..,project='lower')
+
+#plot graphs coloring by phenotype
+par(mfrow=c(2,2))
+gplot(abs(Oc.om),displaylabels=TRUE,gmode='graph',vertex.col=as.numeric(factor(Oc.pheno)))
+gplot(abs(Oc.om.),displaylabels=TRUE,gmode='graph',vertex.col=as.numeric(factor(Oc.pheno..)))
+legend('topright',legend=sort(unique(Oc.pheno)),pch=19,col=as.numeric(factor(sort(unique(Oc.pheno)))),box.lwd=0.5)
+
+#project the bipartite network onto a monopartite structure of beneficiaries linked by shared connections
+Bs.om <- as.one.mode(Oc.order,project='higher')
+Bs.om. <- as.one.mode(Oc.order..,project='higher')
+
+#plot graphs coloring by phenotype
+gplot(abs(Bs.om),displaylabels=TRUE,gmode='graph')
+gplot(abs(Bs.om.),displaylabels=TRUE,gmode='graph')
+
+Bs.n <- Bs.om #negative shared links
+Bs.n[Bs.n > 0] <- 0
+Bs.n. <- Bs.om. #negative shared links
+Bs.n.[Bs.n. > 0] <- 0
+
+par(mfrow=c(2,2))
+gplot(abs(Bs.om),displaylabels=TRUE,gmode='graph')
+gplot(abs(Bs.om.),displaylabels=TRUE,gmode='graph')
+gplot(abs(Bs.n),displaylabels=TRUE,gmode='graph')
+gplot(abs(Bs.n.),displaylabels=TRUE,gmode='graph')
+
+@ 
+
+\end{document}  
+
+
+

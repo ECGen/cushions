@@ -1,0 +1,25 @@
+digraph "cush.sem" {
+  rankdir=LR;
+  size="12,12";
+  node [fontname="Helvetica" fontsize=14 shape=box];
+  edge [fontname="Helvetica" fontsize=10];
+  center=1;
+  "N.Cushions" -> "Mean.Dif.R" [label="0.13"];
+  "N.Cushions" -> "Net.Dif" [label="-0.1"];
+  "Std.NRI.Dif" -> "Mean.Dif.A" [label="0.24"];
+  "Std.NRI.Dif" -> "Mean.Dif.R" [label="-0.22"];
+  "Std.NRI.Dif" -> "Mean.Com.Dif" [label="-0.1"];
+  "Std.NRI.Dif" -> "Net.Dif" [label="-0.15"];
+  "N.Cushions" -> "Mean.Com.Dif" [label="0.24"];
+  "Mean.Dif.A" -> "Mean.Dif.R" [label="0.68"];
+  "Mean.Dif.R" -> "Mean.Com.Dif" [label="0.34"];
+  "Mean.Dif.A" -> "Net.Dif" [label="-0.15"];
+  "Mean.Dif.R" -> "Net.Dif" [label="0.11"];
+  "Mean.Com.Dif" -> "Net.Dif" [label="0.59"];
+  "N.Cushions" -> "N.Cushions" [label="1" dir=both];
+  "Std.NRI.Dif" -> "Std.NRI.Dif" [label="1" dir=both];
+  "Mean.Dif.A" -> "Mean.Dif.A" [label="0.94" dir=both];
+  "Mean.Dif.R" -> "Mean.Dif.R" [label="0.54" dir=both];
+  "Mean.Com.Dif" -> "Mean.Com.Dif" [label="0.79" dir=both];
+  "Net.Dif" -> "Net.Dif" [label="0.59" dir=both];
+}

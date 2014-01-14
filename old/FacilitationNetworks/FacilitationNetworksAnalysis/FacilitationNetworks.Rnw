@@ -1,0 +1,67 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{hyperref}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Facilitation Networks}
+\author{Lau, M.K., Fortuna, M.A., Michalet, R.}
+\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+\section{Summary}
+
+The goal of this study is to investigate the effect of intraspecific variation on ecological interactions. Focusing mainly on the structure of facilitation networks at the individual level. Primary areas to explore are: 
+
+\begin{enumerate}
+\item Linkage distributions
+\item Nestedness
+\item Connectedness 
+\item Modularity (use simulated annealing)
+\item Comparisons across species and ecosystems
+\item Comparisons between negative and positive interactions
+\item Correlate linkage density with abundance of species and cushion characters
+\item Unipartite networks to investigate relationships among individuals
+\item Patterns explained by genetics:
+\subitem -- Variance in node statistics by genotype
+\subitem -- Clustering of genotypes by interactions
+\subitem -- Centrality of individuals compared to clustering
+\item Comparing antagonistic and mutualistic network structures (modularity vs. nestedness)
+\end{enumerate} 
+
+\section{Metadata}
+
+\subsection{Lebanon Site}
+
+Richard Michalet collected the data from two sites in Lebenon. \textit{Astragalus Zachalensis}
+
+
+\section{Analyses}
+
+\subsection{Lebanon Site}
+\begin{enumerate}
+\item Test for significance of each interaction using a binomial test
+\item Construct the network using the RII (Response to Interaction Index)
+\item Investigate (for whole and mutualistic-antagonistic interactions):
+	\subitem -- Node statistic for both facilitators and beneficiaries (e.g., edge density)
+	\subitem -- Nestedness and modularity
+	\subitem -- Relate facilitator node statistics to node qualities (e.g., cushion size, phylogeny)
+\end{enumerate}
+
+%<<>>=
+%
+%@
+
+
+\end{document}  

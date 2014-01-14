@@ -1,0 +1,77 @@
+Traits used = "Height" "Leaf.length" "Penetration" "Leaf.thickness"
+
+Community distance used = Adjusted Bray-Curtis (Clarke et al. 2006)
+
+#Mantel community~traits
+mantelr      pval1      pval2      pval3  llim.2.5% ulim.97.5% 
+0.08765069 0.00400000 0.99700000 0.00600000 0.05959671 0.13905202 
+
+#PerMANOVA community~phenotype
+Source    Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+phenotype  2     3.305 1.65265  4.2819 0.10009  0.001 ***
+Residuals 77    29.719 0.38596         0.89991           
+Total     79    33.024                 1.00000           
+
+#Network modeling
+##Reduced the datasets to the same number of observations using a
+##random removal of observations
+##Species with abundances less than 10 were removed
+##Used Generalized Additive Models comparing null, linear and
+##quadratic using AIC
+##Significant connections in networks are the linear regression
+##coefficient regardless of whether linear or quadratic
+
+#Network analyses
+##Size
+###D vs I
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0 
+	p(f(perm) <= f(d)): 1 
+###I vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.971 
+	p(f(perm) <= f(d)): 0.053 
+###D vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0 
+	p(f(perm) <= f(d)): 1 
+
+##Degree
+###D vs I
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.2838 
+	p(f(perm) <= f(d)): 0.7162 
+###I vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.0568 
+	p(f(perm) <= f(d)): 0.9432 
+###D vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.0228 
+	p(f(perm) <= f(d)): 0.9772 
+
+##Centralization
+###D vs I
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.2926 
+	p(f(perm) <= f(d)): 0.7074 
+###I vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.0604 
+	p(f(perm) <= f(d)): 0.9396 
+###D vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.0178 
+	p(f(perm) <= f(d)): 0.9822 
+
+#Network structure correlations
+##Size, degree and centralization are all correlated. 

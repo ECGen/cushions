@@ -1,0 +1,17 @@
+---HIERARCHICAL-RANDOM-GRAPH---
+StartTime	: Thu Nov 10 10:40:23 2011
+InputFile	: web-1-1.pairs
+Directory	: 
+---Basic-Graph-Information---
+Bipartite	: yes
+A vertices	: 36
+B vertices	: 36
+Total amount of vertices	: 72
+Edges		: 872
+---HRG-Information---
+OutputTime	: Thu Nov 10 10:40:48 2011
+NumStepsMCMC	: 3040001
+NumPrevBests	: 135
+Likelihood	: 0.284683
+HRG		: web-1-1.hrg
+InfoFile	: web-1-1.info

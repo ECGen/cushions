@@ -1,0 +1,91 @@
+site name,cushion spp (Genus_species),recorder(s),e-mail/contact,date (year),NOTES,est alt (m),Alternative site name (if different),lat,long,country,lat/long source,Dataset code
+"Ecuador1","Pentacalia_microdon","","",2008,"",4500,"",-0.655788,-78.440186,"","",1
+"Bald Mt.","Eriogonum_umbellatum ssp. Porteri","","",2009,"",3550,"ray.callaway@mso.umt.edu",40.694975,-110.90494,"","",37
+"Ecuador1","Xenophyllum_humile","","",2008,"",4700,"",-0.471706,-78.158175,"","",2
+"Ecuador2","Azorella_aretioides","","",2009,"",4550,"",-0.467464,-78.166753,"","",3
+"Torres del Paine","Azorella_monantha","","",2009,"",720,"lcaviere@udec.cl",-51.175833,-72.848333,"","",64
+"Ecuador2","Azorella_aretioides","","",2009,"",4700,"",-0.472269,-78.158605,"","",4
+"Atacama","Picnophyllum_bryoides","","",2004,"",4300,"lcaviere@udec.cl",-22.575611,-68.037027,"","",5
+"Cathedral Lake 2_Sax opp","Saxifraga_oppositifolia","","",2010,"",2510,"",49.0505155,-120.218209,"","",99
+"Rogers Pass","Antennaria_umbrinella","","",2008,"",1796,"rgavilan@farm.ucm.es",47.078239,-112.372099,"","",33
+"Antuco","Oreopolus_glacialis","","",2000,"",2052,"",-37.459167,-71.122778,"","",15
+"Antuco","Azorella_trifurcata","","",2000,"",1400,"",-37.463333,-71.316667,"","",16
+"Bariloche","Mulinium_leptacanthum","","",2003,"",1700,"",-41.2675,-71.303056,"","",17
+"Bariloche","Oreopolus_glacialis","","",2003,"",1700,"",-41.2675,-71.303056,"","",18
+"Bariloche","Discaria_nana","","",2003,"",1700,"",-41.2675,-71.303056,"","",19
+"Coyhaique","Oreopolus_glacialis","","",2009,"",736,"",-45.504166,-71.708333,"","",20
+"Coyhaique","Baccharis_magellanica","","",2009,"",736,"",-45.504166,-71.708333,"","",21
+"Coyhaique","Acaena_intergerima","","",2009,"",736,"",-45.504166,-71.708333,"","",22
+"Torres del Paine","Azorella_monantha","","",1992,"",710,"lcaviere@udec.cl",-50.824444,-73,"","",23
+"Torres del Paine","Bolax_gummiferia","","",1992,"",750,"lcaviere@udec.cl",-50.823933,-72.997889,"","",24
+"Torres del Paine","Azorella_monantha","","",1992,"",890,"lcaviere@udec.cl",-50.815253,-72.992222,"","",25
+"Torres del Paine","Bolax_gummiferia","","",1992,"",920,"lcaviere@udec.cl",-50.817303,-72.988611,"","",26
+"Langtang-Kyanngjing Valley","Astragalus_sp","","",2010,"Rabindra Parajuli",4265,"",28.13581,85.34395,"","",85
+"Pico Orizaba","Arenaria_sp","","",2008,"",4507,"",18.98424,-97.31198,"","",28
+"Piegan Pass 2007","Silene_acaulis","","",2007,"",2364,"",48.721212,-113.688526,"","",30
+"Beartooth","Silene_acaulis","","",2008,"",3263,"",44.96947,-109.440373,"","",31
+"Beartooth","Trifolium_nanum","","",2008,"",3231,"",44.972198,-109.448148,"","",32
+"Waterworks","Eriogonum_ovalium","","",2008,"",1117,"",46.883484,-113.982587,"","",34
+"Mt. Jumbo","Eriogonum_ovalium","","",2009,"",1232,"",46.867726,-113.964086,"","",36
+"White Mountains","Eriogonum sp.","","",2010,"Chris Lortie And Richard Michalet",3726,"",37.5509166,-118.224083,"","",101
+"San Francisco Mt.","Geum_rossii","","",2008,"",3650,"",35.341186,-111.683788,"","",38
+"San Francisco Mt.","Geum_rossii","","",2008,"",3800,"",35.342501,-111.682006,"","",39
+"Churchill","Dicranum_elongata","","",2007,"",24,"",58.68224,-93.852757,"","",40
+"Mt. Hutt","Raoulia_sp","","",2009,"",1518,"",-43.509257,171.544213,"","",41
+"Old Man Range","Dracophyllum_sp","","",2009,"",1678,"",-45.322292,169.207743,"","",42
+"Mt. Burns","Phyllacne_colensoi","","",2009,"",1456,"",-45.752356,167.399465,"","",43
+"Lebanon","Onobrychis_cornuta","","",2009,"",2222,"",33.975335,35.84794,"","",44
+"Lebanon","Astragulus_zachlensis","","",2009,"",2223,"",33.977462,35.848156,"","",45
+"Iran","Astragulus_macrosemius","","",2009,"",3676,"",35.8941667,51.40694444,"","",46
+"Slovakia Silene acaulis","Silene_acaulis","","",2009,"",1982,"",49.2358333,20.21916667,"","",47
+"Qilian Shan","Arenaria_kansuensis Maxim.","","",2009,"",4228,"",39.503405,96.504741,"","",49
+"Ny-Ålesund","Silene_acaulis","","",2009,"Gareth Phoenix",30,"g.phoenix@sheffield.ac.uk",78.9122611,12.01742778,"","",50
+"Val Bercla","Silene_acaulis","","",2009,"",2484,"",46.477778,9.582778,"","",52
+"Gemmi","Carex_firma","","",2009,"",2305,"",46.42319,7.62769,"","",53
+"Gemmi","Silene_acaulis","","",2009,"",2297,"",46.42502,7.6292,"","",54
+"Cabezas de Hierro","Minuartia_recurva","","",2009,"",2340,"",40.800011,-3.933389,"","",56
+"Valle Nevado","Azorella_madreporica","","",2003,"",3258,"",-33.333889,-70.246667,"","",57
+"Tres Puntas","Azorella_madreporica","","",2003,"",3394,"lcaviere@udec.cl",-33.325278,-70.238611,"","",58
+"Elqui","Azorella_madreporica","","",2004,"",3744,"",-30.4175,-70.263056,"","",59
+"Elqui","Azorella_madreporica","","",2004,"",3922,"",-30.394167,-70.241944,"","",60
+"Valle Nevado","Laretia_acaulis","","",2003,"",3259,"",-33.333889,-70.246667,"","",61
+"White Mountains","Phlox_condensata","","",2009,"",3603,"",37.533411,-118.20533,"","",62
+"White Mountains","Townsendia_leptotes","","",2009,"",3563,"",37.549648,-118.215424,"","",63
+"Two Medicine Glacier","Sibbaldia_sp","","",2009,"",2290,"ray.callaway@mso.umt.edu",48.4848483,-113.322126,"","",65
+"Cathedral Lake 1","Silene_acaulis","","",2010,"",2476,"",49.0571346,-120.220331,"","",67
+"Cathedral Lake 2_Silene","Silene_acaulis","","",2010,"",2510,"",49.0505155,-120.218209,"","",68
+"Red Mountain","Silene_acaulis","","",2010,"",2191,"",51.209385,-122.561666,"","",69
+"Pink Mountains 1","Silene_acaulis","","",2010,"Chris Lortie",1747,"",57.0633692,-122.865099,"","",70
+"Pink Mountains 2","Silene_acaulis","","",2010,"Chris Lortie",1757,"",57.0610071,-122.865635,"","",71
+"Pink Mountains 3","Silene_acaulis","","",2010,"Chris Lortie",1754,"",57.0606464,-122.864367,"","",72
+"Benasque 1","Saponaria_cespitosa","","",2010,"",2318,"",42.6902556,0.648888889,"","",73
+"Benasque 2","Silene_acaulis","","",2010,"",2318,"",42.6894722,0.646013889,"","",74
+"Whistler North","Silene_acaulis","","",2010,"Richard Michalet & Chris Lortie & Anya",2100,"r.michalet@ecologie.u-bordeaux1.fr",50.032482,-122.571218,"","",75
+"Whistler South","Silene_acaulis","","",2010,"Richard Michalet & Chris Lortie & Anya",2100,"r.michalet@ecologie.u-bordeaux1.fr",50.032425,-122.571316,"","",76
+"Sierra Nevada 1","Arenaria_tetraquetra_amabilis","","",2010,"Christian Schöb",2575,"christian@eeza.csic.es",37.036415,-3.303248,"","",77
+"Sierra Nevada 2","Arenaria_tetraquetra_amabilis","","",2010,"Christian Schöb",3110,"christian@eeza.csic.es",36.9972145,-3.31251,"","",78
+"Sierra Nevada 3","Arenaria_tetraquetra_amabilis","","",2010,"Christian Schöb",2750,"christian@eeza.csic.es",37.0813425,-3.381272,"","",79
+"Sierra Nevada 4","Arenaria_tetraquetra_amabilis","","",2010,"Christian Schöb",3239,"christian@eeza.csic.es",37.0508168,-3.370964,"","",80
+"Sierra Nevada 5","Plantago_holosteum","","",2010,"Christian Schöb",2750,"christian@eeza.csic.es",37.0813425,-3.381272,"","",81
+"Kitanuma ","Pinus_pumila","","",2010,"Kikvidze, Suzuki, Shimono, Kudo",1990,"",43.535836,142.853111,"","",82
+"Qilian Shan","Arenaria_kansuensis Maxim.","","",2010,"",4239,"xiaos@lzu.edu.cn;Zhaoliang@lzb.ac.cn",39.30208,96.30286,"","",83
+"Qilian Shan","Rhodiola_juparensis","","",2010,"",3709,"xiaos@lzu.edu.cn;Zhaoliang@lzb.ac.cn",39.3546,96.26245,"","",84
+"Swiftcurrent Low","Silene_acaulis","","",2010,"",2273,"ray.callaway@mso.umt.edu",48.780317,-113.766637,"","",86
+"Swiftcurrent High","Silene_acaulis","","",2010,"",2515,"ray.callaway@mso.umt.edu",48.78443,-113.766932,"","",87
+"Windy Pass 1","Dasiphora_fruticosa","","",2010,"",2241,"",48.47894,-113.332395,"","",88
+"Latnja","Silene_acaulis","","",2010,"Elin Götmark (Field assistant)",1050,"",68.35748,18.49861,"","",89
+"Dolomites 1","Carex_firma","","",2010,"Pals",2208,"ray.callaway@mso.umt.edu",46.487167,11.806929,"","",90
+"Dolomites 2","Silene_acaulis","","",2010,"Lohen/Rob/Christian/Brad",2357,"lcaviere@udec.cl",46.506363,12.019999,"","",91
+"Dolomites 3","Minuartia_sp","","",2010,"Pals",2734,"ray.callaway@mso.umt.edu",46.530176,12.002711,"","",92
+"Dolomites 4","Cerastium_alpinum","","",2010,"Brad, Ray, Brad, Richard, Paco, Sa",2913,"ray.callaway@mso.umt.edu",46.502157,11.808554,"","",93
+"Dolomites 5","Silene_acaulis","","",2010,"Lohen & Rob",2473,"lcaviere@udec.cl",46.529639,12.016326,"","",94
+"Piegan Pass 2010","Silene_acaulis","","",2010,"",2143,"",48.724819,-113.681581,"","",95
+"Ptarmigan Cirque","Silene_acaulis","","",2010,"",2516,"",50.610646,-114.975924,"","",97
+"Windy Pass 2","Silene_acaulis","","",2010,"",2280,"",48.479221,-113.329427,"","",98
+"Slovakia Minuartia sedoides","Minuartia_sedoides","","",2009,"",1982,"",49.2358333,20.21916667,"","",100
+"Elqui","Adesmia_subterranea","","",2004,"",3744,"lcaviere@udec.cl",-30.4175,-70.263056,"","",8
+"Elqui","Adesmia_subterranea","","",2004,"",3922,"lcaviere@udec.cl",-30.394167,-70.241944,"","",9
+"Franciscano","Azorella_madreporica","","",2003,"",3600,"lcaviere@udec.cl",-33.319167,-70.259722,"","",11
+"Tres Puntas","Azorella_madreporica","","",2003,"",3625,"lcaviere@udec.cl",-33.316111,-70.235833,"","",12
+"La Parva","Laretia_acaulis","","",2003,"",3000,"lcaviere@udec.cl",-33.326111,-70.283333,"","",13
+"La Parva","Laretia_acaulis ","","",2003,"",3300,"lcaviere@udec.cl",-33.329167,-70.266667,"","",14

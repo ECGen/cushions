@@ -1,0 +1,411 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{/Library/Frameworks/R.framework/Resources/share/texmf/Sweave}
+
+\title{Intraspecific variation influences community network structure: Tracing the roots of interactions to genetics.}
+\author{M.K. Lau, R. Michalet and T.G. Whitham}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+
+\section{Current Research in the U.S.}
+
+My dissertation is focused on using network modeling methods and theory to scale genetic information to communities and ecosystems. Network theory has seen great application in the field of ecology to make predictions about the stability of ecosystems, understand the structure of food-webs and understand patterns of evolution. There are two main themes that I am pursuing: 1) modeling inter-specific interactions to understand the genetic effects of foundation species on communities and 2) using models of inter-population genetic dependence to predict community composition. My approach to both of these topics is to use existing genetic and community data in synthetic analyses using newly developed quantitative modeling techniques. 
+
+\section{Proposed Research in France}
+\subsection*{Central Question -- Will intraspecific variation in facilitation relevant traits of a species alter interspecific interaction network structure?}
+
+Ecological communities of many interacting species comprise some of the most complex systems on earth. Untangling the complex "tangled bank" of interactions has important implications for understanding the dynamics of ecosystems, particularly in the context of global climate change. My proposed research in France is to extend our understanding of the effect of phenotypic variation within species on the structure of interactions among multiple species. Using recently developed approaches to modeling and analyzing ecological networks, this research project will produce: 1) a model of the facilitation interaction networks on two foundation species from two different continents and 2) quantitative estimates of the effects of intraspecific variation within these two species on a large number of other species. 
+
+%\subsection{Understanding the structure of interaction networks is important}
+%\begin{itemize}
+%\item Indirect effects (examples, Mistletoe-Juniper-Solitaire, Jamie's paper)
+%\item Weak interactions and linking communities
+%\item Links between structure and stability of communities
+%\item Advances in network modeling techniques (Reverse Engineering)
+%\item Theoretical Frameworks (Small Worlds, Weak Interactions,, Modularity)
+%\item A rich amount of data on behavioral ecologies exists for many taxa that can be synthesized into qualitative models of species interactions
+%\item Cohen's paper on beyond tri-trophic interactions
+%\item Food-web research (Bascompte, Dunne, Martinez, Schmidt, May, Pimm, Paine, Darwin)
+%\item Joe's paper on tri-trophic interactions
+%\item Phylogenetics and species interactions (Rezende et al. 2007 Nature)
+%\end{itemize}
+
+
+%% \subsection{Study Proposal}
+%% \begin{enumerate}
+%% \item Model the bipartite genotype-species facilitation interaction networks of \textit{Geum rossii} and \textit{Festuca gautheri}
+%% 	\begin{enumerate}
+%% \item Using existing data of abundances of facilitated species inside and outside of the nurse genotypes, generate an estimate of the dependency of each species to each genotype
+%% \item Analyze the structure of the genotype network to see if the open and closed phenotypes can be statistically distinguished in terms of their network links
+%% \item Compare the network facilitation network structure given different abundances of open and closed genotypes
+%% 	\end{enumerate}
+%% \item Extend the networks to more species using both published data and quantitative models 
+%% 	\begin{enumerate}
+%% \item Compile a list of the community of species interacting with the nurse species
+%% \item Build a database of behavioral ecology for as many species possible
+%% \item Qualitatively model the structure of the community interaction network
+%% \item Validate and modify models using observations of community dynamics
+%% 	\end{enumerate}
+%% \end{enumerate}
+
+
+\section{Individual level facitilation network models}
+
+\subsection{Dependent Functions}
+
+<<>>=
+library(gdata)
+library(bipartite)
+
+#Use the response statistic = (I-O)/(I+O)
+rs=function(x){if ((x[1]-x[2])==0){0}else{(x[1]-x[2])/(sum(x))}}
+
+#Presence absence function
+bin.sum=function(x){x[x!=0]<-1;sum(x)}
+
+#Binomial distibution test for the significance of each response statistic
+rs.binom=function(x,alpha=0.05){
+	total=sum(x)
+	p=sum(dbinom(max(x):total,total,0.5))+sum(dbinom(0:min(x),total,0.5))
+	if (p<=alpha){x=x}else if (p>alpha){x=c(0,0)}
+	return(x)
+	}
+
+
+#Calculate response statistic
+rii=function(x,rep,site,alpha=0.05,decreasing=TRUE,b.test=TRUE,label='n',sep='',zero.na=TRUE){
+  
+  y <- array(NA,c(length(unique(rep)),ncol(x)))
+y <- data.frame(y)
+
+for (i in seq(along=unique(rep))){
+z=x[rep==unique(rep)[i],]
+z=z[order(site[rep==unique(rep)[i]],decreasing=decreasing),]
+for (j in seq(along=(1:ncol(z)))){
+  
+  if (b.test == TRUE){z[,j]=rs.binom(z[,j],alpha=(alpha/ncol(z)))}else{}
+  
+}
+y[i,]=apply(z,2,rs)
+rownames(y)[i] <- paste(label,unique(rep)[i],sep=sep)
+}
+
+colnames(y) <- colnames(x)
+if (zero.na == TRUE){y[is.na(y)] <- 0}
+
+return(y)	
+}
+
+@ 
+
+\subsection{Generate Network Models}
+
+\subsection*{No Test for Significance}
+%%Astragalus Zachlensis
+<<>>=
+Az.com=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/AstragalusCushions.csv')
+Az.com=Az.com[,7:ncol(Az.com)]
+Az.env=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/AstragalusCushions.csv')[,1:2]
+Az.surf <- read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/AstragalusSurface.csv',header=FALSE)[,1]
+
+attach(Az.env)
+names(Az.env)
+
+##Test and calculate response statistics
+Az.rs=rii(Az.com,rep,microsite,b.test=FALSE,label='Az')
+detach(Az.env)
+
+Az.binary=Az.rs
+Az.binary[Az.binary!=0]<-1
+Az.order=Az.rs
+names(Az.surf) <- rownames(Az.rs)
+Az.surf <- Az.surf[order(apply(Az.order,1,bin.sum),decreasing=TRUE)]
+Az.order=Az.order[order(apply(Az.order,1,bin.sum),decreasing=TRUE),]
+Az.order=Az.order[,order(apply(Az.order,2,bin.sum),decreasing=TRUE)]
+Az.order[rownames(Az.order)=='Az21',order(colnames(Az.order))]-Az.rs[rownames(Az.rs)=='Az21',order(colnames(Az.rs))]
+  
+@ 
+
+%%Onobrychis cornuta
+
+<<>>=
+Oc.com=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/OnobrychisCushions.csv')
+Oc.com=Oc.com[,7:ncol(Oc.com)]
+Oc.env=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/OnobrychisCushions.csv')[,1:2]
+
+attach(Oc.env)
+names(Oc.env)
+
+#Calculate response statistic
+Oc.rs=rii(Oc.com,rep,microsite,b.test=FALSE,label='Oc')
+Oc.order=Oc.rs
+
+detach(Oc.env)
+
+surface=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/OnobrychisCushions.csv')[Oc.env$microsite=='on cushion',5]
+Oc.surf=surface[order(apply(Oc.order,1,bin.sum),decreasing=TRUE)]
+names(Oc.surf) <- rownames(Oc.rs)
+
+Oc.binary=Oc.rs
+Oc.binary[Oc.binary!=0]<-1
+Oc.order=Oc.rs
+Oc.order=Oc.order[order(apply(Oc.order,1,bin.sum),decreasing=TRUE),]
+Oc.order=Oc.order[,order(apply(Oc.order,2,bin.sum),decreasing=TRUE)]
+Oc.order[rownames(Oc.order)=='Oc1',order(colnames(Oc.order))]-Oc.rs[rownames(Oc.rs)=='Oc1',order(colnames(Oc.rs))]
+
+##Cushion phenotype groupins based on the numbers of individuals (another dataset suggests a strong pattern of correlation between the phenotypes Dense, Loose and Intermediate and the number of individuals). The number of individuals also correlates strongly with the number of flowers produced (more beneficiary individuals means fewer flowers.)
+
+pheno <- read.xls('data/Affectation phenotype.xls')
+Oc.pheno <- as.character(Oc.env$rep)
+marker <- unique(Oc.pheno)
+for (i in 1:length(marker)){
+Oc.pheno[Oc.pheno == marker[i]] <- as.character(pheno[,2])[pheno[,1] == marker[i]]
+}
+
+@ 
+
+\subsection{Histograms}
+<<fig=true,width=11,height=6>>=
+par(mfrow=c(1,2))
+hist(Az.order[Az.order!=0],main=expression(italic('Astragalus zachlensis')))
+hist(Oc.order[Oc.order!=0],main=expression(italic('Onobrychis cornuta')))
+@ 
+
+\subsection{Bipartite Graphs}
+
+<<fig=true,width=11,height=6>>=
+  par(mfrow=c(1,2))
+plotweb(abs(Az.order),method='normal',text.rot=90)
+title(main=expression(italic('Astragalus zachlensis')))
+plotweb(abs(Oc.order),method='normal',text.rot=90)
+title(main=expression(italic('Onobrychis cornuta')))
+@ 
+
+<<fig=true,width=11,height=6>>=
+Az.edge <- apply(Az.order,2,function(x) length(x[x!=0]))
+Oc.edge <- apply(Oc.order,2,function(x) length(x[x!=0]))
+Az.abun <- apply(Az.com,2,sum)
+Oc.abun <- apply(Oc.com,2,sum)
+Az.edge <- Az.edge[order(names(Az.edge))]
+Az.abun <- Az.abun[order(names(Az.abun))]
+Oc.edge <- Oc.edge[order(names(Oc.edge))]
+Oc.abun <- Oc.abun[order(names(Oc.abun))]
+par(mfrow=c(1,2))
+plot(Az.edge~Az.abun,pch=19,xlab='Species Total Abundance (in and out)',ylab='Number of Connections to Cushions',main=expression(italic('Astragulus zachlensis')))
+abline(lm(Az.edge~Az.abun))
+plot(Oc.edge~Oc.abun,pch=19,xlab='Species Total Abundance (in and out)',ylab='Number of Connections to Cushions',main=expression(italic('Onobrychis cornuta')))
+abline(lm(Oc.edge~Oc.abun))
+@ 
+
+<<fig=true,width=11,height=6>>=
+Az.edge.cush <- apply(Az.order,1,function(x) length(x[x!=0]))
+Oc.edge.cush <- apply(Oc.order,1,function(x) length(x[x!=0]))
+Az.edge.cush <- Az.edge.cush[order(names(Az.edge.cush))]
+Az.surf <- Az.surf[order(names(Az.surf))]
+Oc.edge.cush <- Oc.edge.cush[order(names(Oc.edge.cush))]
+names(Oc.surf) <- rownames(Oc.rs)
+Oc.surf <- Oc.surf[order(names(Oc.surf))]
+par(mfrow=c(1,2))
+plot(Az.edge.cush~Az.surf,pch=19,xlab='Cushion Surface Area',ylab='Number of Connections to Species',main=expression(italic('Astragulus zachlensis')))
+abline(lm(Az.edge.cush~Az.surf))
+plot(Oc.edge.cush~Oc.surf,pch=19,xlab='Cushion Surface Area',ylab='Number of Connections to Species',main=expression(italic('Onobrychis cornuta')))
+abline(lm(Oc.edge.cush~Oc.surf))
+@ 
+
+%% <<fig=true,width=11,height=6>>=
+%% par(mfrow=c(1,2))
+%%   Az.image <- as.matrix(Az.order)
+%% Az.image[Az.image !=0] <- 1
+%% image((Az.image),col=c(0,1),xaxt='none',yaxt='none',xlab=expression(italic('Astragalus zachlensis')),ylab='Beneficiaries')
+
+%%   Oc.image <- as.matrix(Oc.order)
+%% Oc.image[Oc.image !=0] <- 1
+%% image((Oc.image),col=c(0,1),xaxt='none',yaxt='none',xlab=expression(italic('Onobrychis cornuta')),ylab='Beneficiaries')
+
+%% @ 
+
+%%Test of nestedness
+
+<<>>=
+  Az.image <- as.matrix(Az.order)
+Az.temp <- nestedtemp(Az.image)
+nestedchecker(Az.image)
+oecosimu(Az.image,nestedchecker,'quasiswap',nsimul=1000,alternative='less',burnin=0)
+
+Oc.image <- as.matrix(Oc.order)
+Oc.temp <- nestedtemp(Oc.image)
+nestedchecker(Oc.image)
+oecosimu(Oc.image,nestedchecker,'quasiswap',nsimul=1000,alternative='less',burnin=0)
+
+@ 
+
+
+<<fig=true>>=
+par(mfrow=c(1,2))
+plot(Az.temp,kind='temp',col=grey(seq(1,0,length=25)),main=expression(italic('Astragulus zachlensis')))
+plot(Oc.temp,kind='temp',col=grey(seq(1,0,length=25)),main=expression(italic('Onobrychis cornuta')))
+
+@ 
+
+
+\subsection*{Test for Significance}
+%%Astragalus Zachlensis
+<<>>=
+Az.com=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/AstragalusCushions.csv')
+Az.com=Az.com[,7:ncol(Az.com)]
+
+Az.env=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/AstragalusCushions.csv')[,1:2]
+attach(Az.env)
+names(Az.env)
+
+##Test and calculate response statistics
+Az.rs=rii(Az.com,rep,microsite,b.test=TRUE)
+
+rownames(Az.rs)=paste('Az',seq(along=unique(rep)),sep='')
+colnames(Az.rs)=colnames(Az.com)
+detach(Az.env)
+
+Az.binary=Az.rs
+Az.binary[Az.binary!=0]<-1
+Az.order=Az.rs
+Az.order=Az.order[order(apply(Az.order,1,bin.sum),decreasing=TRUE),]
+Az.order=Az.order[,order(apply(Az.order,2,bin.sum),decreasing=TRUE)]
+Az.order[rownames(Az.order)=='Az21',order(colnames(Az.order))]-Az.rs[rownames(Az.rs)=='Az21',order(colnames(Az.rs))]
+  
+@ 
+
+%%Onobrychis cornuta
+<<>>=
+Oc.com=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/OnobrychisCushions.csv')
+Oc.com=Oc.com[,7:ncol(Oc.com)]
+
+Oc.env=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/OnobrychisCushions.csv')[,1:2]
+attach(Oc.env)
+names(Oc.env)
+
+#Calculate response statistic
+Oc.rs=rii(Oc.com,rep,microsite,b.test=TRUE)
+Oc.order=Oc.rs
+rownames(Oc.rs)=paste('Oc',seq(along=unique(rep)),sep='')
+colnames(Oc.rs)=colnames(Oc.com)
+detach(Oc.env)
+
+surface=read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/OnobrychisCushions.csv')[Oc.env$microsite=='on cushion',5]
+surface=surface[order(apply(Oc.order,1,bin.sum),decreasing=TRUE)]
+oc.surf <- surface
+
+Oc.binary=Oc.rs
+Oc.binary[Oc.binary!=0]<-1
+Oc.order=Oc.rs
+Oc.order=Oc.order[order(apply(Oc.order,1,bin.sum),decreasing=TRUE),]
+Oc.order=Oc.order[,order(apply(Oc.order,2,bin.sum),decreasing=TRUE)]
+Oc.order[rownames(Oc.order)=='Oc1',order(colnames(Oc.order))]-Oc.rs[rownames(Oc.rs)=='Oc1',order(colnames(Oc.rs))]
+
+@ 
+
+\subsection{Histograms}
+<<fig=true,width=11,height=6>>=
+par(mfrow=c(1,2))
+hist(Az.order[Az.order!=0],main=expression(italic('Astragalus zachlensis')))
+hist(Oc.order[Oc.order!=0],main=expression(italic('Onobrychis cornuta')))
+@ 
+
+\subsection{Bipartite Graphs}
+
+<<fig=true,width=11,height=6>>=
+  par(mfrow=c(1,2))
+plotweb(abs(Az.order),method='normal',text.rot=90)
+title(main=expression(italic('Astragalus zachlensis')))
+plotweb(abs(Oc.order),method='normal',text.rot=90)
+title(main=expression(italic('Onobrychis cornuta')))
+@ 
+
+<<fig=true,width=11,height=6>>=
+Az.edge <- apply(Az.order,2,function(x) length(x[x!=0]))
+Oc.edge <- apply(Oc.order,2,function(x) length(x[x!=0]))
+Az.abun <- apply(Az.com,2,sum)
+Oc.abun <- apply(Oc.com,2,sum)
+Az.edge <- Az.edge[order(names(Az.edge))]
+Az.abun <- Az.abun[order(names(Az.abun))]
+Oc.edge <- Oc.edge[order(names(Oc.edge))]
+Oc.abun <- Oc.abun[order(names(Oc.abun))]
+par(mfrow=c(1,2))
+plot(Az.edge~Az.abun,pch=19,xlab='Species Total Abundance (in and out)',ylab='Number of Connections to Cushions',main=expression(italic('Astragulus zachlensis')))
+abline(lm(Az.edge~Az.abun))
+plot(Oc.edge~Oc.abun,pch=19,xlab='Species Total Abundance (in and out)',ylab='Number of Connections to Cushions',main=expression(italic('Onobrychis cornuta')))
+abline(lm(Oc.edge~Oc.abun))
+
+@ 
+
+<<fig=true,width=11,height=6>>=
+Az.edge.cush <- apply(Az.order,1,function(x) length(x[x!=0]))
+Oc.edge.cush <- apply(Oc.order,1,function(x) length(x[x!=0]))
+Az.edge.cush <- Az.edge.cush[order(names(Az.edge.cush))]
+Az.surf <- Az.surf[order(names(Az.surf))]
+Oc.edge.cush <- Oc.edge.cush[order(names(Oc.edge.cush))]
+names(Oc.surf) <- rownames(Oc.rs)
+Oc.surf <- Oc.surf[order(names(Oc.surf))]
+par(mfrow=c(1,2))
+plot(Az.edge.cush~Az.surf,pch=19,xlab='Cushion Surface Area',ylab='Number of Connections to Species',main=expression(italic('Astragulus zachlensis')))
+abline(lm(Az.edge.cush~Az.surf))
+plot(Oc.edge.cush~Oc.surf,pch=19,xlab='Cushion Surface Area',ylab='Number of Connections to Species',main=expression(italic('Onobrychis cornuta')))
+abline(lm(Oc.edge.cush~Oc.surf))
+
+@ 
+
+%% <<fig=true,width=11,height=6>>=
+%% par(mfrow=c(1,2))
+%%   Az.image <- as.matrix(Az.order)
+%% Az.image[Az.image !=0] <- 1
+%% image((Az.image),col=c(0,1),xaxt='none',yaxt='none',xlab=expression(italic('Astragalus zachlensis')),ylab='Beneficiaries')
+
+%%   Oc.image <- as.matrix(Oc.order)
+%% Oc.image[Oc.image !=0] <- 1
+%% image((Oc.image),col=c(0,1),xaxt='none',yaxt='none',xlab=expression(italic('Onobrychis cornuta')),ylab='Beneficiaries')
+
+%% @ 
+
+%%Test of nestedness
+<<>>=
+  Az.image <- as.matrix(Az.order)
+Az.temp <- nestedtemp(Az.image)
+nestedchecker(Az.image)
+oecosimu(Az.image,nestedchecker,'quasiswap',nsimul=1000,alternative='less',burnin=0)
+
+Oc.image <- as.matrix(Oc.order)
+Oc.temp <- nestedtemp(Oc.image)
+nestedchecker(Oc.image)
+oecosimu(Oc.image,nestedchecker,'quasiswap',nsimul=1000,alternative='less',burnin=0)
+
+
+@ 
+
+<<fig=true>>=
+par(mfrow=c(1,2))
+plot(Az.temp,kind='temp',col=grey(seq(1,0,length=25)),main=expression(italic('Astragulus zachlensis')))
+plot(Oc.temp,kind='temp',col=grey(seq(1,0,length=25)),main=expression(italic('Onobrychis cornuta')))
+
+@ 
+
+\subsection{Questions}
+
+\begin{itemize}
+  \item Do the most numerically abundant species have the most
+    connections?
+  \item What traits would increase or decrease the diversity of
+    beneficiary species (i.e. facilitation connections)?
+\end{itemize}
+
+\end{document}  
+

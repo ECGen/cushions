@@ -1,0 +1,911 @@
+site,cushion sp,cushion/open,rep,soil moist,SOM,penetration (mm),Dataset code
+"Val Bercla","Silene acaulis","open",5,0.23,,,52
+"Val Bercla","Silene acaulis","open",6,0.24,,,52
+"Val Bercla","Silene acaulis","open",7,0.17,,,52
+"Val Bercla","Silene acaulis","open",8,0.27,,,52
+"Val Bercla","Silene acaulis","open",9,0.2,,,52
+"Val Bercla","Silene acaulis","open",10,0.21,,,52
+"Cabezas de Hierro","Minuartia_recurva","cushion ",1,6.527605572,18.2990064,3,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",2,3.681582051,16.65584224,2,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",3,2.320206045,11.0697468,4,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",4,3.21137264,16.50062948,2,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",5,3.979767131,12.79164627,3,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",6,2.823770102,16.40550407,5,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",7,1.102310386,16.10036592,3,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",8,3.053036418,10.74884029,5,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",9,5.630061052,14.79058754,4,56
+"Cabezas de Hierro","Minuartia_recurva","cushion ",10,3.40559993,11.27166207,6,56
+"Cabezas de Hierro","Minuartia_recurva","open",1,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",2,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",3,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",4,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",5,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",6,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",7,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",8,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",9,,,,56
+"Cabezas de Hierro","Minuartia_recurva","open",10,,,,56
+"Lebanon","Astragalus zachlensis","cushion ",1,8.611892117,,23.33333333,45
+"Lebanon","Astragalus zachlensis","cushion ",2,8.195542775,,29,45
+"Lebanon","Astragalus zachlensis","cushion ",3,9.967765931,,30,45
+"Lebanon","Astragalus zachlensis","cushion ",4,9.99789074,,33,45
+"Mt. Burns","Phyllacne_colensoi","cushion",1,,10.2687769245177,49,43
+"Mt. Burns","Phyllacne_colensoi","cushion",2,,8.40492476060188,5,43
+"Mt. Burns","Phyllacne_colensoi","cushion",3,,11.2325946263973,5,43
+"Mt. Burns","Phyllacne_colensoi","cushion",4,,12.9188953171051,49,43
+"Mt. Burns","Phyllacne_colensoi","cushion",5,,10.7776586876265,49,43
+"Mt. Burns","Phyllacne_colensoi","cushion",6,,22.020466741545,5,43
+"Mt. Burns","Phyllacne_colensoi","cushion",7,,19.5791055993987,49,43
+"Mt. Burns","Phyllacne_colensoi","cushion",8,,29.0454412766371,49,43
+"Mt. Burns","Phyllacne_colensoi","cushion",9,,,49,43
+"Mt. Burns","Phyllacne_colensoi","cushion",10,,,5,43
+"Mt. Burns","Phyllacne_colensoi","open",1,,8.59512440311637,,43
+"Mt. Burns","Phyllacne_colensoi","open",2,,4.85425795389598,,43
+"Mt. Burns","Phyllacne_colensoi","open",3,,14.6793623313857,,43
+"Mt. Burns","Phyllacne_colensoi","open",4,,6.29946043165469,,43
+"Mt. Burns","Phyllacne_colensoi","open",5,,8.23503521126762,,43
+"Mt. Burns","Phyllacne_colensoi","open",6,,5.58272076681454,,43
+"Mt. Burns","Phyllacne_colensoi","open",7,,2.94036270342332,,43
+"Mt. Burns","Phyllacne_colensoi","open",8,,8.20072140886908,,43
+"Mt. Hutt","Raoulia_eximia","cushion",1,60.4405286343613,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",2,49.9085086916743,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",3,64.2710472279261,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",4,66.2022703818369,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",5,44.1624365482233,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",6,53.3002481389578,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",7,22.9798840777361,,,41
+"Mt. Hutt","Raoulia_eximia","cushion",8,53.1674208144796,,,41
+"Mt. Hutt","Raoulia_eximia","open",1,9.48212983223924,,,41
+"Mt. Hutt","Raoulia_eximia","open",2,9.53500522466039,,,41
+"Mt. Hutt","Raoulia_eximia","open",3,13.4260314565763,,,41
+"Mt. Hutt","Raoulia_eximia","open",4,10.6320141760189,,,41
+"Mt. Hutt","Raoulia_eximia","open",5,13.9473684210526,,,41
+"Mt. Hutt","Raoulia_eximia","open",6,24.4751908396947,,,41
+"Lebanon","Astragalus zachlensis","cushion ",5,13.18150449,,34.66666667,45
+"Mt. Hutt","Raoulia_eximia","open",7,11.652269803345,,,41
+"Mt. Hutt","Raoulia_eximia","open",8,13.1292377234436,,,41
+"Old Man Range","Dracophyllum_muscoides","cushion",1,14.920608250021,4.53737533326749,,42
+"Old Man Range","Dracophyllum_muscoides","cushion",2,23.3613445378151,9.18241115609538,,42
+"Old Man Range","Dracophyllum_muscoides","cushion",3,19.9846995821809,15.8049569758035,,42
+"Old Man Range","Dracophyllum_muscoides","cushion",4,22.16938176667,14.2095683827353,,42
+"Old Man Range","Dracophyllum_muscoides","cushion",5,17.3826518428105,5.37641315519013,,42
+"Old Man Range","Dracophyllum_muscoides","open",1,11.5422654022922,2.68661624465636,,42
+"Old Man Range","Dracophyllum_muscoides","open",2,12.6333398937217,2.20314928701763,,42
+"Old Man Range","Dracophyllum_muscoides","open",3,12.9833260026391,3.44177924823084,,42
+"Old Man Range","Dracophyllum_muscoides","open",4,12.1493789586247,3.15230961298374,,42
+"Old Man Range","Dracophyllum_muscoides","open",5,15.6089627755692,5.90552867114898,,42
+"Gemmi","Silene_acaulis","cushion",1,36.0144057623049,15.5722326454034,6.2,54
+"Gemmi","Silene_acaulis","cushion",2,39.047619047619,16.7410714285714,4.2,54
+"Gemmi","Silene_acaulis","cushion",3,49.8798076923077,24.220623501199,2.8,54
+"Gemmi","Silene_acaulis","cushion",4,13.9481707317073,3.36581045172718,3.8,54
+"Gemmi","Silene_acaulis","cushion",5,14.6222583265638,4.09134157944814,4.6,54
+"Gemmi","Silene_acaulis","cushion",6,43.3962264150943,15.7894736842105,5,54
+"Gemmi","Silene_acaulis","cushion",7,19.0111420612813,4.90111779879622,7,54
+"Gemmi","Silene_acaulis","cushion",8,24.543795620438,6.28778718258766,5.6,54
+"Gemmi","Silene_acaulis","cushion",9,31.4484126984127,8.68306801736614,8.6,54
+"Gemmi","Silene_acaulis","cushion",10,12.5816023738872,2.91921249151392,5.6,54
+"White Mtns","Phlox condensata","cushion ",1,35,,2,62
+"White Mtns","Phlox condensata","cushion ",2,61,,3,62
+"White Mtns","Phlox condensata","cushion ",3,55,,2,62
+"Lebanon","Astragalus zachlensis","cushion ",6,9.761388286,,26,45
+"Lebanon","Astragalus zachlensis","cushion ",7,18.55905153,,29.33333333,45
+"Lebanon","Astragalus zachlensis","cushion ",8,4.978354978,,15.33333333,45
+"Lebanon","Astragalus zachlensis","cushion ",9,,,32,45
+"Lebanon","Astragalus zachlensis","cushion ",10,,,23,45
+"Lebanon","Astragalus zachlensis","open",1,5.954667691,,,45
+"Lebanon","Astragalus zachlensis","open",2,4.910408973,,,45
+"Lebanon","Astragalus zachlensis","open",3,4.133659801,,,45
+"Lebanon","Astragalus zachlensis","open",4,4.236663116,,,45
+"Lebanon","Astragalus zachlensis","open",5,4.100490904,,,45
+"Lebanon","Astragalus zachlensis","open",6,5.045569858,,,45
+"Lebanon","Astragalus zachlensis","open",7,3.493382579,,,45
+"Lebanon","Astragalus zachlensis","open",8,3.896103896,,,45
+"Lebanon","Onobrychis_cornuta","cushion ",1,24.47257384,,16.66666667,44
+"Lebanon","Onobrychis_cornuta","cushion ",2,68.91512085,,13.66666667,44
+"Lebanon","Onobrychis_cornuta","cushion ",3,21.19047619,,16.33333333,44
+"Lebanon","Onobrychis_cornuta","cushion ",4,29.39122845,,18,44
+"Lebanon","Onobrychis_cornuta","cushion ",5,23.06913143,,11,44
+"Lebanon","Onobrychis_cornuta","cushion ",6,18.96414343,,24.33333333,44
+"White Mtns","Phlox condensata","cushion ",4,61,,3,62
+"White Mtns","Phlox condensata","cushion ",5,84,,2,62
+"White Mtns","Phlox condensata","cushion ",6,51,,2,62
+"White Mtns","Phlox condensata","cushion ",7,83,,3,62
+"White Mtns","Phlox condensata","cushion ",8,85,,3,62
+"White Mtns","Phlox condensata","cushion ",9,79,,2,62
+"White Mtns","Phlox condensata","cushion ",10,129,,2,62
+"White Mtns","Phlox condensata","cushion ",11,72,,,62
+"White Mtns","Phlox condensata","cushion ",12,35,,,62
+"White Mtns","Phlox condensata","cushion ",13,54,,,62
+"White Mtns","Phlox condensata","cushion ",14,90,,,62
+"White Mtns","Phlox condensata","cushion ",15,43,,,62
+"White Mtns","Phlox condensata","cushion ",16,42,,,62
+"White Mtns","Phlox condensata","cushion ",17,75,,,62
+"White Mtns","Phlox condensata","cushion ",18,81,,,62
+"White Mtns","Phlox condensata","cushion ",19,88,,,62
+"White Mtns","Phlox condensata","cushion ",20,131,,,62
+"White Mtns","Phlox condensata","cushion ",21,49,,,62
+"White Mtns","Phlox condensata","cushion ",22,56,,,62
+"White Mtns","Phlox condensata","cushion ",23,59,,,62
+"White Mtns","Phlox condensata","cushion ",24,33,,,62
+"White Mtns","Phlox condensata","cushion ",25,61,,,62
+"White Mtns","Phlox condensata","cushion ",26,82,,,62
+"White Mtns","Phlox condensata","cushion ",27,106,,,62
+"White Mtns","Phlox condensata","cushion ",28,80,,,62
+"White Mtns","Phlox condensata","cushion ",29,92,,,62
+"White Mtns","Phlox condensata","cushion ",30,144,,,62
+"White Mtns","Phlox condensata","open",1,28,,,62
+"White Mtns","Phlox condensata","open",2,72,,,62
+"White Mtns","Phlox condensata","open",3,106,,,62
+"White Mtns","Phlox condensata","open",4,124,,,62
+"White Mtns","Phlox condensata","open",5,62,,,62
+"Lebanon","Onobrychis_cornuta","cushion ",7,18.74610754,,19,44
+"White Mtns","Phlox condensata","open",6,85,,,62
+"White Mtns","Phlox condensata","open",7,99,,,62
+"White Mtns","Phlox condensata","open",8,70,,,62
+"White Mtns","Phlox condensata","open",9,121,,,62
+"White Mtns","Phlox condensata","open",10,127,,,62
+"White Mtns","Phlox condensata","open",11,55,,,62
+"White Mtns","Phlox condensata","open",12,49,,,62
+"White Mtns","Phlox condensata","open",13,87,,,62
+"White Mtns","Phlox condensata","open",14,121,,,62
+"White Mtns","Phlox condensata","open",15,103,,,62
+"White Mtns","Phlox condensata","open",16,74,,,62
+"White Mtns","Phlox condensata","open",17,108,,,62
+"White Mtns","Phlox condensata","open",18,114,,,62
+"White Mtns","Phlox condensata","open",19,105,,,62
+"White Mtns","Phlox condensata","open",20,122,,,62
+"White Mtns","Phlox condensata","open",21,91,,,62
+"White Mtns","Phlox condensata","open",22,118,,,62
+"White Mtns","Phlox condensata","open",23,129,,,62
+"White Mtns","Phlox condensata","open",24,128,,,62
+"White Mtns","Phlox condensata","open",25,94,,,62
+"White Mtns","Phlox condensata","open",26,50,,,62
+"White Mtns","Phlox condensata","open",27,75,,,62
+"White Mtns","Phlox condensata","open",28,264,,,62
+"White Mtns","Phlox condensata","open",29,95,,,62
+"White Mtns","Phlox condensata","open",30,142,,,62
+"Lebanon","Onobrychis_cornuta","cushion ",8,14.51439126,,26,44
+"White Mtns","Townsendia leptotes","cushion ",1,76,,4,63
+"White Mtns","Townsendia leptotes","cushion ",2,103,,4,63
+"White Mtns","Townsendia leptotes","cushion ",3,124,,6,63
+"White Mtns","Townsendia leptotes","cushion ",4,140,,6,63
+"White Mtns","Townsendia leptotes","cushion ",5,138,,6,63
+"White Mtns","Townsendia leptotes","cushion ",6,91,,6,63
+"White Mtns","Townsendia leptotes","cushion ",7,72,,7,63
+"White Mtns","Townsendia leptotes","cushion ",8,94,,4,63
+"White Mtns","Townsendia leptotes","cushion ",9,71,,8,63
+"White Mtns","Townsendia leptotes","cushion ",10,47,,11,63
+"White Mtns","Townsendia leptotes","cushion ",11,64,,,63
+"White Mtns","Townsendia leptotes","cushion ",12,267,,,63
+"White Mtns","Townsendia leptotes","cushion ",13,77,,,63
+"White Mtns","Townsendia leptotes","cushion ",14,75,,,63
+"White Mtns","Townsendia leptotes","cushion ",15,118,,,63
+"White Mtns","Townsendia leptotes","cushion ",16,55,,,63
+"White Mtns","Townsendia leptotes","cushion ",17,97,,,63
+"White Mtns","Townsendia leptotes","cushion ",18,89,,,63
+"White Mtns","Townsendia leptotes","cushion ",19,53,,,63
+"White Mtns","Townsendia leptotes","cushion ",20,45,,,63
+"White Mtns","Townsendia leptotes","cushion ",21,67,,,63
+"White Mtns","Townsendia leptotes","cushion ",22,97,,,63
+"White Mtns","Townsendia leptotes","cushion ",23,79,,,63
+"White Mtns","Townsendia leptotes","cushion ",24,75,,,63
+"White Mtns","Townsendia leptotes","cushion ",25,114,,,63
+"White Mtns","Townsendia leptotes","cushion ",26,90,,,63
+"White Mtns","Townsendia leptotes","cushion ",27,55,,,63
+"White Mtns","Townsendia leptotes","cushion ",28,72,,,63
+"Lebanon","Onobrychis_cornuta","cushion ",9,17.19992929,,19,44
+"White Mtns","Townsendia leptotes","cushion ",29,50,,,63
+"White Mtns","Townsendia leptotes","cushion ",30,76,,,63
+"White Mtns","Townsendia leptotes","open",1,104,,,63
+"White Mtns","Townsendia leptotes","open",2,97,,,63
+"White Mtns","Townsendia leptotes","open",3,66,,,63
+"White Mtns","Townsendia leptotes","open",4,89,,,63
+"White Mtns","Townsendia leptotes","open",5,86,,,63
+"White Mtns","Townsendia leptotes","open",6,69,,,63
+"White Mtns","Townsendia leptotes","open",7,67,,,63
+"White Mtns","Townsendia leptotes","open",8,52,,,63
+"White Mtns","Townsendia leptotes","open",9,112,,,63
+"White Mtns","Townsendia leptotes","open",10,83,,,63
+"White Mtns","Townsendia leptotes","open",11,66,,,63
+"White Mtns","Townsendia leptotes","open",12,92,,,63
+"White Mtns","Townsendia leptotes","open",13,97,,,63
+"White Mtns","Townsendia leptotes","open",14,76,,,63
+"White Mtns","Townsendia leptotes","open",15,81,,,63
+"White Mtns","Townsendia leptotes","open",16,86,,,63
+"White Mtns","Townsendia leptotes","open",17,102,,,63
+"White Mtns","Townsendia leptotes","open",18,80,,,63
+"White Mtns","Townsendia leptotes","open",19,139,,,63
+"White Mtns","Townsendia leptotes","open",20,52,,,63
+"White Mtns","Townsendia leptotes","open",21,57,,,63
+"White Mtns","Townsendia leptotes","open",22,124,,,63
+"White Mtns","Townsendia leptotes","open",23,144,,,63
+"White Mtns","Townsendia leptotes","open",24,81,,,63
+"White Mtns","Townsendia leptotes","open",25,53,,,63
+"White Mtns","Townsendia leptotes","open",26,73,,,63
+"White Mtns","Townsendia leptotes","open",27,63,,,63
+"White Mtns","Townsendia leptotes","open",28,78,,,63
+"White Mtns","Townsendia leptotes","open",29,90,,,63
+"White Mtns","Townsendia leptotes","open",30,54,,,63
+"Lebanon","Onobrychis_cornuta","cushion ",10,29.24309509,,13,44
+"Gemmi","Silene_acaulis","open",1,17.0159262363789,4.54545454545456,,54
+"Gemmi","Silene_acaulis","open",2,13.8613861386139,3.90804597701151,,54
+"Gemmi","Silene_acaulis","open",3,37.8378378378378,14.2428785607196,,54
+"Gemmi","Silene_acaulis","open",4,17.2140430351076,4.8563611491108,,54
+"Gemmi","Silene_acaulis","open",5,5.75176589303734,2.46252676659529,,54
+"Gemmi","Silene_acaulis","open",6,19.0809968847352,4.61982675649663,,54
+"Gemmi","Silene_acaulis","open",7,13.1728045325779,2.61011419249592,,54
+"Gemmi","Silene_acaulis","open",8,11.5190784737221,2.27827502034174,,54
+"Gemmi","Silene_acaulis","open",9,7.44444444444444,2.52100840336135,,54
+"Gemmi","Silene_acaulis","open",10,13.2982719759579,3.20623916811091,,54
+"Gemmi","Carex_firma","cushion",1,45.6140350877193,71.326164874552,18.4,53
+"Gemmi","Carex_firma","cushion",2,43.3101314771848,24.8294679399727,17.6,53
+"Gemmi","Carex_firma","cushion",3,50.5735140771637,42.4050632911392,16,53
+"Gemmi","Carex_firma","cushion",4,64.8648648648649,82.6086956521739,17.4,53
+"Gemmi","Carex_firma","cushion",5,63.0555555555556,83.0827067669173,13.2,53
+"Gemmi","Carex_firma","cushion",6,41.5942028985507,32.7543424317618,18.8,53
+"Gemmi","Carex_firma","cushion",7,53.8582677165354,51.1945392491468,16,53
+"Gemmi","Carex_firma","cushion",8,65.5860349127182,79.3478260869565,14.2,53
+"Gemmi","Carex_firma","cushion",9,56.3841807909605,44.0414507772021,14.2,53
+"Gemmi","Carex_firma","cushion",10,58.2106455266138,47.6964769647696,17.6,53
+"Gemmi","Carex_firma","open",1,3.63636363636365,2.61248185776487,,53
+"Gemmi","Carex_firma","open",2,15.8680771624144,6.65680473372781,,53
+"Gemmi","Carex_firma","open",3,17.2117039586919,7.55370755370755,,53
+"Gemmi","Carex_firma","open",4,12.5074449076831,5.24166099387338,,53
+"Gemmi","Carex_firma","open",5,6.47840531561461,3.49319123741859,,53
+"Gemmi","Carex_firma","open",6,8.70770937326678,6.19684082624545,,53
+"Gemmi","Carex_firma","open",7,8.28695114409401,3.03438975050573,,53
+"Gemmi","Carex_firma","open",8,24.4734202607824,7.56972111553785,,53
+"Gemmi","Carex_firma","open",9,28.6265857694429,8.50077279752704,,53
+"Gemmi","Carex_firma","open",10,21.3793103448276,6.27530364372469,,53
+"Lebanon","Onobrychis_cornuta","open",1,6.407024255,,,44
+"Lebanon","Onobrychis_cornuta","open",2,9.251199643,,,44
+"Lebanon","Onobrychis_cornuta","open",3,9.702364895,,,44
+"Lebanon","Onobrychis_cornuta","open",4,13.17254174,,,44
+"Lebanon","Onobrychis_cornuta","open",5,4.663813738,,,44
+"Lebanon","Onobrychis_cornuta","open",6,5.413846955,,,44
+"Lebanon","Onobrychis_cornuta","open",7,4.980559156,,,44
+"Lebanon","Onobrychis_cornuta","open",8,4.437174113,,,44
+"Lebanon","Onobrychis_cornuta","open",9,4.704238472,,,44
+"White Mountains","Eriogonum sp.","cushion",6,,,2,101
+"White Mountains","Eriogonum sp.","cushion",6,,,1,101
+"White Mountains","Eriogonum sp.","cushion",7,,,3,101
+"White Mountains","Eriogonum sp.","cushion",7,,,4,101
+"White Mountains","Eriogonum sp.","cushion",7,,,3,101
+"White Mountains","Eriogonum sp.","cushion",7,,,2,101
+"White Mountains","Eriogonum sp.","cushion",7,,,3,101
+"White Mountains","Eriogonum sp.","cushion",8,,,2,101
+"White Mountains","Eriogonum sp.","cushion",8,,,3,101
+"White Mountains","Eriogonum sp.","cushion",8,,,4,101
+"White Mountains","Eriogonum sp.","cushion",8,,,3,101
+"White Mountains","Eriogonum sp.","cushion",8,,,2,101
+"White Mountains","Eriogonum sp.","cushion",9,,,5,101
+"White Mountains","Eriogonum sp.","cushion",9,,,3,101
+"White Mountains","Eriogonum sp.","cushion",9,,,4,101
+"White Mountains","Eriogonum sp.","cushion",9,,,3,101
+"White Mountains","Eriogonum sp.","cushion",9,,,5,101
+"White Mountains","Eriogonum sp.","cushion",10,,,3,101
+"White Mountains","Eriogonum sp.","cushion",10,,,3,101
+"White Mountains","Eriogonum sp.","cushion",10,,,3,101
+"White Mountains","Eriogonum sp.","cushion",10,,,2,101
+"White Mountains","Eriogonum sp.","cushion",10,,,3,101
+"Benasque 1","Saponaria_caespitosa","cushion",1,,,4.2,73
+"Benasque 1","Saponaria_caespitosa","cushion",2,,,4.8,73
+"Benasque 1","Saponaria_caespitosa","cushion",3,,,5.2,73
+"Benasque 1","Saponaria_caespitosa","cushion",4,,,4.4,73
+"Benasque 1","Saponaria_caespitosa","cushion",5,,,4,73
+"Benasque 1","Saponaria_caespitosa","cushion",6,,,7.8,73
+"Benasque 1","Saponaria_caespitosa","cushion",7,,,6.6,73
+"Benasque 1","Saponaria_caespitosa","cushion",8,,,5.4,73
+"Benasque 1","Saponaria_caespitosa","cushion",9,,,6,73
+"Windy Pass 2","Silene acaulis","open",7,6.9,11.6,6,98
+"Windy Pass 2","Silene acaulis","open",8,6.6,10.2,4,98
+"Windy Pass 2","Silene acaulis","open",9,5.6,6.8,6,98
+"Windy Pass 2","Silene acaulis","open",10,6.6,3.6,4,98
+"White Mountains","Eriogonum sp.","cushion",1,,,2,101
+"White Mountains","Eriogonum sp.","cushion",1,,,2,101
+"White Mountains","Eriogonum sp.","cushion",1,,,2,101
+"White Mountains","Eriogonum sp.","cushion",1,,,3,101
+"White Mountains","Eriogonum sp.","cushion",1,,,2,101
+"White Mountains","Eriogonum sp.","cushion",2,,,2,101
+"White Mountains","Eriogonum sp.","cushion",2,,,2,101
+"White Mountains","Eriogonum sp.","cushion",2,,,2,101
+"White Mountains","Eriogonum sp.","cushion",2,,,1,101
+"White Mountains","Eriogonum sp.","cushion",2,,,2,101
+"White Mountains","Eriogonum sp.","cushion",3,,,0,101
+"White Mountains","Eriogonum sp.","cushion",3,,,1,101
+"White Mountains","Eriogonum sp.","cushion",3,,,1,101
+"White Mountains","Eriogonum sp.","cushion",3,,,1,101
+"White Mountains","Eriogonum sp.","cushion",3,,,1,101
+"White Mountains","Eriogonum sp.","cushion",4,,,1,101
+"White Mountains","Eriogonum sp.","cushion",4,,,1,101
+"White Mountains","Eriogonum sp.","cushion",4,,,1,101
+"White Mountains","Eriogonum sp.","cushion",4,,,3,101
+"White Mountains","Eriogonum sp.","cushion",4,,,3,101
+"White Mountains","Eriogonum sp.","cushion",5,,,1,101
+"White Mountains","Eriogonum sp.","cushion",5,,,3,101
+"White Mountains","Eriogonum sp.","cushion",5,,,2,101
+"White Mountains","Eriogonum sp.","cushion",5,,,3,101
+"White Mountains","Eriogonum sp.","cushion",5,,,1,101
+"White Mountains","Eriogonum sp.","cushion",6,,,1,101
+"White Mountains","Eriogonum sp.","cushion",6,,,0,101
+"White Mountains","Eriogonum sp.","cushion",6,,,1,101
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",6,0.56,3.26,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",7,0.66,3.21,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",8,1.32,2.59,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",9,0.91,2.12,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",10,0.57,2.28,,79
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",1,12.15,2.95,4.4,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",2,9.39,2.88,4.4,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",3,8.97,2.89,2.6,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",4,11.54,5.98,4.2,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",5,6.89,3.8,4.8,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",6,6.38,3.13,3.2,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",7,3.17,2.83,2.4,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",8,2.2,1.76,3.4,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",9,2.98,3.1,4.2,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","cushion",10,4.11,2.13,4.8,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",1,2.6,1.94,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",2,1.9,1.23,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",3,5.48,1.09,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",4,4.19,1.46,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",5,4.37,1.85,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",6,0,0.92,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",7,3.02,1.35,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",8,2.19,1.4,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",9,2.69,1.64,,80
+"Sierra Nevada4","Arenaria_tetraquetra_amabilis","open",10,5.17,1.39,,80
+"Sierra Nevada3","Plantago_holosteum","cushion",1,1.38,2.6,7.2,81
+"Sierra Nevada3","Plantago_holosteum","cushion",2,1.59,2.31,6,81
+"Lebanon","Onobrychis_cornuta","open",10,7.514998421,,,44
+"Benasque 1","Saponaria_caespitosa","cushion",10,,,7.4,73
+"Benasque 1","Saponaria_caespitosa","open",1,,,,73
+"Benasque 1","Saponaria_caespitosa","open",2,,,,73
+"Benasque 1","Saponaria_caespitosa","open",3,,,,73
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",1,10.17,2.55,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",1,10.12,2.52,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",2,6.61,3.09,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",2,6.5,4.57,50,83
+"Benasque 1","Saponaria_caespitosa","open",4,,,,73
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",3,6.96,2.8,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",3,7.57,2.15,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",4,5.23,3.56,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",4,6.25,2.76,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",5,4.82,3.2,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",5,5.13,3.78,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",6,5.94,3.88,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",6,4.73,4.21,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",7,4.51,5.25,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",7,5.27,5.55,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",8,2.23,3.64,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",8,0.79,3.88,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",9,1.16,4,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",9,0.91,4.08,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",10,1.5,3.89,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","open",10,0.96,3.9,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",1,13.99,4.09,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",1,15.16,3.77,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",2,8.24,4.79,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",2,7.39,4.2,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",3,11.53,1.51,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",3,12.12,4.16,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",4,10.78,4.74,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",4,10.15,4.34,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",5,7.68,3.97,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",5,6.92,4.72,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",6,13.02,5.64,50,83
+"Benasque 1","Saponaria_caespitosa","open",5,,,,73
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",6,11.87,4.3,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",7,6.38,4.44,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",7,6.77,4.44,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",8,5.41,5.04,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",8,4.79,4.15,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",9,6.85,5.25,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",9,7.12,4.65,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",10,3.42,2.19,50,83
+"Qilian Shan","Arenaria kansuensis Maxim. ","cushion",10,2.82,2,50,83
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",1,8.121551412,5.017,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",1,9.194819068,5.177,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",2,7.14538728,4.852,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",2,6.670595168,4.396,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",3,10.97480228,6.352,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",3,9.141387127,6.334,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",4,4.620189905,5.804,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",4,3.194557088,5.613,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",5,11.42810297,5.262,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",5,9.708686904,4.126,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",6,8.688437238,5.623,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",6,9.390351199,5.126,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",7,5.265613544,3.846,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",7,8.621070921,3.943,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",8,2.396629791,3.035,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",8,5.147454394,5.01,50,84
+"Benasque 1","Saponaria_caespitosa","open",6,,,,73
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",9,8.399737508,4.893,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",9,3.234844188,4.411,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",10,7.715232437,5.524,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","open",10,7.561530694,3.784,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",1,9.31908447,4.709,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",1,10.20528805,7.83,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",2,10.31825377,7.666,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",2,10.64333313,6.942,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",3,11.58382217,5.961,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",3,10.53501794,6.811,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",4,11.96721874,11.136,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",4,12.18505647,11.394,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",5,4.055197363,7.357,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",5,11.92831854,5.71,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",6,5.341880342,5.036,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",6,3.932402566,4.729,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",7,3.550483436,7.303,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",7,9.000042898,5.525,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",8,2.237885935,6.958,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",8,6.465049929,7.546,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",9,4.067024565,6.805,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",9,3.86430742,6.414,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",10,5.113454778,7.613,50,84
+"Qilian Shan","Rhodiola juparensis (Frod.) S.H.Fu ","cushion",10,7.033068326,7.077,50,84
+"Benasque 1","Saponaria_caespitosa","open",7,,,,73
+"China","Arenaria sp.","cushion",1,9.181194305,3.438040163,1.5,49
+"China","Arenaria sp.","cushion",1,9.826022786,3.411766031,1,49
+"China","Arenaria sp.","cushion",1,,,2,49
+"China","Arenaria sp.","cushion",1,,,2,49
+"China","Arenaria sp.","cushion",1,,,2,49
+"China","Arenaria sp.","cushion",2,4.40202857,2.472012129,1,49
+"China","Arenaria sp.","cushion",2,6.952206985,3.054489188,1,49
+"China","Arenaria sp.","cushion",2,,,1,49
+"China","Arenaria sp.","cushion",2,,,1.5,49
+"China","Arenaria sp.","cushion",2,,,2.5,49
+"China","Arenaria sp.","cushion",3,6.909997221,3.283992407,1,49
+"China","Arenaria sp.","cushion",3,7.026484949,3.275718245,1,49
+"China","Arenaria sp.","cushion",3,,,1,49
+"China","Arenaria sp.","cushion",3,,,2,49
+"China","Arenaria sp.","cushion",3,,,3.5,49
+"China","Arenaria sp.","cushion",4,8.134792257,2.727567692,1,49
+"China","Arenaria sp.","cushion",4,8.656381187,3.202859528,1,49
+"China","Arenaria sp.","cushion",4,,,1,49
+"China","Arenaria sp.","cushion",4,,,1.5,49
+"China","Arenaria sp.","cushion",4,,,1.5,49
+"China","Arenaria sp.","cushion",5,8.77263394,2.018777864,1,49
+"China","Arenaria sp.","cushion",5,9.378016928,2.403742829,1.5,49
+"China","Arenaria sp.","cushion",5,,,2,49
+"China","Arenaria sp.","cushion",5,,,2,49
+"China","Arenaria sp.","cushion",5,,,2.5,49
+"China","Arenaria sp.","cushion",6,6.684674568,2.87709253,1,49
+"China","Arenaria sp.","cushion",6,9.301482071,3.483899821,1,49
+"China","Arenaria sp.","cushion",6,,,1.5,49
+"China","Arenaria sp.","cushion",6,,,1.5,49
+"China","Arenaria sp.","cushion",6,,,2,49
+"China","Arenaria sp.","cushion",7,10.64988119,2.560292394,1,49
+"China","Arenaria sp.","cushion",7,11.48762745,3.121542276,1,49
+"China","Arenaria sp.","cushion",7,,,1.5,49
+"China","Arenaria sp.","cushion",7,,,2,49
+"China","Arenaria sp.","cushion",7,,,2.5,49
+"China","Arenaria sp.","cushion",8,8.540440238,3.210298898,1,49
+"China","Arenaria sp.","cushion",8,9.359986419,3.219684514,1,49
+"China","Arenaria sp.","cushion",8,,,1.5,49
+"Benasque 1","Saponaria_caespitosa","open",8,,,,73
+"China","Arenaria sp.","cushion",8,,,1.5,49
+"China","Arenaria sp.","cushion",8,,,2,49
+"China","Arenaria sp.","cushion",9,,,1.5,49
+"China","Arenaria sp.","cushion",9,,,2,49
+"China","Arenaria sp.","cushion",9,,,2,49
+"China","Arenaria sp.","cushion",9,,,2,49
+"China","Arenaria sp.","cushion",9,,,2,49
+"China","Arenaria sp.","cushion",10,9.436374869,2.304877079,1.5,49
+"China","Arenaria sp.","cushion",10,10.43227962,2.995196926,1.5,49
+"China","Arenaria sp.","cushion",10,,,2,49
+"China","Arenaria sp.","cushion",10,,,2,49
+"China","Arenaria sp.","cushion",10,,,2.5,49
+"China","Arenaria sp.","open",1,8.036898125,2.668636227,,49
+"China","Arenaria sp.","open",1,8.332465368,1.650148784,,49
+"China","Arenaria sp.","open",2,5.578297648,2.170783032,,49
+"China","Arenaria sp.","open",2,8.304551867,2.931984199,,49
+"China","Arenaria sp.","open",3,7.071701167,4.813697616,,49
+"China","Arenaria sp.","open",3,6.619604373,2.909085481,,49
+"China","Arenaria sp.","open",4,7.040179975,3.048323823,,49
+"China","Arenaria sp.","open",4,8.30794772,1.667080724,,49
+"China","Arenaria sp.","open",5,12.76647174,1.77170418,,49
+"China","Arenaria sp.","open",5,8.507106815,2.905297992,,49
+"China","Arenaria sp.","open",6,8.230242224,3.207721241,,49
+"China","Arenaria sp.","open",6,6.835642736,2.688279172,,49
+"China","Arenaria sp.","open",7,19.59066707,3.3484221,,49
+"China","Arenaria sp.","open",7,19.31454247,3.235302893,,49
+"China","Arenaria sp.","open",8,13.3502252,4.046768362,,49
+"China","Arenaria sp.","open",8,12.70534907,3.259168014,,49
+"China","Arenaria sp.","open",10,8.262802374,3.332593374,,49
+"China","Arenaria sp.","open",10,10.52539223,3.191908577,,49
+"Ny-Ålesund","Silene acaulis","Cushion",1,23.27057793,7.277097902,1,50
+"Ny-Ålesund","Silene acaulis","Cushion",2,20.73458679,3.536399303,7,50
+"Ny-Ålesund","Silene acaulis","Cushion",3,9.16001994,1.58106961,6,50
+"Ny-Ålesund","Silene acaulis","Cushion",4,32.57334747,11.10801471,5,50
+"Ny-Ålesund","Silene acaulis","Cushion",5,18.72265231,3.647930424,1,50
+"Ny-Ålesund","Silene acaulis","Cushion",6,13.75119115,3.06209394,4,50
+"Ny-Ålesund","Silene acaulis","Cushion",7,14.79103178,2.961364974,3,50
+"Benasque 1","Saponaria_caespitosa","open",9,,,,73
+"Ny-Ålesund","Silene acaulis","Cushion",8,10.70636468,2.690483578,9,50
+"Ny-Ålesund","Silene acaulis","Cushion",9,9.851046989,2.649006623,3,50
+"Ny-Ålesund","Silene acaulis","Cushion",10,6.859894016,1.270767405,4,50
+"Ny-Ålesund","Silene acaulis","bare",1,26.71267127,7.533276692,,50
+"Ny-Ålesund","Silene acaulis","bare",2,15.72132803,3.396248743,,50
+"Ny-Ålesund","Silene acaulis","bare",3,13.21713341,2.663573086,,50
+"Ny-Ålesund","Silene acaulis","bare",4,10.65298989,1.814867328,,50
+"Ny-Ålesund","Silene acaulis","bare",5,7.985552554,1.220023283,,50
+"Ny-Ålesund","Silene acaulis","Other species",1,34.38519171,8.13559322,,50
+"Ny-Ålesund","Silene acaulis","Other species",2,7.890423788,1.688299473,,50
+"Ny-Ålesund","Silene acaulis","Other species",3,7.398980444,1.309377018,,50
+"Ny-Ålesund","Silene acaulis","Other species",4,13.51894926,1.360781577,,50
+"Ny-Ålesund","Silene acaulis","Other species",5,16.16857343,3.609242469,,50
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",1,4.57,2.73,12,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",2,6.12,2.42,16,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",3,5.98,3.49,18,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",4,7.88,4.84,12,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",5,3.76,2.75,12,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",6,4.88,4.08,16,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",7,5.65,2.54,10,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",8,5.03,2.34,18,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",9,9.84,3.53,12,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","cushion",10,5.48,3.97,16,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",1,5.35,1.97,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",2,4.51,2.61,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",3,5.39,4.14,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",4,1.75,4.22,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",5,5.28,2.45,,77
+"Benasque 1","Saponaria_caespitosa","open",10,,,,73
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",6,5.29,2.7,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",7,9.12,3.24,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",8,4.71,2.93,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",9,1.81,1.56,,77
+"Sierra Nevada1","Arenaria_tetraquetra_amabilis","open",10,4.69,3.3,,77
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",1,14.32,3.35,3.6,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",2,8.52,2.14,4.4,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",3,7.19,2.19,2.6,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",4,8.82,2.45,2.8,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",5,8.32,2.81,1.8,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",6,10.57,4.81,1.6,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",7,8.66,2.51,1.6,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",8,7.77,3.44,1.8,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",9,5.32,1.98,2.4,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","cushion",10,10.25,5.72,3,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",1,6.67,2.06,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",2,6.61,1.83,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",3,3.12,1.21,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",4,7.74,3.53,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",5,2.74,2.71,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",6,4.44,1.52,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",7,6.27,2.1,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",8,7.16,2,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",9,5.78,1.84,,78
+"Sierra Nevada2","Arenaria_tetraquetra_amabilis","open",10,8.37,2.91,,78
+"Val Bercla","Silene acaulis","cushion",1,0.29,,,52
+"Val Bercla","Silene acaulis","cushion",2,0.3,,,52
+"Val Bercla","Silene acaulis","cushion",3,0.35,,,52
+"Val Bercla","Silene acaulis","cushion",4,0.43,,,52
+"Val Bercla","Silene acaulis","cushion",5,0.43,,,52
+"Val Bercla","Silene acaulis","cushion",6,0.35,,,52
+"Val Bercla","Silene acaulis","cushion",7,0.22,,,52
+"Val Bercla","Silene acaulis","cushion",8,0.48,,,52
+"Val Bercla","Silene acaulis","cushion",9,0.34,,,52
+"Val Bercla","Silene acaulis","cushion",10,0.28,,,52
+"Val Bercla","Silene acaulis","open",1,0.3,,,52
+"Val Bercla","Silene acaulis","open",2,0.16,,,52
+"Val Bercla","Silene acaulis","open",3,0.23,,,52
+"Val Bercla","Silene acaulis","open",4,0.21,,,52
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",1,1.25,1.64,6.4,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",2,1.81,2.02,4.2,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",3,3.43,5.34,5.2,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",4,1.94,1.91,4.2,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",5,1.56,2.54,5.8,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",6,1.91,2.4,5.2,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",7,2.21,2.91,4.2,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",8,1.83,2.71,3.6,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",9,2.06,3.03,2.6,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","cushion",10,1.66,2.12,3,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",1,0.29,1.87,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",2,0.51,1.68,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",3,0.57,2.02,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",4,0.6,2.01,,79
+"Sierra Nevada3","Arenaria_tetraquetra_amabilis","open",5,0.61,2.64,,79
+"Sierra Nevada3","Plantago_holosteum","cushion",3,0.85,2.55,9.4,81
+"Sierra Nevada3","Plantago_holosteum","cushion",4,1.33,3.19,6.6,81
+"Sierra Nevada3","Plantago_holosteum","cushion",5,0.94,2.54,8.2,81
+"Sierra Nevada3","Plantago_holosteum","cushion",6,0.16,2.52,9.6,81
+"Sierra Nevada3","Plantago_holosteum","cushion",7,,,8.6,81
+"Sierra Nevada3","Plantago_holosteum","cushion",8,,,8.4,81
+"Sierra Nevada3","Plantago_holosteum","cushion",9,,,14,81
+"Sierra Nevada3","Plantago_holosteum","cushion",10,,,5.6,81
+"Sierra Nevada3","Plantago_holosteum","open",1,0.29,1.87,,81
+"Sierra Nevada3","Plantago_holosteum","open",2,0.51,1.68,,81
+"Sierra Nevada3","Plantago_holosteum","open",3,0.57,2.02,,81
+"Sierra Nevada3","Plantago_holosteum","open",4,0.6,2.01,,81
+"Sierra Nevada3","Plantago_holosteum","open",5,0.61,2.64,,81
+"Sierra Nevada3","Plantago_holosteum","open",6,0.56,3.26,,81
+"Sierra Nevada3","Plantago_holosteum","open",7,0.66,3.21,,81
+"Sierra Nevada3","Plantago_holosteum","open",8,1.32,2.59,,81
+"Sierra Nevada3","Plantago_holosteum","open",9,0.91,2.12,,81
+"Sierra Nevada3","Plantago_holosteum","open",10,0.57,2.28,,81
+"Dolomites 1","Carex firna","cushion",1,,,3,90
+"Dolomites 1","Carex firna","cushion",1,,,2,90
+"Dolomites 1","Carex firna","cushion",1,,,6,90
+"Dolomites 1","Carex firna","cushion",1,,,5,90
+"Dolomites 1","Carex firna","cushion",1,,,6,90
+"Dolomites 1","Carex firna","cushion",2,,,11,90
+"Dolomites 1","Carex firna","cushion",2,,,5,90
+"Dolomites 1","Carex firna","cushion",2,,,4,90
+"Dolomites 1","Carex firna","cushion",2,,,13,90
+"Dolomites 1","Carex firna","cushion",2,,,15,90
+"Dolomites 1","Carex firna","cushion",3,,,12,90
+"Dolomites 1","Carex firna","cushion",3,,,12,90
+"Dolomites 1","Carex firna","cushion",3,,,10,90
+"Dolomites 1","Carex firna","cushion",3,,,9,90
+"Dolomites 1","Carex firna","cushion",3,,,10,90
+"Dolomites 1","Carex firna","cushion",4,,,12,90
+"Dolomites 1","Carex firna","cushion",4,,,12,90
+"Dolomites 1","Carex firna","cushion",4,,,10,90
+"Dolomites 1","Carex firna","cushion",4,,,9,90
+"Dolomites 1","Carex firna","cushion",4,,,10,90
+"Dolomites 1","Carex firna","cushion",5,,,15,90
+"Dolomites 1","Carex firna","cushion",5,,,6,90
+"Dolomites 1","Carex firna","cushion",5,,,8,90
+"Dolomites 1","Carex firna","cushion",5,,,15,90
+"Dolomites 1","Carex firna","cushion",5,,,12,90
+"Dolomites 1","Carex firna","cushion",6,,,9,90
+"Dolomites 1","Carex firna","cushion",6,,,7,90
+"Dolomites 1","Carex firna","cushion",6,,,6,90
+"Dolomites 1","Carex firna","cushion",6,,,10,90
+"Dolomites 1","Carex firna","cushion",6,,,8,90
+"Dolomites 1","Carex firna","cushion",7,,,10,90
+"Dolomites 1","Carex firna","cushion",7,,,2,90
+"Dolomites 1","Carex firna","cushion",7,,,11,90
+"Dolomites 1","Carex firna","cushion",7,,,4,90
+"Dolomites 1","Carex firna","cushion",7,,,4,90
+"Dolomites 1","Carex firna","cushion",8,,,9,90
+"Dolomites 1","Carex firna","cushion",8,,,11,90
+"Dolomites 1","Carex firna","cushion",8,,,12,90
+"Dolomites 1","Carex firna","cushion",8,,,8,90
+"Dolomites 1","Carex firna","cushion",8,,,6,90
+"Dolomites 1","Carex firna","cushion",9,,,3,90
+"Dolomites 1","Carex firna","cushion",9,,,5,90
+"Dolomites 1","Carex firna","cushion",9,,,12,90
+"Dolomites 1","Carex firna","cushion",9,,,2,90
+"Dolomites 1","Carex firna","cushion",9,,,6,90
+"Dolomites 1","Carex firna","cushion",10,,,9,90
+"Dolomites 1","Carex firna","cushion",10,,,3,90
+"Dolomites 1","Carex firna","cushion",10,,,9,90
+"Dolomites 1","Carex firna","cushion",10,,,8,90
+"Dolomites 1","Carex firna","cushion",10,,,6,90
+"Dolomites2","Silene acaulis","cushion",1,,,2,91
+"Dolomites2","Silene acaulis","cushion",1,,,2,91
+"Dolomites2","Silene acaulis","cushion",1,,,2,91
+"Dolomites2","Silene acaulis","cushion",1,,,2,91
+"Dolomites2","Silene acaulis","cushion",1,,,3,91
+"Dolomites2","Silene acaulis","cushion",2,,,2,91
+"Dolomites2","Silene acaulis","cushion",2,,,2,91
+"Dolomites2","Silene acaulis","cushion",2,,,3,91
+"Dolomites2","Silene acaulis","cushion",2,,,3,91
+"Dolomites2","Silene acaulis","cushion",2,,,3,91
+"Dolomites2","Silene acaulis","cushion",3,,,4,91
+"Dolomites2","Silene acaulis","cushion",3,,,2,91
+"Dolomites2","Silene acaulis","cushion",3,,,3,91
+"Dolomites2","Silene acaulis","cushion",3,,,3,91
+"Dolomites2","Silene acaulis","cushion",3,,,3,91
+"Dolomites2","Silene acaulis","cushion",4,,,5,91
+"Dolomites2","Silene acaulis","cushion",4,,,6,91
+"Dolomites2","Silene acaulis","cushion",4,,,5,91
+"Dolomites2","Silene acaulis","cushion",4,,,3,91
+"Dolomites2","Silene acaulis","cushion",4,,,5,91
+"Dolomites2","Silene acaulis","cushion",5,,,4,91
+"Dolomites2","Silene acaulis","cushion",5,,,5,91
+"Dolomites2","Silene acaulis","cushion",5,,,4,91
+"Dolomites2","Silene acaulis","cushion",5,,,4,91
+"Dolomites2","Silene acaulis","cushion",5,,,4,91
+"Dolomites2","Silene acaulis","cushion",6,,,3,91
+"Dolomites2","Silene acaulis","cushion",6,,,3,91
+"Dolomites2","Silene acaulis","cushion",6,,,4,91
+"Dolomites2","Silene acaulis","cushion",6,,,3,91
+"Dolomites2","Silene acaulis","cushion",6,,,4,91
+"Dolomites2","Silene acaulis","cushion",7,,,5,91
+"Dolomites2","Silene acaulis","cushion",7,,,5,91
+"Dolomites2","Silene acaulis","cushion",7,,,5,91
+"Dolomites2","Silene acaulis","cushion",7,,,7,91
+"Dolomites2","Silene acaulis","cushion",7,,,5,91
+"Dolomites2","Silene acaulis","cushion",8,,,4,91
+"Dolomites2","Silene acaulis","cushion",8,,,4,91
+"Dolomites2","Silene acaulis","cushion",8,,,3,91
+"Dolomites2","Silene acaulis","cushion",8,,,5,91
+"Dolomites2","Silene acaulis","cushion",8,,,4,91
+"Dolomites2","Silene acaulis","cushion",9,,,8,91
+"Dolomites2","Silene acaulis","cushion",9,,,5,91
+"Dolomites2","Silene acaulis","cushion",9,,,5,91
+"Dolomites2","Silene acaulis","cushion",9,,,6,91
+"Dolomites2","Silene acaulis","cushion",9,,,6,91
+"Dolomites2","Silene acaulis","cushion",10,,,2,91
+"Dolomites2","Silene acaulis","cushion",10,,,2,91
+"Dolomites2","Silene acaulis","cushion",10,,,4,91
+"Dolomites2","Silene acaulis","cushion",10,,,3,91
+"Dolomites2","Silene acaulis","cushion",10,,,2,91
+"Dolomites 3","Minuartia","cushion",1,,,1,92
+"Dolomites 3","Minuartia","cushion",1,,,2,92
+"Dolomites 3","Minuartia","cushion",1,,,1,92
+"Dolomites 3","Minuartia","cushion",1,,,1,92
+"Dolomites 3","Minuartia","cushion",1,,,1,92
+"Dolomites 3","Minuartia","cushion",2,,,2,92
+"Dolomites 3","Minuartia","cushion",2,,,1,92
+"Dolomites 3","Minuartia","cushion",2,,,1,92
+"Dolomites 3","Minuartia","cushion",2,,,1,92
+"Dolomites 3","Minuartia","cushion",2,,,2,92
+"Dolomites 3","Minuartia","cushion",3,,,1,92
+"Dolomites 3","Minuartia","cushion",3,,,1,92
+"Dolomites 3","Minuartia","cushion",3,,,1,92
+"Dolomites 3","Minuartia","cushion",3,,,2,92
+"Dolomites 3","Minuartia","cushion",3,,,1,92
+"Dolomites 3","Minuartia","cushion",4,,,1,92
+"Dolomites 3","Minuartia","cushion",4,,,1,92
+"Dolomites 3","Minuartia","cushion",4,,,2,92
+"Dolomites 3","Minuartia","cushion",4,,,2,92
+"Dolomites 3","Minuartia","cushion",4,,,1,92
+"Dolomites 3","Minuartia","cushion",5,,,1,92
+"Dolomites 3","Minuartia","cushion",5,,,1,92
+"Dolomites 3","Minuartia","cushion",5,,,2,92
+"Dolomites 3","Minuartia","cushion",5,,,2,92
+"Dolomites 3","Minuartia","cushion",5,,,1,92
+"Dolomites 3","Minuartia","cushion",6,,,1,92
+"Dolomites 3","Minuartia","cushion",6,,,1,92
+"Dolomites 3","Minuartia","cushion",6,,,1,92
+"Dolomites 3","Minuartia","cushion",6,,,1,92
+"Dolomites 3","Minuartia","cushion",6,,,1,92
+"Dolomites 3","Minuartia","cushion",7,,,2,92
+"Dolomites 3","Minuartia","cushion",7,,,1,92
+"Dolomites 3","Minuartia","cushion",7,,,1,92
+"Dolomites 3","Minuartia","cushion",7,,,1,92
+"Dolomites 3","Minuartia","cushion",7,,,2,92
+"Dolomites 3","Minuartia","cushion",8,,,1,92
+"Dolomites 3","Minuartia","cushion",8,,,1,92
+"Dolomites 3","Minuartia","cushion",8,,,1,92
+"Dolomites 3","Minuartia","cushion",8,,,1,92
+"Dolomites 3","Minuartia","cushion",8,,,1,92
+"Dolomites 3","Minuartia","cushion",9,,,1,92
+"Dolomites 3","Minuartia","cushion",9,,,2,92
+"Dolomites 3","Minuartia","cushion",9,,,1,92
+"Dolomites 3","Minuartia","cushion",9,,,1,92
+"Dolomites 3","Minuartia","cushion",9,,,1,92
+"Dolomites 3","Minuartia","cushion",10,,,2,92
+"Dolomites 3","Minuartia","cushion",10,,,2,92
+"Dolomites 3","Minuartia","cushion",10,,,2,92
+"Dolomites 3","Minuartia","cushion",10,,,2,92
+"Dolomites 3","Minuartia","cushion",10,,,1,92
+"Dolomites 4","Cerastium alpinum","cushion",1,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",1,,,11,93
+"Dolomites 4","Cerastium alpinum","cushion",1,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",1,,,3,93
+"Dolomites 4","Cerastium alpinum","cushion",1,,,7,93
+"Dolomites 4","Cerastium alpinum","cushion",2,,,3,93
+"Dolomites 4","Cerastium alpinum","cushion",2,,,3,93
+"Dolomites 4","Cerastium alpinum","cushion",2,,,4,93
+"Dolomites 4","Cerastium alpinum","cushion",2,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",2,,,3,93
+"Dolomites 4","Cerastium alpinum","cushion",3,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",3,,,15,93
+"Dolomites 4","Cerastium alpinum","cushion",3,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",3,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",3,,,18,93
+"Dolomites 4","Cerastium alpinum","cushion",4,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",4,,,15,93
+"Dolomites 4","Cerastium alpinum","cushion",4,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",4,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",4,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",5,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",5,,,15,93
+"Dolomites 4","Cerastium alpinum","cushion",5,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",5,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",5,,,9,93
+"Dolomites 4","Cerastium alpinum","cushion",6,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",6,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",6,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",6,,,4,93
+"Dolomites 4","Cerastium alpinum","cushion",6,,,4,93
+"Dolomites 4","Cerastium alpinum","cushion",7,,,9,93
+"Dolomites 4","Cerastium alpinum","cushion",7,,,6,93
+"Dolomites 4","Cerastium alpinum","cushion",7,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",7,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",7,,,4,93
+"Dolomites 4","Cerastium alpinum","cushion",8,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",8,,,3,93
+"Dolomites 4","Cerastium alpinum","cushion",8,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",8,,,3,93
+"Dolomites 4","Cerastium alpinum","cushion",8,,,4,93
+"Dolomites 4","Cerastium alpinum","cushion",9,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",9,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",9,,,8,93
+"Dolomites 4","Cerastium alpinum","cushion",9,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",9,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",10,,,10,93
+"Dolomites 4","Cerastium alpinum","cushion",10,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",10,,,5,93
+"Dolomites 4","Cerastium alpinum","cushion",10,,,2,93
+"Dolomites 4","Cerastium alpinum","cushion",10,,,10,93
+"Dolomites 5","Silene acaulis","cushion",1,,,3,94
+"Dolomites 5","Silene acaulis","cushion",1,,,2,94
+"Dolomites 5","Silene acaulis","cushion",1,,,2,94
+"Dolomites 5","Silene acaulis","cushion",1,,,2,94
+"Dolomites 5","Silene acaulis","cushion",1,,,2,94
+"Dolomites 5","Silene acaulis","cushion",2,,,2,94
+"Dolomites 5","Silene acaulis","cushion",2,,,3,94
+"Dolomites 5","Silene acaulis","cushion",2,,,2,94
+"Dolomites 5","Silene acaulis","cushion",2,,,2,94
+"Dolomites 5","Silene acaulis","cushion",2,,,2,94
+"Dolomites 5","Silene acaulis","cushion",3,,,2,94
+"Dolomites 5","Silene acaulis","cushion",3,,,3,94
+"Dolomites 5","Silene acaulis","cushion",3,,,2,94
+"Dolomites 5","Silene acaulis","cushion",3,,,4,94
+"Dolomites 5","Silene acaulis","cushion",3,,,2,94
+"Dolomites 5","Silene acaulis","cushion",4,,,2,94
+"Dolomites 5","Silene acaulis","cushion",4,,,1,94
+"Dolomites 5","Silene acaulis","cushion",4,,,3,94
+"Dolomites 5","Silene acaulis","cushion",4,,,3,94
+"Dolomites 5","Silene acaulis","cushion",4,,,2,94
+"Dolomites 5","Silene acaulis","cushion",5,,,4,94
+"Dolomites 5","Silene acaulis","cushion",5,,,5,94
+"Dolomites 5","Silene acaulis","cushion",5,,,3,94
+"Dolomites 5","Silene acaulis","cushion",5,,,4,94
+"Dolomites 5","Silene acaulis","cushion",5,,,5,94
+"Dolomites 5","Silene acaulis","cushion",6,,,5,94
+"Dolomites 5","Silene acaulis","cushion",6,,,3,94
+"Dolomites 5","Silene acaulis","cushion",6,,,5,94
+"Dolomites 5","Silene acaulis","cushion",6,,,4,94
+"Dolomites 5","Silene acaulis","cushion",6,,,3,94
+"Dolomites 5","Silene acaulis","cushion",7,,,3,94
+"Dolomites 5","Silene acaulis","cushion",7,,,3,94
+"Dolomites 5","Silene acaulis","cushion",7,,,3,94
+"Dolomites 5","Silene acaulis","cushion",7,,,3,94
+"Dolomites 5","Silene acaulis","cushion",7,,,3,94
+"Dolomites 5","Silene acaulis","cushion",8,,,4,94
+"Dolomites 5","Silene acaulis","cushion",8,,,3,94
+"Dolomites 5","Silene acaulis","cushion",8,,,4,94
+"Dolomites 5","Silene acaulis","cushion",8,,,3,94
+"Dolomites 5","Silene acaulis","cushion",8,,,3,94
+"Dolomites 5","Silene acaulis","cushion",9,,,5,94
+"Dolomites 5","Silene acaulis","cushion",9,,,6,94
+"Dolomites 5","Silene acaulis","cushion",9,,,7,94
+"Dolomites 5","Silene acaulis","cushion",9,,,5,94
+"Dolomites 5","Silene acaulis","cushion",9,,,5,94
+"Dolomites 5","Silene acaulis","cushion",10,,,5,94
+"Dolomites 5","Silene acaulis","cushion",10,,,4,94
+"Dolomites 5","Silene acaulis","cushion",10,,,4,94
+"Dolomites 5","Silene acaulis","cushion",10,,,5,94
+"Dolomites 5","Silene acaulis","cushion",10,,,5,94
+"Ptarmigan Cirque","Silene acaulis","cushion",1,12.5,16.5,5,97
+"Ptarmigan Cirque","Silene acaulis","cushion",2,11.6,16,5,97
+"Ptarmigan Cirque","Silene acaulis","cushion",3,15,21.1,6,97
+"Ptarmigan Cirque","Silene acaulis","cushion",4,16.1,14.8,3,97
+"Ptarmigan Cirque","Silene acaulis","cushion",5,11.4,12.7,4,97
+"Ptarmigan Cirque","Silene acaulis","cushion",6,11.8,18,3,97
+"Ptarmigan Cirque","Silene acaulis","cushion",7,18.1,15.5,3,97
+"Ptarmigan Cirque","Silene acaulis","cushion",8,11.4,15.5,5,97
+"Ptarmigan Cirque","Silene acaulis","cushion",9,17.6,17.3,7,97
+"Ptarmigan Cirque","Silene acaulis","cushion",10,13.2,11.9,7,97
+"Ptarmigan Cirque","Silene acaulis","open",1,6.9,4.3,,97
+"Ptarmigan Cirque","Silene acaulis","open",2,11.3,4.9,,97
+"Ptarmigan Cirque","Silene acaulis","open",3,10,2.8,,97
+"Ptarmigan Cirque","Silene acaulis","open",4,4.5,8.1,,97
+"Ptarmigan Cirque","Silene acaulis","open",5,12.5,5.8,,97
+"Ptarmigan Cirque","Silene acaulis","open",6,8.2,7.1,,97
+"Ptarmigan Cirque","Silene acaulis","open",7,7.2,4.2,,97
+"Ptarmigan Cirque","Silene acaulis","open",8,9,4.1,,97
+"Ptarmigan Cirque","Silene acaulis","open",9,5.9,4.5,,97
+"Ptarmigan Cirque","Silene acaulis","open",10,10.3,7.9,,97
+"Windy Pass 2","Silene acaulis","cushion",1,16.2,16.6,7,98
+"Windy Pass 2","Silene acaulis","cushion",2,16,14,5,98
+"Windy Pass 2","Silene acaulis","cushion",3,7.2,14.2,6,98
+"Windy Pass 2","Silene acaulis","cushion",4,8.9,22.5,4,98
+"Windy Pass 2","Silene acaulis","cushion",5,19.5,15.7,6,98
+"Windy Pass 2","Silene acaulis","cushion",6,20,16.6,6,98
+"Windy Pass 2","Silene acaulis","cushion",7,20.1,16.1,6,98
+"Windy Pass 2","Silene acaulis","cushion",8,16.8,11,4,98
+"Windy Pass 2","Silene acaulis","cushion",9,16.8,22.8,6,98
+"Windy Pass 2","Silene acaulis","cushion",10,9.9,20.1,4,98
+"Windy Pass 2","Silene acaulis","open",1,7,5.5,7,98
+"Windy Pass 2","Silene acaulis","open",2,7.9,3.7,5,98
+"Windy Pass 2","Silene acaulis","open",3,7,8.3,6,98
+"Windy Pass 2","Silene acaulis","open",4,11.8,4.9,4,98
+"Windy Pass 2","Silene acaulis","open",5,10,4,6,98
+"Windy Pass 2","Silene acaulis","open",6,7.5,4,6,98

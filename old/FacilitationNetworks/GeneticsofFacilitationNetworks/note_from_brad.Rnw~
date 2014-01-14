@@ -1,0 +1,27 @@
+I think you're on the right path, but the tools you've created are
+ahead of the data that most ecologists have (including yourself, at
+least for the moment).  Once you get settled in France we should
+skype, I think I have an idea of how to really revolutionize these
+approaches using your tools and a small advancement from the plant
+community world: differentiating response and effect ``traits'' (which
+may mean different things for trophic interactions, but I don't think
+that's a problem).  Response traits determine how organisms respond to
+environmental variation, including environmental variation driven by
+other organisms, which ought to be used to test for environmental
+filtering (although few people have made this distinction in community
+assembly appropriately).  Effect traits determine how those same
+organisms/taxa alter available niche space, either via competition or
+facilitation, which can both take various forms.  I think we can use
+this same approach to describe a ``potential'' interaction (including
+trophic) matrix among all pairwise combos of taxa within a community,
+then use the abundance data to differentiate environmental and biotic
+filters.
+
+Just to be clear, based on what you've shown I think your R package is
+going to be spectacular, it's just a bit ahead of it's time (as are
+all works of genius!).  It needs incorporation of more ecological
+information before it's going to be meaningful.  You can publish these
+networks now as simple examples of your statistical methods, but I
+think a truly great contribution is not far away with a little
+effort.  Let me know when you have time to chat, and I'll try to put
+together a more detailed outline of my ideas.

@@ -1,0 +1,425 @@
+%%Things to do
+%%Papers to read:
+%%Caviarres papers
+%%Geum paper Ecology Letters
+%%Xia Xiao's paper from geum
+%%Schob (Spain) cost and benefit of facilitation
+%%Brad's SEM paper and the Nature paper
+
+
+%%0) Write-up and get larger dataset from Brad
+%%1) What does this mean ecologically? Also, how does this analysis
+%%parallel more common analyses of diversity?
+%%2) Prep a presentation for Richard
+%%3) Prep presentation for the group
+
+
+\documentclass[12pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{/Library/Frameworks/R.framework/Resources/share/texmf/Sweave}
+
+
+\title{Intraspecific variation influences community network structure: Tracing the roots of interactions to genetics.}
+\author{M.K. Lau, R. Michalet and the Alpine Pals Group}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+
+%\setcounter{tocdepth}{3}
+%\tableofcontent
+
+%Chateaubriand Fellowship INFO
+%User ID: 1669994985
+
+\section{Summary}
+
+%\subsection{Understanding the structure of individual interaction networks is important}
+%\begin{itemize}
+%\item Indirect effects (examples, Mistletoe-Juniper-Solitaire, Jamie's paper)
+%\item Weak interactions and linking communities
+%\item Links between structure and stability of communities
+%\item Advances in network modeling techniques (Reverse Engineering)
+%\item Theoretical Frameworks (Small Worlds, Weak Interactions,, Modularity)
+%\item A rich amount of data on behavioral ecologies exists for many taxa that can be synthesized into qualitative models of species interactions
+%\item Cohen's paper on beyond tri-trophic interactions
+%\item Food-web research (Bascompte, Dunne, Martinez, Schmidt, May, Pimm, Paine, Darwin)
+%\item Joe's paper on tri-trophic interactions
+%\item Phylogenetics and species interactions (Rezende et al. 2007 Nature)
+%\end{itemize}
+
+
+\subsection{Study Proposal}
+
+\begin{itemize}
+\item Using existing data of abundances of facilitated species inside
+  and outside of the nurse genotypes, generate an estimate of the
+  dependency of each species to each genotype
+
+\item Compare the network facilitation network structure given
+  different abundances of open and closed genotypes:
+
+\item Primary Questions:
+  \begin{enumerate}
+  \item Is there an overall preponderance of nestedness or modularity?
+  \item Are their bio-geographic patterns of network structure?
+  \item Are their phylogenetic patterns of network structure (for both
+    the nurse plants and the beneficiary species)?
+  \end{enumerate}
+\end{itemize}
+
+
+\section{Individual level facitilation network models}
+
+%%Run the models the first time you run the document through Sweave
+<<echo=false,results=hide>>=
+if (any(ls() == 'run.rii')){
+run.rii <- FALSE
+}else{
+run.rii <- TRUE
+}
+
+@ 
+ 
+%\subsection{Dependencies}
+
+%%%Add these functions to the CorNets package
+
+<<echo=false,results=hide>>=
+library(bipartite)
+xlibrary(xtable)
+library(gplots)
+
+@
+
+%%Source your functions
+<<echo=false,results=hide>>=
+source('/Users/Aeolus/Documents/Active_Projects/GeneticNetworks/Genetic_Networks/ind_net.R')
+source('/Users/Aeolus/Documents/Active_Projects/CorNets/CorNets.R')
+source('/Users/Aeolus/Documents/Active_Projects/New_Functions/New_Functions.R')
+
+@ 
+
+\section{Import Data}
+
+%%%Data were provided by the Apling Pals Group with permission from
+%%%Ray Callaway and others. Robbin Brooker provided the access to the
+%%%data. Brad Butterfield provided .csv files that he had
+%%%updated. Brad Cook helped to facilitate data acquisition.
+
+<<results=hide>>=
+if (any(ls() == 'mywd')){}else{mywd <- getwd()}
+setwd('data')
+cush.data <- list()
+for (i in 1:length(dir())){
+cush.data[[i]] <- read.csv(dir()[i])
+}
+names(cush.data) <- paste(lapply(cush.data,function(x) colnames(x)[2]),dir(),sep='_')
+cush.site <- substr(dir(),1,6)
+setwd(mywd)
+##Check the data quality and fix problems
+##Find datasets with cushion.open labels that are different from the majority of labels
+##NOTE: datasets Site9, Site46 and Site72 all had spelling errors in the cushion.open columns.
+##These were fixed in the datasheets.
+as.character(unique(unlist(lapply(cush.data,function(x) x[,4]))))
+##Change NA to 0
+for (i in 1:length(cush.data)){
+cush.data[[i]][is.na(cush.data[[i]])] <- 0
+}
+##Remove species with less than 10 abundance
+cush.data <- lapply(cush.data,function(x) data.frame(x[,1:4],rm.spp(x[,5:ncol(x)],n=10)))
+
+@ 
+
+\section{Build Models}
+
+<<>>=
+
+if (run.rii == TRUE){
+#isolate the community data
+cush.com <- lapply(cush.data,function(x) x[,5:ncol(x)])
+#remove NA values
+cush.com <- lapply(cush.com,na.omit)
+#isolate the rep data
+cush.rep <- lapply(cush.data,function(x) x[,3])
+#isolate the microsiate data
+cush.micro <- lapply(cush.data,function(x) x[,4])
+cush.rii <- list()
+cush.rii <- lapply(cush.data,function(x) rii(x[,5:ncol(x)],rep=x[,3],site=x[,4],decreasing=FALSE))
+##Check for NA values
+any(is.na(unlist(cush.rii)))
+##Check for any EMPTY matrixes
+any(as.logical(lapply(cush.rii,function(x) all(x == 0))))
+names(cush.data)[as.logical(lapply(cush.rii,function(x) all(x == 0)))]
+}else{}
+
+@ 
+
+
+\section{Ratios of Positive and Negative RII}
+
+<<echo=false,results=hide,label=fig1,include=false>>=
+pos.rii <- lapply(cush.rii,function(x) length(x[x > 0]))
+neg.rii <- lapply(cush.rii,function(x) length(x[x < 0]))
+par(mfrow=c(2,2))
+hist(unlist(pos.rii),xlab='Number of Positive RII',main='',col='grey')
+legend('topright',legend='A',bty='n')
+hist(unlist(neg.rii),xlab='Number of Negative RII',main='',col='grey')
+legend('topright',legend='B',bty='n')
+m <- c(mean(unlist(pos.rii)),mean(unlist(neg.rii)))
+se <- c(sd(unlist(pos.rii))/sqrt(length(unlist(pos.rii))),sd(unlist(neg.rii))/sqrt(length(unlist(neg.rii))))
+barplot2(m,plot.ci=TRUE,ci.u=m+se,ci.l=m-se,col='grey',names=c('+','-'),ylab='Average Number of RII',xlab='Sign of RII',ylim=c(0,30))
+legend('topright',legend='C',bty='n')
+plot(unlist(pos.rii)~unlist(neg.rii),pch=19,xlab='Number of Negative RII',ylab='Number of Positive RII')
+abline(lm(unlist(pos.rii)~unlist(neg.rii)))
+legend('topleft',legend='D',bty='n')
+table1 <- summary(lm(unlist(pos.rii)~unlist(neg.rii)))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(table1)
+
+@ 
+
+\section{Network Structure Metrics}
+
+<<echo=false,results=hide,label=fig2,include=false>>=
+x <- abs(cush.rii[[9]])
+x <- x[order(apply(x,1,bin.sum),decreasing=TRUE),order(apply(x,2,bin.sum),decreasing=TRUE)]
+par(mfrow=c(1,1))
+plotweb(x,method='normal')
+
+@ 
+
+\subsection{Nestedness}
+
+<<>>=
+cush.zeros <- as.logical(lapply(cush.rii,function(x) all(x == 0)))
+length(cush.rii[cush.zeros != TRUE]) / length(cush.rii)
+if (run.rii == TRUE){
+cush.nest <- lapply(cush.rii,function(x) nested(web=abs(x),method='NODF'))
+}else{}
+cush.nest <- as.numeric(cush.nest)
+length(cush.nest)
+total.rii <- as.numeric(I(as.numeric(pos.rii) + as.numeric(neg.rii)))
+
+@ 
+
+<<echo=false,results=hide,label=fig3,include=false>>=
+par(mfrow=c(2,2))
+hist(cush.nest)
+plot(cush.nest~total.rii)
+abline(lm(cush.nest~total.rii))
+plot(cush.nest~as.numeric(pos.rii))
+abline(lm(cush.nest~as.numeric(pos.rii)))
+plot(cush.nest~as.numeric(neg.rii))
+abline(lm(cush.nest~as.numeric(neg.rii)))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(summary(lm(cush.nest~as.numeric(pos.rii))))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(summary(lm(cush.nest~as.numeric(neg.rii))))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(summary(lm(cush.nest~total.rii)))
+
+@ 
+
+\section{Distance Based Correlation}
+
+<<>>=
+cush.ind <- list()
+along <- 1:length(cush.com)
+for (i in along){
+x <- cush.com[[i]]
+x.in <- x[cush.micro[[i]] == 'cushion',]
+x.out <- x[cush.micro[[i]] == 'open',]
+#use Fortuna (Gower) method
+x.in <- x.in[,apply(x.in,2,sum) != 0]
+x.out <- x.out[,apply(x.out,2,sum) != 0]
+plot(hclust(vegdist(t(x.in))))
+#in
+d <- as.matrix(vegdist(t(x.in)))
+ind.in <- ind.net(d,nrow(x.in),alpha=0.05,fix.na=TRUE,fix.inf=TRUE)
+#out
+d <- as.matrix(vegdist(t(x.out)))
+ind.out <- ind.net(d,nrow(x.out),alpha=0.05,fix.na=TRUE,fix.inf=TRUE)
+#Make arrays conform.
+cush.ind[[i]] <- conform(ind.in,ind.out)
+names(cush.ind[[i]]) <- c('cushion','open')
+}
+
+#What do the independence nets tell us?
+#The function produces a partial correlation matrix based on the pairwise distances.
+for (i in 1:length(cush.com)){
+#I'm not sure how negative correlations are recovered though.
+test <- cush.com[[i]][cush.micro[[i]] == 'cushion',]
+test <- cor(test)
+test[is.na(test)] <- 0
+test1 <- conform(cush.ind[[i]][[1]],test)[[2]]
+test2 <- cush.com[[i]][cush.micro[[i]] == 'open',]
+test2 <- cor(test2)
+test2[is.na(test2)] <- 0
+test2 <- conform(cush.ind[[i]][[2]],test2)[[2]]
+#distances for cluster graphs
+d1 <- cush.com[[i]][cush.micro[[i]] == 'cushion',]
+do <- rep(1,ncol(d1))
+d1 <- rbind(d1,do)
+d1 <- vegdist(t(d1))
+d2 <- cush.com[[i]][cush.micro[[i]] == 'open',]
+do <- rep(1,ncol(d2))
+d2 <- rbind(d2,do)
+d2 <- vegdist(t(d2))
+par(mfrow=c(3,2),oma=c(0,0,0,0),mar=c(3.5,2,2,1))
+plot(hclust(d1),main='cushion',cex=0.5,sub='',xlab='')
+plot(hclust(d2),main='open',cex=0.5,sub='',xlab='')
+coord <- gplot(abs(test1),edge.lwd=(abs(test1) + 1)^5,edge.col=pnEdges(test1),vertex.col='grey',vertex.border='darkgrey')
+gplot(abs(test2),edge.lwd=(abs(test2) + 1)^5,coord=coord,edge.col=pnEdges(test2),vertex.col='grey',vertex.border='darkgrey')
+gplot(abs(cush.ind[[i]][[1]]),edge.lwd=(abs(cush.ind[[i]][[1]]) + 1)^5,displaylabels=TRUE,edge.col=pnEdges(cush.ind[[i]][[1]]),label.cex=0.5,vertex.col='grey',vertex.border='darkgrey')
+gplot(abs(cush.ind[[i]][[2]]),edge.lwd=(abs(cush.ind[[i]][[2]]) + 1)^5,displaylabels=TRUE,edge.col=pnEdges(cush.ind[[i]][[2]]),label.cex=0.5,vertex.col='grey',vertex.border='darkgrey')
+dev.copy(jpeg,file=paste("cluster_graphs/","graphs",i,".jpeg",sep=''),width=11.3,height=7.1,units='in',res=300)
+dev.off()
+}
+
+##Look at the correlation between the number of cushions sampled and the degree of the network
+#number of cushions sampled (cushion and open are equal)
+cush.n <- as.numeric(lapply(cush.micro,function(x) length(x[x == 'open'])))
+
+#separate the indepence networks and calculate the degrees
+ind.in <- lapply(cush.ind,function(x) x[[1]])
+ind.out <- lapply(cush.ind,function(x) x[[2]])
+deg.in <- as.numeric(lapply(ind.in,function(x) length(x[x != 0])))
+deg.out <- as.numeric(lapply(ind.out,function(x) length(x[x != 0])))
+#plot the patterns of in and out
+cor(deg.in,cush.n)
+cor(deg.out,cush.n)
+plot(cush.n,deg.in,ylim=c(0,max(c(deg.in,deg.out))),pch=19,col='black',ylab='Number of Connections',xlab='Number of Cushions Sampled')
+points(cush.n,deg.out,pch=1,col='black')
+abline(lm(deg.in~cush.n),lty=2)
+abline(lm(deg.out~cush.n),lty=1)
+legend('topleft',legend=c('Cushion','Open'),pch=c(19,1))
+
+
+
+##Patterns with phylogenetics
+#import phylo results from brad
+phylo <- read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/GeneticsofFacilitationNetworks/phylo_data/phylo_data_for_Matt.csv')
+phyl.site <- as.character(phylo$Sites)
+
+#Are their patterns in modularity?
+#Compute modules
+#using the walktrap.community function
+mod.in <- list()
+for (i in 1:length(ind.in)){
+  mod.in[[i]] <- getModules(ind.in[[i]])[[2]]
+}
+
+length(getModules(x)[[2]]
+
+#number of isolated modules
+
+
+
+library(sna)
+par(mfrow=c(2,2))
+gplot(abs(ind.in),displaylabels=TRUE,label.cex=0.5,main='Cushion')
+gplot(abs(ind.out),displaylabels=TRUE,label.cex=0.5,main='Open')
+gplot(get.adjacency(g.in),vertex.col=mod.in)
+gplot(get.adjacency(g.out),vertex.col=mod.out)
+
+@ 
+\section{Positive and Negative: Tripartite Graphs}
+
+\section{Modularity}
+%%Look for modules in the unipartite represntations
+\subsection{Unipartite: Individuals}
+
+<<>>=
+library(sna)
+
+#####QUESTIONS#####
+#1. How does the as.one.mode projection handle negative values?
+#2. How do the results of a modularity algorithm differe from a clustering algorithm?
+#3. Why is walktrap so buggy?
+
+#create a list of the unipartite representations for all rii
+cush.iug <- lapply(cush.rii,as.one.mode,project='lower')
+cush.mod <- list()
+## for (i in 1:length(cush.iug)){
+## if (sum(cush.iug[[i]] == 0){cush.mod[[i]] <- NA}else{
+## x <- cush.iug[[i]]
+## x <- as.one.mode(x,project='lower')
+## x <- x[apply(abs(x),1,sum) > 0,apply(abs(x),2,sum) > 0]
+## x <- graph.adjacency(x)
+## cush.mod[[i]] <- walktrap.community(x,steps=50)
+
+## }
+## }
+cush.mod
+
+#create a list of the positive rii for all sites
+pos.iug <- cush.rii #individual unipartite graphs
+for (i in 1:length(pos.iug)){
+pos.iug[[i]][pos.iug[[i]] < 0] <- 0
+}
+#project into unipartite representation
+pos.iug <- lapply(pos.iug,as.one.mode,project='lower')
+
+
+
+@ 
+
+\begin{figure} 
+\begin{center} 
+<<label=fig1,fig=TRUE,echo=false>>=
+<<fig1>> 
+@ 
+\end{center} 
+\caption{}
+\label{fig:one}
+\end{figure}
+
+\begin{figure} 
+\begin{center} 
+<<label=fig2,fig=TRUE,echo=false>>=
+<<fig2>> 
+@ 
+\end{center} 
+\caption{}
+\label{fig:two}
+\end{figure}
+
+\begin{figure} 
+\begin{center} 
+<<label=fig3,fig=TRUE,echo=false>>=
+<<fig3>> 
+@ 
+\end{center} 
+\caption{}
+\label{fig:three}
+\end{figure}
+
+
+
+
+\end{document}
+
+
+%% ##No need to use database access programs. The easiest means was to work around by exporting all data tables from the database as .csv files.
+%% ##NOTE: instead of accessing the database directly, it worked best to export the data tables to csv files. This was a nightmare of convoluted dead ends. It may be that you need to purchase some software or drivers to get the RODBC or Hmisc functions to work. The Hmisc looked the most promising, but it repeatedly produced errors saying that there were invalid characters.
+%% ##library(RODBC) 
+%% ##library(Hmisc)

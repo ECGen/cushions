@@ -1,0 +1,351 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc} 
+\usepackage{color}
+\usepackage{cite}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+%\usepackage{pdflscape}        %single page landscape
+                                %mode \begin{landscape} \end{landscape}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{multicol} % \begin{multicols}{number of columns} \end{multicols}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{Sweave}
+\newcommand{\etal}{\textit{et al.}}
+\usepackage{hyperref}  %\hyperref[label_name]{''link text''}
+                       %\hyperlink{label}{anchor caption}
+                       %\hypertarget{label}{link caption}
+\linespread{1.5}
+
+\title{Pyrenees, Lebanon Cushion Project}
+\author{Michalet, Tousard, Hayek, M.K. Lau}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\setcounter{tocdepth}{3}  %%activate to number sections
+\tableofcontents
+
+\section{Meta}
+
+\begin{verbatim}
+    I have now finished to enter the relevés we did with Blaise and
+Patrick in Lebanon.
+Last time I sent you only the relevés made at a high site and now I
+send you the remaining with a low site where we sampled in two grazing
+conditions, 4 subsites within fences and 4 outside.
+I send you also results of mutivariate analyses I did on the species
+composition of all these plots. You will see that different
+microhabitats (tight cushions, loose cushions and open) have different
+species composition...In some figures plots were gathered depending on
+elevation and in another one depending on exposure, which is much better.....
+\end{verbatim}
+
+\begin{verbatim}
+Hi Matt
+
+This is great that you have time to analyse these dataset.
+Yes for sure there is a strong phenotype effect as is telling the
+Corespondance Analysis but I guess that your specific network analysis
+should precise this tendency.....
+
+Here are the answers to your questions.
+
+
+Hi Richard (and Patrick and Blaise too!),
+
+Great! I look forward to seeing the Fescue and Genista data as well. I
+did a quick run through these data (abundance, richness, compositional
+analyses), and the effects of the cushion phenotypes looks very
+strong. I should be able to get to a more thorough analysis later this
+week. In the meantime, I have a couple of questions (sorry if we've
+already gone through this before):
+
+1) What is the difference between the "both" and "afc" data sheets?
+You have 6 sheets in the excel file:
+
+- High sites and low sites sheets are the whole dataset (beneficiary
++ environment + cushion traits) of each elevation.
+
+- AFC high sites sheet is the data sheet I prepared to conduct the
+correspondance analysis on the high sites only. AFC  (Analyse
+Factorielle des Correspondances) in French means CA (Correspondance
+Anlysis) in English....
+
+- Both sites sheet is the data sheet including the whole data set
+(high and low sites) for the beneficiary species. I prepared this data
+sheet for the CA on the whole dataset.
+
+- AFC both sites is the same data sheet but with a filter on the
+beneficiary species. I removed all species with a low frequency (below
+5 presences in the whole data set). This filter is necessary for the
+CA  which results are very influenced by rare species.
+
+2) Are the Loose, Dense and Open "Subsites" indicative of triplets of
+samples (i.e. were there Loose, Dense and Open data collected together
+in spatial groupings)? It sounds like this is the case, but I wanted
+to check. 
+
+In fact there are different open plots for the loose and the dense
+cushions plots since they grow in different environmental conditions.
+To summarize the design:
+
+You have two elevations (low and high) with a difference in elevation
+of approximately 200 meters.
+
+In addition at the low elevation you have a grazing effect.
+
+Then you have the subsites (1 to 5 for the high elevation site and 1
+to 4 for the low elevation ungrazed site and 5 to 8 for the low
+elevation grazed site).
+
+Those subsites have different exposures (2H, 3H, 4H, 5H, 1L, 3L, 5L,
+7L are South and the others are North). Finally when I analysed the
+data I realized that exposure had a more important effect on species
+composition than elevation,which allows me to conduct a 3 way ANOVA
+with exposure, grazing and microhabitats as independent variables but
+this a little unbalanced since there are more ungrazed subsites with a
+south exposure than with a north exposure (because all high subsites
+are ungrazed and 1 of them is in the north for 4 in the south).....
+
+Then at each subsite you have 10 dense-open pairs and 10 loose-open
+pairs. The 20 pairs are randomly distributed within a subsite
+depending on the environment (convexe vs concave slopes mainly,
+respectively). Within a pair the cushion and open plots are very close
+to each other (within a meter distance) and in the same environmental
+conditions.
+
+Hope this can help.
+
+Cheers
+
+Richard
+\end{verbatim}
+
+\begin{verbatim}
+Dear Matt
+
+I send you now the complete file for the Pyrénées data that we sampled
+Patrick, Blaise and me this summer.
+There are 80 relevés with traits, environment and beneficiary species.
+Among them are 30 tight cushions (R), 30 loose cushions (D) and 20
+intermediate phenotypes (I).
+As I told you before there are no open plots at this site since most
+of the soil is covered by cushions.
+Patrick why is there one cushion line in Yellow (I10)?
+
+So now you have the relevés from Lebanon and Pyrénees (+ Sunset Crater
+I guess?) and the only missing are the Sierra Nevada (Spain) but it is
+no me who have the field notebooks. I will ask my Spanish
+collaborators if they entered yet the data.
+
+Tell me if you need help on these files.
+
+Cheers
+
+Richard
+\end{verbatim}
+
+\subsection{Data Summary}
+\begin{itemize}
+\item Lebanon 
+  \begin{itemize}
+  \item Two elevations (200 m difference)
+  \item Grazing is only at the low elevation
+  \item High elevation has 5 subsites
+  \item Low elevation has 4 ungrazed and 3 grazed subsites (7 total)
+  \item Subsites were spread across N and S aspects (4 on each aspect)
+  \item Each subsite has a haphazard sampling of 20 cushion-open pairs
+    (10 loose and 10 dense) sampled within 1m of each other
+  \end{itemize}
+\item Pyrenees
+  \begin{itemize}
+  \item 30 loose
+  \item 30 dense
+  \item 20 intermediate
+  \item no open
+  \item Assume sampled haphazardly, but could be triplets
+  \end{itemize}
+\end{itemize}
+
+\section{Questions}
+
+\begin{enumerate}
+  \begin{enumerate}
+  \item Composition
+  \item Network structure
+    \begin{enumerate}
+    \item Bipartite
+    \item Unipartite
+    \end{enumerate}
+  \end{enumerate}
+\end{enumerate}
+
+\section{Data}
+
+<<>>=
+leb <- read.csv('~/data/pyrenee_lebanon_cushions/plc_2100met1900m_both.csv')
+leb <- list(env=leb[,1:5],com=leb[,-1:-5])
+pyr <- read.csv('~/data/pyrenee_lebanon_cushions/plc_pyrenee_data.csv')
+pyr <- list(env=pyr[,1:15],com=pyr[,-1:-15])
+
+@ 
+
+\section{Analyses}
+
+\subsection{Pyr\'{e}n\'{e}es}
+%%%Community distance by trait distance
+%%%Environment -> traits(phenotype) -> community
+%%%Mantel: community = traits + env
+<<>>=
+library(vegan)
+library(ecodist)
+source('~/cor_nets/CorNets.R')
+                                        #environmental distance
+###How do you handle aspect as a continuous variable?
+                                        #e.d <- dist(pyr$env[,c(2:3)])
+                                        #trait distance
+t.d <- dist(pyr$env[,c(7,9:11)])
+                                        #community distance
+com.adj <- apply(pyr$com,2,function(x) x/max(x))
+com.adj <- cbind(com.adj,bca=rep(min(com.adj[com.adj!=0]),nrow(pyr$com)))
+c.d <- vegdist(com.adj)
+mantel(c.d~t.d)
+plot(c.d~t.d)
+                                        #permanova
+phenotype <- factor(substr(pyr$env$code,1,1))
+adonis(c.d~phenotype)
+
+@ 
+
+<<fig=true,width=10,height=5,echo=false>>=
+                                        #trait pca
+if (any(ls()=='t.nms')){}else{
+t.nms <- nmds(t.d,2,2)
+t.min <- nmds.min(t.nms)
+}
+                                        #community nmds
+if (any(ls()=='c.nms')){}else{
+c.nms <- nmds(c.d,3,3)
+c.min <- nmds.min(c.nms)
+}
+                                        #plots
+par(mfrow=c(1,2))
+plot(t.min[,1:2],col=as.numeric(factor(substr(pyr$env$code,1,1))),pch=19)
+ordiellipse(t.min[phenotype=='D',1:2],phenotype[phenotype=='D'],col=1)
+ordiellipse(t.min[phenotype=='I',1:2],phenotype[phenotype=='I'],col=2)
+ordiellipse(t.min[phenotype=='R',1:2],phenotype[phenotype=='R'],col=3)
+title(main='TRAITS')
+legend('bottomright',legend=levels(phenotype),pch=19,col=as.numeric(factor(levels(phenotype))))
+plot(c.min[,1:2],col=as.numeric(factor(substr(pyr$env$code,1,1))),pch=19)
+ordiellipse(c.min[phenotype=='D',1:2],phenotype[phenotype=='D'],col=1)
+ordiellipse(c.min[phenotype=='I',1:2],phenotype[phenotype=='I'],col=2)
+ordiellipse(c.min[phenotype=='R',1:2],phenotype[phenotype=='R'],col=3)
+title(main='COMMUNITY')
+
+@ 
+
+<<>>=
+###Networks
+                                        #community split
+## pyr.cs <- list()
+## for (i in 1:nlevels(phenotype)){
+##                                         #remove rare species (<10)
+## pyr.cs[[i]] <- pyr$com[phenotype==levels(phenotype)[i],apply(pyr$com,2,sum)>=10]
+## pyr.cs[[i]] <- pyr.cs[[i]][sample(1:20),]
+## }
+## names(pyr.cs) <- levels(phenotype)
+## pyr.net <- lapply(pyr.cs,gamNet)
+pyr.net <- dget('pyr_nets')
+                                        #network plots
+par(mfrow=c(1,3),mar=c(0.01,0.1,1,0.1))
+for (i in 1:length(pyr.net)){
+mgp(pyr.net[[i]])
+title(main=names(pyr.net)[i])
+}
+                                        #test of structure
+g <- array(NA,dim=c(nrow(pyr.net[[1]]),nrow(pyr.net[[1]]),3))
+g[,,1] <- pyr.net[[1]]
+g[,,2] <- pyr.net[[2]]
+g[,,3] <- pyr.net[[3]]
+                                        #qap functions
+                                        #size difference
+qap.s <- function(x,g1,g2){
+  nrow(x[apply(x[,,g1],1,sum)>0,,g1]) - nrow(x[apply(x[,,g2],1,sum)>0,,g2])
+}
+                                        #degree difference
+qap.d <- function(x,g1,g2){
+  (length(x[,,g1][x[,,g1]!=0])/2)-(length(x[,,g1][x[,,g1]!=0])/2)
+}
+                                        #centralization differences
+qap.c <- function(x,g1,g2){
+  (centralization(x[,,g1],degree))-(centralization(x[,,g2],degree))
+}
+                                        #qap size
+qap.s12 <- qaptest(g,qap.s,g1=1,g2=2,reps=1000)
+dput(qap.s12,file='qap_data/qap_s12')
+qap.s23 <- qaptest(g,qap.s,g1=2,g2=3,reps=1000)
+dput(qap.s23,file='qap_data/qap_s23')
+qap.s13 <- qaptest(g,qap.s,g1=1,g2=3,reps=1000)
+dput(qap.s13,file='qap_data/qap_s13')
+                                        #qap degree
+qap.d12 <- qaptest(g,qap.c,g1=1,g2=2,reps=5000)
+dput(qap.d12,file='qap_data/qap_d12')
+qap.d23 <- qaptest(g,qap.c,g1=2,g2=3,reps=5000)
+dput(qap.d23,file='qap_data/qap_d23')
+qap.d13 <- qaptest(g,qap.c,g1=1,g2=3,reps=5000)
+dput(qap.d13,file='qap_data/qap_d13')
+## qap.12 <- qaptest(g,qap.c,g1=1,g2=2,reps=5000)
+## dput(qap.12,file='qap_data/qap_c12')
+## qap.23 <- qaptest(g,qap.c,g1=2,g2=3,reps=5000)
+## dput(qap.23,file='qap_data/qap_c23')
+## qap.13 <- qaptest(g,qap.c,g1=1,g2=3,reps=5000)
+## dput(qap.13,file='qap_data/qap_c13')
+                                        #
+qap.12 <- dget(file='qap_data/qap_c12');qap.23 <- dget(file='qap_data/qap_c23');qap.13 <- dget(file='qap_data/qap_c13')
+                                        #
+quartz()
+par(mfrow=c(1,3))
+hist(qap.12$dist,xlab='Difference (Null Distribution)',main='Centralization: D vs I')
+abline(v=qap.12$testval,lty=2)
+hist(qap.23$dist,xlab='Difference (Null Distribution)',main='Centralization: I vs R')
+abline(v=qap.23$testval,lty=2)
+hist(qap.13$dist,xlab='Difference (Null Distribution)',main='Centralization: D vs R')
+abline(v=qap.13$testval,lty=2)
+                                        #
+qap.12 <- dget(file='qap_data/qap_d12');qap.23 <- dget(file='qap_data/qap_d23');qap.13 <- dget(file='qap_data/qap_d13')
+                                        #
+quartz()
+par(mfrow=c(1,3))
+hist(qap.12$dist,xlab='Difference (Null Distribution)',main='Degree: D vs I')
+abline(v=qap.12$testval,lty=2)
+hist(qap.23$dist,xlab='Difference (Null Distribution)',main='Degree: I vs R')
+abline(v=qap.23$testval,lty=2)
+hist(qap.13$dist,xlab='Difference (Null Distribution)',main='Degree: D vs R')
+abline(v=qap.13$testval,lty=2)
+                                        #
+qap.12 <- dget(file='qap_data/qap_s12');qap.23 <- dget(file='qap_data/qap_s23');qap.13 <- dget(file='qap_data/qap_s13')
+                                        #
+quartz()
+par(mfrow=c(1,3))
+hist(qap.12$dist,xlab='Difference (Null Distribution)',main='Size: D vs I',xlim=c(-10,qap.12$testval))
+abline(v=qap.12$testval,lty=2)
+hist(qap.23$dist,xlab='Difference (Null Distribution)',main='Size: I vs R')
+abline(v=qap.23$testval,lty=2)
+hist(qap.13$dist,xlab='Difference (Null Distribution)',main='Size: D vs R',xlim=c(-10,qap.13$testval))
+abline(v=qap.13$testval,lty=2)
+
+                                        #correlation of degree and centralization
+s <- unlist(lapply(pyr.net,function(x) nrow(x[apply(x,1,sum)>0,])))
+d <- unlist(lapply(pyr.net,function(x) length(x[x!=0])/2))
+c <- unlist(lapply(pyr.net,function(x) centralization(x,'degree')))
+sdc <- cbind(Size=s,Degree=d,Centralization=c)
+                                        #
+if (any(ls()=='panel.cor')==FALSE){example(pairs,echo=FALSE)}
+par(mfrow=c(1,3))
+pairs(sdc,lower.panel=panel.cor,pch=19)
+
+@ 
+
+\end{document}  

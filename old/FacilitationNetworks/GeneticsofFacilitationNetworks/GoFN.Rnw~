@@ -1,0 +1,269 @@
+%%Things to do
+%%Papers to read:
+%%Caviarres papers
+%%Geum paper Ecology Letters
+%%Xia Xiao's paper from geum
+%%Schob (Spain) cost and benefit of facilitation
+%%Brad's SEM paper and the Nature paper
+
+
+%%0) Write-up and get larger dataset from Brad
+%%1) What does this mean ecologically? Also, how does this analysis
+%%parallel more common analyses of diversity?
+%%2) Prep a presentation for Richard
+%%3) Prep presentation for the group
+
+
+\documentclass[12pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{/Library/Frameworks/R.framework/Resources/share/texmf/Sweave}
+
+
+\title{Intraspecific variation influences community network structure: Tracing the roots of interactions to genetics.}
+\author{M.K. Lau, R. Michalet and the Alpine Pals Group}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+
+%\setcounter{tocdepth}{3}
+%\tableofcontent
+
+%Chateaubriand Fellowship INFO
+%User ID: 1669994985
+
+\section{Summary}
+
+%\subsection{Understanding the structure of interaction networks is important}
+%\begin{itemize}
+%\item Indirect effects (examples, Mistletoe-Juniper-Solitaire, Jamie's paper)
+%\item Weak interactions and linking communities
+%\item Links between structure and stability of communities
+%\item Advances in network modeling techniques (Reverse Engineering)
+%\item Theoretical Frameworks (Small Worlds, Weak Interactions,, Modularity)
+%\item A rich amount of data on behavioral ecologies exists for many taxa that can be synthesized into qualitative models of species interactions
+%\item Cohen's paper on beyond tri-trophic interactions
+%\item Food-web research (Bascompte, Dunne, Martinez, Schmidt, May, Pimm, Paine, Darwin)
+%\item Joe's paper on tri-trophic interactions
+%\item Phylogenetics and species interactions (Rezende et al. 2007 Nature)
+%\end{itemize}
+
+
+\subsection{Study Proposal}
+
+\begin{itemize}
+\item Using existing data of abundances of facilitated species inside and outside of the nurse genotypes, generate an estimate of the dependency of each species to each genotype
+\item Compare the network facilitation network structure given different abundances of open and closed genotypes:
+\item Primary Questions:
+  \begin{enumerate}
+  \item Is there an overall preponderance of nestedness or modularity?
+  \item Are their bio-geographic patterns of network structure?
+  \item Are their phylogenetic patterns of network structure (for both
+    the nurse plants and the beneficiary species)?
+  \end{enumerate}
+\end{itemize}
+
+
+\section{Individual level facitilation network models}
+
+%%Run the models the first time you run the document through Sweave
+<<echo=false,results=hide>>=
+if (any(ls() == 'run.rii')){
+run.rii <- FALSE
+}else{
+run.rii <- TRUE
+}
+
+@ 
+ 
+%\subsection{Dependencies}
+
+%%%Add these functions to the CorNets package
+
+<<echo=false,results=hide>>=
+library(bipartite)
+library(xtable)
+library(gplots)
+
+@
+
+%%Source your functions
+<<echo=false,results=hide>>=
+source('/Users/Aeolus/Documents/Active_Projects/New_Functions/New_Functions.R')
+
+@ 
+
+\section{Import Data}
+
+%%%Data were provided by the Apling Pals Group with permission from
+%%%Ray Callaway and others. Robbin Brooker provided the access to the
+%%%data. Brad Butterfield provided .csv files that he had
+%%%updated. Brad Cook helped to facilitate data acquisition.
+
+<<results=hide>>=
+mywd <- getwd()
+setwd('data')
+cush.data <- list()
+for (i in 1:length(dir())){
+cush.data[[i]] <- read.csv(dir()[i])
+}
+names(cush.data) <- paste(lapply(cush.data,function(x) colnames(x)[2]),dir(),sep='_')
+setwd(mywd)
+##Check the data quality and fix problems
+##Find datasets with cushion.open labels that are different from the majority of labels
+##NOTE: datasets Site9, Site46 and Site72 all had spelling errors in the cushion.open columns.
+##These were fixed in the datasheets.
+as.character(unique(unlist(lapply(cush.data,function(x) x[,4]))))
+##Change NA to 0
+for (i in 1:length(cush.data)){
+cush.data[[i]][is.na(cush.data[[i]])] <- 0
+}
+##Remove species with less than 10 abundance
+cush.data <- lapply(cush.data,function(x) data.frame(x[,1:4],rm.spp(x[,5:ncol(x)],n=10)))
+
+@ 
+
+\section{Build Models}
+
+<<>>=
+
+if (run.rii == TRUE){
+cush.rii <- list()
+cush.rii <- lapply(cush.data,function(x) rii(x[,5:ncol(x)],rep=x[,3],site=x[,4],decreasing=FALSE))
+
+##Check for NA values
+any(is.na(unlist(cush.rii)))
+##Check for any EMPTY matrixes
+any(as.logical(lapply(cush.rii,function(x) all(x == 0))))
+names(cush.data)[as.logical(lapply(cush.rii,function(x) all(x == 0)))]
+}else{}
+
+@ 
+
+
+\section{Ratios of Positive and Negative RII}
+
+<<echo=false,results=hide,label=fig1,include=false>>=
+pos.rii <- lapply(cush.rii,function(x) length(x[x > 0]))
+neg.rii <- lapply(cush.rii,function(x) length(x[x < 0]))
+par(mfrow=c(2,2))
+hist(unlist(pos.rii),xlab='Number of Positive RII',main='',col='grey')
+legend('topright',legend='A',bty='n')
+hist(unlist(neg.rii),xlab='Number of Negative RII',main='',col='grey')
+legend('topright',legend='B',bty='n')
+m <- c(mean(unlist(pos.rii)),mean(unlist(neg.rii)))
+se <- c(sd(unlist(pos.rii))/sqrt(length(unlist(pos.rii))),sd(unlist(neg.rii))/sqrt(length(unlist(neg.rii))))
+barplot2(m,plot.ci=TRUE,ci.u=m+se,ci.l=m-se,col='grey',names=c('+','-'),ylab='Average Number of RII',xlab='Sign of RII',ylim=c(0,30))
+legend('topright',legend='C',bty='n')
+plot(unlist(pos.rii)~unlist(neg.rii),pch=19,xlab='Number of Negative RII',ylab='Number of Positive RII')
+abline(lm(unlist(pos.rii)~unlist(neg.rii)))
+legend('topleft',legend='D',bty='n')
+table1 <- summary(lm(unlist(pos.rii)~unlist(neg.rii)))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(table1)
+@ 
+
+\section{Network Structure Metrics}
+
+<<echo=false,results=hide,label=fig2,include=false>>=
+x <- abs(cush.rii[[9]])
+x <- x[order(apply(x,1,bin.sum),decreasing=TRUE),order(apply(x,2,bin.sum),decreasing=TRUE)]
+plotweb(x,method='normal')
+
+@ 
+
+\subsection{Nestedness}
+
+<<>>=
+cush.zeros <- as.logical(lapply(cush.rii,function(x) all(x == 0)))
+length(cush.rii[cush.zeros != TRUE]) / length(cush.rii)
+if (run.rii == TRUE){
+cush.nest <- lapply(cush.rii,function(x) nested(web=abs(x),method='NODF'))
+}else{}
+cush.nest <- as.numeric(cush.nest)
+length(cush.nest)
+total.rii <- as.numeric(I(as.numeric(pos.rii) + as.numeric(neg.rii)))
+
+@ 
+
+<<echo=false,results=hide,label=fig3,include=false>>=
+par(mfrow=c(2,2))
+hist(cush.nest)
+plot(cush.nest~total.rii)
+abline(lm(cush.nest~total.rii))
+plot(cush.nest~as.numeric(pos.rii))
+abline(lm(cush.nest~as.numeric(pos.rii)))
+plot(cush.nest~as.numeric(neg.rii))
+abline(lm(cush.nest~as.numeric(neg.rii)))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(summary(lm(cush.nest~as.numeric(pos.rii))))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(summary(lm(cush.nest~as.numeric(neg.rii))))
+
+@ 
+
+<<echo=false,results=tex>>=
+xtable(summary(lm(cush.nest~total.rii)))
+
+@ 
+
+
+\section{Modularity}
+
+
+
+\begin{figure} 
+\begin{center} 
+<<label=fig1,fig=TRUE,echo=false>>=
+<<fig1>> 
+@ 
+\end{center} 
+\caption{}
+\label{fig:one}
+\end{figure}
+
+\begin{figure} 
+\begin{center} 
+<<label=fig2,fig=TRUE,echo=false>>=
+<<fig2>> 
+@ 
+\end{center} 
+\caption{}
+\label{fig:two}
+\end{figure}
+
+\begin{figure} 
+\begin{center} 
+<<label=fig3,fig=TRUE,echo=false>>=
+<<fig3>> 
+@ 
+\end{center} 
+\caption{}
+\label{fig:three}
+\end{figure}
+
+
+
+
+\end{document}
+
+
+%% ##No need to use database access programs. The easiest means was to work around by exporting all data tables from the database as .csv files.
+%% ##NOTE: instead of accessing the database directly, it worked best to export the data tables to csv files. This was a nightmare of convoluted dead ends. It may be that you need to purchase some software or drivers to get the RODBC or Hmisc functions to work. The Hmisc looked the most promising, but it repeatedly produced errors saying that there were invalid characters.
+%% ##library(RODBC) 
+%% ##library(Hmisc)

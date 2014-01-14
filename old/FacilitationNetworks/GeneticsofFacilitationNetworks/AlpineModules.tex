@@ -1,0 +1,525 @@
+\documentclass[12pt]{article}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+%\usepackage{pdflscape}        %single page landscape
+                                %mode \begin{landscape} \end{landscape}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{/Library/Frameworks/R.framework/Resources/share/texmf/Sweave}
+
+
+\title{Facilitation Alters the Structure of Covariances among Alpine
+  Plant Species}
+\author{M.K. Lau}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+\section{Summary}
+\begin{itemize}
+\item Question: Does phylogenetic history predict the effect of
+  alpine cushion species on the interactions among associated species?
+\item Approach: 
+  \begin{enumerate}
+  \item Using a world-wide alpine plant database, generate
+  covariance based models of interactions among other plant species.
+  \item Identify 
+  \end{enumerate}
+\item Modeling: 
+  \begin{enumerate}
+  \item Partial correlations are generated using a distance based
+    metric of correlation
+  \end{enumerate}
+\end{itemize}
+
+\section{Introduction}
+\begin{itemize}
+\item Interactions contribute to the evolution and distribution of
+  biological diversity.
+\item Ecological systems theory suggests that it is important to
+  consider interactions in greater complexity than just single
+  pairwise studies.
+\item Recent advances in ecological modeling have introduced methods
+  from informatics to resolve and analyze complex ecological networks.
+\item Plant-plant interactions are particularly important as they form
+  the base of trophic networks and structure entire ecosystems through
+  bottom-up forces.
+\item Previous work has shown that plant-plant interactions are likely
+  to be structured by phylogenetic contraints, suggesting underlying
+  ecological forces that have shaped the evolution of interactions
+  among species (Brad's phylo paper).
+\item Here, we investigate how both local ecological and phylogenetics
+  predict the outcome of interactions among species using a world-wide
+  dataset of plant-plant co-occurrences and community network modeling
+  and analytics.
+\item We show that:
+  \begin{enumerate}
+  \item The structure of species covariances is strongly determined by
+    compositional shifts from facilitation
+  \item These structural differences are also predicted by
+    phylogenetic relatedness 
+  \end{enumerate}
+\item These results suggest that evolutionary history is a strong
+  determinant of complex, local interactions between species and that
+  this occurs largely through a compositional filtering of species.
+\end{itemize}
+
+\section{Methods}
+
+\subsection{Methods Stolen from SEM paper}
+METHODS
+Study Sites 
+Data were collected from 78 alpine plant communities in North and
+South America, Europe, Asia and New Zealand. Sites were selected to
+include sufficiently large populations of cushion plants, which were
+located in generally low productivity habitats within alpine belts
+(i.e. above natural tree line). Forty eudicot cushion plant species
+were sampled across the 78 sites (see Supplementary Information).
+
+Sampling 
+At each site we haphazardly selected a number of individual cushions
+(see Supplementary Information for details of sample size at each
+site) and all plants growing within these selected cushions were
+identified to species level and recorded. Since cushions are usually
+of elliptical form, we measured the maximum and minimum axes of each
+cushion to estimate its area. To obtain comparable samples of species
+richness in surrounding open areas, the size and shape of each sampled
+cushion was emulated on haphazardly selected points in open areas away
+from cushions and all plant individuals within these selected points
+in open areas were identified to species level and recorded. Further,
+the percentage cover of cushions and open areas was determined at each
+site with 50 m long linear transects. We sampled a mean (±1 SE) of 81
+(±3) sets of paired plots per cushion species and site. 
+
+Climatic Data
+For each site, estimates of the following monthly meteorological
+conditions were extracted from the archive of the Global Land Data
+Assimilation System (GLDAS): near-surface minimum, maximum, and mean
+air temperature, near-surface relative humidity, precipitation and
+actual evapotranspiration. GLDAS is a global, high-resolution, offline
+terrestrial modeling system that merges satellite and ground-based
+observations to produce optimal estimates of land surface states and
+fluxes1. GLDAS meteorological fields are a merged product of
+lapse-rate corrected Global Data Assimilation System (GDAS)
+atmospheric conditions2, NOAA Climate Prediction Center (CPC)
+operational global Merged Analysis of Precipitation (CMAP)3, and the
+Air Force Weather Agency’s (AFWA) Agricultural Meteorology modeling
+system (AGRMET)4. The GLDAS modeling system includes a suite of land
+surface models implemented at various spatial resolutions. In this
+application, data were drawn from the GLDAS 25km, Noah Land Surface
+Model5-7 simulations for the period 2001-2010.
+Monthly vegetation indices were drawn from the Moderate Imaging
+Spectrometer (MODIS) 0.05° resolution normalized difference vegetation
+index (NDVI) product (MOD13C2)8 for the period 2001-2010. NDVI is
+commonly used as an indicator of vegetation cover and/or health. No
+further processing of MOD13C2 was performed in this study.
+
+Data analyses 
+Interactions
+We estimate the relative interaction intensity (RII) for each species
+in the community as RII = (# in cushion – # in open)/(# in cushion + #
+in open). Mean RII across all species within a community was used as
+an estimate of the average cushion effect at that site. It is
+important to note that RII measured the effect of cushion on species
+abundance.
+
+Cushion effect on total species richness
+Assessing the effects of facilitation on species richness at the
+entire community level relies on comparing the number of species that
+a community has because of the presence of nurses to the richness
+expected in the community without nurses (Cavieres & Badano 2009). To
+estimate species richness for the community with cushions, we
+generated synthetic datasets combining data of cushions and open areas
+in a single species x samples matrix for each study site and a
+rarefaction analysis was run for each site. Since our sampling
+protocol included samples of different areas we used sample-based
+rarefaction techniques to avoid biases due to the sequence in which
+samples were added to the curves. On each rarefaction, 500 resamples
+were randomly drawn with replacement for each sample size (from 1
+sample to the maximum number of samples) and the Mau-Tao estimator of
+species richness (Colwell et al. 2004) at the asymptote was
+calculated. The expected species richness of the community without
+cushions was estimated from the asymptotes of rarefaction curves
+constructed using only open areas samples (Badano et al. 2006). To
+assess the magnitude of the increase in species richness at the
+community level due to the presence of cushions, we calculated the
+proportion of increase in species richness as: (Stotal – Sopen) /
+Stotal, where Stotal is the actual number of species in the community,
+including the species growing both within and outside nurses; while
+Sopen is the number of species in the absence of nurses (i.e. open
+areas). All rarefaction analyses were performed with the software
+EstimateS v. 8 (Colwell 2006).
+
+
+
+\section{Dependencies and R Meta}
+
+%%%%Investigation of the Magwene-Dyer-Nasson Method of Network Independence
+
+
+\section{Description of Datasets}
+
+\subsection{Brad's Phylo Stats}
+
+\begin{itemize}
+\item Number of paired plots
+\item Species richness
+\item Mean z-score of net relatedness index with all plots pooled
+  (cushion and open). The z-score is based on comparison with an
+  independent swap null model (see Picante R library >  ses.mpd
+  function for details, and Gotelli 2000 Ecology).  NRI is -1*MPD,
+  where MPD is mean pairwise (phylogenetic) distance among all species
+  within a plot (see Swenson et al. 2006 Ecology)
+\item Standard error of above (sample size=2n)
+\item Mean z-score of NRI in cushions only. The species pool for the
+  null model includes all species in the community, even if they do
+  not occur in cushions.
+\item Standard error of above
+\item Mean z-score of NRI in open only.
+\item Standard error of above
+\item Mean pairwise distance separating taxa in paired cushion and
+  open plots, a measure of phylobetadiversity. This can be compared to
+  the phylobetadiversity across cushions and across open plots (see
+  below) to estimate the relative phylogenetic turnover between versus
+  within microhabitat types (i.e., there is no null model that this is
+  compared to)
+\item Standard error of above
+\item MPD across cushions
+\item Standard error of above
+\item MPD across open plots. #VALUE indicates insufficient number of
+  species to calculate the index
+\item Standard error of above
+\item Other Data:
+  \subitem Test of phylogenetic signal in microhabitat preference,
+  Blomberg's K; there is rarely enough statistical power for this
+  test, due to the relatively small number of species, but when
+  phylogenetic signal is significant it is one of divergence
+  (i.e. close relatives have different microhabitat preferences); see
+  phylosignal function in picante
+  \subitem Several phylogenetic diversity indices (see Picante)
+\end{itemize}
+
+
+\section{Import Data}
+%%%Data were provided by the Apling Pals Group with permission from
+%%%Ray Callaway and others. Robbin Brooker provided the access to the
+%%%data. Brad Butterfield provided .csv files that he had
+%%%updated. Brad Cook helped to facilitate data acquisition.
+
+
+\begin{Schunk}
+\begin{Sinput}
+>   if (load.data == TRUE){
++     if (any(ls() == 'mywd')){}else{mywd <- getwd()}
++     setwd('data')
++     cush.data <- list()
++     for (i in 1:length(dir())){
++       cush.data[[i]] <- read.csv(dir()[i])
++     }
++     names(cush.data) <- paste(lapply(cush.data,function(x) colnames(x)[2]),dir(),sep='_')
++     cush.site <- substr(dir(),1,7)
++     cush.site <- unlist(lapply(strsplit(cush.site,split='\\.'),function(x) x[1]))
++     setwd(mywd)
++     ##Check the data quality and fix problems
++     ##Find datasets with cushion.open labels that are different from the majority of labels
++     ##NOTE: datasets Site9, Site46 and Site72 all had spelling errors in the cushion.open columns.
++     ##These were fixed in the datasheets.
++     as.character(unique(unlist(lapply(cush.data,function(x) x[,4]))))
++     ##Change NA to 0
++     for (i in 1:length(cush.data)){
++       cush.data[[i]][is.na(cush.data[[i]])] <- 0
++     }
++     ##Remove species with less than qn abundance
++     qn <- 10
++     cush.data <- lapply(cush.data,function(x) data.frame(x[,1:4],rm.spp(x[,5:ncol(x)],n=qn)))
++                                         #isolate the community data
++     cush.com <- lapply(cush.data,function(x) x[,5:ncol(x)])
++                                         #remove NA values
++     cush.com <- lapply(cush.com,na.omit)
++                                         #isolate the rep data
++     cush.rep <- lapply(cush.data,function(x) x[,3])
++                                         #isolate the microsiate data
++     cush.micro <- lapply(cush.data,function(x) x[,4])
++   }else{}
+> 
+\end{Sinput}
+\end{Schunk}
+
+\section{Abundance Differences Produced by Cushions}
+
+\begin{Schunk}
+\begin{Sinput}
+> ##Use a paired test of the differences in abundances
+> cush.a <- list()
+> cush.ap <- list()
+> for (i in 1:length(cush.com)){
++   xc <- apply(cush.com[[i]][cush.micro[[i]] == 'cushion',],1,sum)
++   xo <- apply(cush.com[[i]][cush.micro[[i]] == 'open',],1,sum)
++   yc <- cush.rep[[i]][cush.micro[[i]] == 'cushion']
++   yo <- cush.rep[[i]][cush.micro[[i]] == 'open']  
++   xc <- xc[order(yc)];  yc <- yc[order(yc)]
++   xo <- xo[order(yo)];  yo <- yo[order(yo)]
++   cush.a[[i]] <- xc - xo
++   cush.ap[[i]] <- wilcox.test(xc,xo,paired=TRUE)$p.value
++ }
+> table(round(unlist(cush.ap),3))
+\end{Sinput}
+\begin{Soutput}
+    0 0.001 0.002 0.005 0.011 0.018 0.019 0.029 0.049 0.259 0.321 0.391 0.521 
+   62     1     2     1     1     1     1     1     1     1     1     1     1 
+0.547 0.718 
+    1     1 
+\end{Soutput}
+\begin{Sinput}
+> test <- names(cush.com)[cush.ap > 0.05]
+> 
+\end{Sinput}
+\end{Schunk}
+
+\section{Richness Differences Produced by Cushion}
+
+\begin{Schunk}
+\begin{Sinput}
+> ##Use a paired test of the differences in abundances
+> cush.r <- list()
+> cush.rp <- list()
+> for (i in 1:length(cush.com)){
++   xc <- apply(cush.com[[i]][cush.micro[[i]] == 'cushion',],1,bin.sum)
++   xo <- apply(cush.com[[i]][cush.micro[[i]] == 'open',],1,bin.sum)
++   yc <- cush.rep[[i]][cush.micro[[i]] == 'cushion']
++   yo <- cush.rep[[i]][cush.micro[[i]] == 'open']  
++   xc <- xc[order(yc)];  yc <- yc[order(yc)]
++   xo <- xo[order(yo)];  yo <- yo[order(yo)]
++   cush.r[[i]] <- xc - xo
++   cush.rp[[i]] <- wilcox.test(xc,xo,paired=TRUE)$p.value
++ }
+> table(round(unlist(cush.rp),3))
+\end{Sinput}
+\begin{Soutput}
+    0 0.002 0.004 0.012 0.015 0.019 0.023 0.047 0.059 0.071 0.109 0.194 0.467 
+   62     2     1     1     1     1     2     1     1     1     1     1     1 
+0.521 
+    1 
+\end{Soutput}
+\begin{Sinput}
+> names(cush.com)[cush.rp > 0.05]
+\end{Sinput}
+\begin{Soutput}
+[1] "Azorella_monantha_site23.csv"            
+[2] "Antennaria_umbrinella_site33.csv"        
+[3] "Onobrychis_cornuta_site44.csv"           
+[4] "Azorella_madreporica_site57.csv"         
+[5] "Arenaria_tetraquetra_amabilis_site79.csv"
+[6] "Silene_acaulis_site89.csv"               
+\end{Soutput}
+\begin{Sinput}
+> 
+\end{Sinput}
+\end{Schunk}
+
+
+\section{Compositional Differences Produced by Cushions}
+
+\begin{Schunk}
+\begin{Sinput}
+> ##Use a paired test of the community distance inside versus out.
+> cush.d <- list()
+> cush.dp <- list()
+> for (i in 1:length(cush.com)){
++   xc <- cush.com[[i]][cush.micro[[i]] == 'cushion',]
++   xo <- cush.com[[i]][cush.micro[[i]] == 'open',]
++   yc <- cush.rep[[i]][cush.micro[[i]] == 'cushion']
++   yo <- cush.rep[[i]][cush.micro[[i]] == 'open']  
++   xc <- xc[order(yc),];  yc <- yc[order(yc)]
++   xo <- xo[order(yo),];  yo <- yo[order(yo)]
++   x <- rbind(xc,xo);y <- c(yc,yo)
++   x <- cbind(x,rep(1,nrow(x)))
++                                         #  x <- apply(x,2,function(x) x/sum(x))
++                                         #  x[is.na(x)] <- 0
++   x[x!=0] <- 1 #presence absence data
++   d <- vegdist(x)
++   d <- as.matrix(d)
++   d <- diag(d[cush.micro[[i]] == 'cushion',cush.micro[[i]] == 'open'])
++   cush.d[[i]] <- d
++   cush.dp[[i]] <- wilcox.test(d,alternative='greater')$p.value
++ }
+> table(round(unlist(cush.dp),10))
+\end{Sinput}
+\begin{Soutput}
+         0      1e-10      3e-10      4e-10      6e-10    1.7e-09    3.4e-09 
+        62          2          1          1          1          2          1 
+  2.55e-08   3.51e-08  4.146e-07 1.9196e-06 1.9688e-06 2.5547e-06 2.8322e-06 
+         1          1          1          1          1          1          1 
+\end{Soutput}
+\begin{Sinput}
+> names(cush.com)[cush.dp > 0.05]
+\end{Sinput}
+\begin{Soutput}
+character(0)
+\end{Soutput}
+\begin{Sinput}
+> 
+\end{Sinput}
+\end{Schunk}
+
+\section{Community Variance Differences}
+
+\begin{Schunk}
+\begin{Sinput}
+> ##Calculate the sum of the trace from the covariance matrices of cushion and open
+> cush.t <- list()
+> cush.tp <- list()
+> for (i in 1:length(cush.com)){
++   xc <- cush.com[[i]][cush.micro[[i]] == 'cushion',]
++   xo <- cush.com[[i]][cush.micro[[i]] == 'open',]
++   yc <- cush.rep[[i]][cush.micro[[i]] == 'cushion']
++   yo <- cush.rep[[i]][cush.micro[[i]] == 'open']  
++   xc <- xc[order(yc),];  yc <- yc[order(yc)]
++   xo <- xo[order(yo),];  yo <- yo[order(yo)]
++   x <- rbind(xc,xo)
++   y <- c(yc,yo)
++   x <- apply(x,2,function(x) x/sum(x))
++   t <- diag(var(t(x)))
++   cush.t[[i]] <- sum(t[cush.micro[[i]] == 'cushion']) - sum(t[cush.micro[[i]] == 'open'])
++   cush.tp[[i]] <- wilcox.test(t[cush.micro[[i]] == 'cushion'],t[cush.micro[[i]] == 'open'],alternative='great')$p.value
++ }
+> hist(unlist(cush.t))
+> table(round(unlist(cush.tp),10))
+\end{Sinput}
+\begin{Soutput}
+           0        2e-10        3e-10        1e-09      1.5e-09        2e-09 
+          15            1            1            1            1            1 
+     2.7e-09      3.8e-09        4e-09      8.8e-09     3.81e-08     5.81e-08 
+           1            1            1            1            1            1 
+   1.437e-07    3.724e-07    4.713e-07      8.4e-07    8.437e-07    1.133e-06 
+           1            1            1            1            1            1 
+  1.7296e-06   1.8353e-06   9.5352e-06  1.16649e-05  2.68126e-05  4.09397e-05 
+           1            1            1            1            1            1 
+ 4.70758e-05  6.13615e-05  9.96423e-05 0.0001844673 0.0002117479   0.00032566 
+           1            1            1            1            1            1 
+ 0.000449159 0.0006250263 0.0007580465 0.0007940498  0.001228978 0.0013686772 
+           1            1            1            1            1            1 
+0.0014545128 0.0021653055  0.005056518 0.0068249167 0.0088141137 0.0118386228 
+           1            1            1            1            1            1 
+ 0.012868719  0.014010177 0.0297983068 0.0338151496 0.0387250886 0.0393634481 
+           1            1            1            1            1            1 
+0.0843227609 0.1349573775 0.1771226154 0.1927176729  0.217178794 0.6718995014 
+           1            1            1            1            1            1 
+0.8215871932 0.8251213404 0.9740528214 0.9759176469 0.9853543814 0.9980776489 
+           1            1            1            1            1            1 
+0.9994863277 0.9999731743 0.9999982637 
+           1            1            1 
+\end{Soutput}
+\begin{Sinput}
+> nodif.t <- (1:length(cush.com))[cush.tp > 0.05]
+>                                         #gplot(abs(as.matrix(cush.ind[[nodif.t[1]]][[1]])))
+>                                         #gplot(abs(as.matrix(cush.ind[[nodif.t[1]]][[2]])))
+> 
+\end{Sinput}
+\end{Schunk}
+
+
+\section{Bray-Curtis Dissimilarity Based Partial-Correlations}
+
+\begin{Schunk}
+\begin{Sinput}
+>     cush.ind <- list()
+>     cush.ggm <- list()
+>     along <- 1:length(cush.com)
+>     for (i in along){
++       x <- cush.com[[i]]
++       x.in <- x[cush.micro[[i]] == 'cushion',]
++       x.out <- x[cush.micro[[i]] == 'open',]
++                                         #use Fortuna (Gower) method
++       x.in <- x.in[,apply(x.in,2,sum) != 0]
++       x.out <- x.out[,apply(x.out,2,sum) != 0]
++                                         #relativize by species max
++       x.in <- apply(x.in,2,function(x) x/max(x))
++       x.out <- apply(x.out,2,function(x) x/max(x))
++                                         #plot clusters
++                                         #plot(hclust(vegdist(t(x.in))))
++                                         #in
++       d <- as.matrix(vegdist(t(x.in)))
++       ind.in <- ind.net(d,nrow(x.in),alpha=0.05,fix.na=TRUE,fix.inf=TRUE)
++                                         #out
++       d <- as.matrix(vegdist(t(x.out)))
++       ind.out <- ind.net(d,nrow(x.out),alpha=0.05,fix.na=TRUE,fix.inf=TRUE)
++                                         #Make arrays conform.
++       cush.ind[[i]] <- conform(ind.in,ind.out)
++       names(cush.ind[[i]]) <- c('cushion','open')
++                                         #gene net ggm's
++                                         #cush.ggm[[i]] <- conform(ggm.estimate.pcor(x.in),ggm.estimate.pcor(x.out))
++     }
+> names(cush.ind) <- names(cush.com)
+> ##Look at the correlation between the number of cushions sampled and the degree of the network
+>                                         #number of cushions sampled (cushion and open are equal)
+> cush.n <- as.numeric(lapply(cush.micro,function(x) length(x[x == 'open'])))
+>                                         #separate the indepence networks and calculate the degrees
+> ind.in <- lapply(cush.ind,function(x) x[[1]])
+> ind.out <- lapply(cush.ind,function(x) x[[2]])
+> deg.in <- as.numeric(lapply(ind.in,function(x) length(x[x != 0])))
+> deg.out <- as.numeric(lapply(ind.out,function(x) length(x[x != 0])))
+>                                         #plot the patterns of in and out
+> cor(deg.in,cush.n)
+\end{Sinput}
+\begin{Soutput}
+[1] 0.5226115
+\end{Soutput}
+\begin{Sinput}
+> cor(deg.out,cush.n)
+\end{Sinput}
+\begin{Soutput}
+[1] 0.3415028
+\end{Soutput}
+\begin{Sinput}
+> plot(cush.n,deg.in,ylim=c(0,max(c(deg.in,deg.out))),pch=19,col='black',ylab='Number of Connections',xlab='Number of Cushions Sampled')
+> points(cush.n,deg.out,pch=1,col='black')
+> abline(lm(deg.in~cush.n),lty=2)
+> abline(lm(deg.out~cush.n),lty=1)
+> legend('topleft',legend=c('Cushion','Open'),pch=c(19,1))
+> ##Patterns with phylogenetics
+>                                         #import phylo results from brad
+> phylo <- read.csv('/Users/Aeolus/Documents/Active_Projects/FacilitationNetworks/GeneticsofFacilitationNetworks/phylo_data/phylo_data_for_Matt.csv')
+> phylo <- phylo[order(phylo$Sites),]
+>                                         #Are their patterns in modularity?
+>                                         #Compute modules
+>                                         #using the walktrap.community function
+>                                         #cushion
+> mod.in <- list()
+> mod.in <- lapply(ind.in,function(x) getModules(x)[[2]])
+> nmod.in <- unlist(lapply(mod.in,max))
+> isol.in <- unlist(lapply(mod.in,function(x) length(x[x == 0])))
+>                                         #open
+> mod.out <- list()
+> mod.out <- lapply(ind.out,function(x) getModules(x)[[2]])
+> nmod.out <- unlist(lapply(mod.out,max))
+> isol.out <- unlist(lapply(mod.out,function(x) length(x[x == 0])))
+>                                         #Modularity
+>                                         #cushion
+> m.in <- numeric()
+> for (i in 1:length(mod.in)){
++ x <- round(ind.in[[i]],2)
++ y <- mod.in[[i]]
++ x <- x[y != 0, y != 0]
++ y <- y[y != 0]
++ x <- graph.adjacency(x,weighted=TRUE,mode='undirected')
++ m.in[[i]] <- modularity(x,y)
++ }
+>                                         #open
+> m.out <- numeric()
+> for (i in 1:length(mod.out)){
++ x <- round(ind.out[[i]],2)
++ y <- mod.out[[i]]
++ x <- x[y != 0, y != 0]
++ y <- y[y != 0]
++ x <- graph.adjacency(x,weighted=TRUE,mode='undirected')
++ m.out[[i]] <- modularity(x,y)
++ }

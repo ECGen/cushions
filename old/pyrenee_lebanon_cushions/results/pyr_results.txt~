@@ -1,0 +1,31 @@
+Traits used = "Height" "Leaf.length" "Penetration" "Leaf.thickness"
+
+Community distance used = Adjusted Bray-Curtis (Clarke et al. 2006)
+
+#Mantel community~traits
+mantelr      pval1      pval2      pval3  llim.2.5% ulim.97.5% 
+0.08765069 0.00400000 0.99700000 0.00600000 0.05959671 0.13905202 
+
+#PerMANOVA community~phenotype
+Source    Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+phenotype  2     3.305 1.65265  4.2819 0.10009  0.001 ***
+Residuals 77    29.719 0.38596         0.89991           
+Total     79    33.024                 1.00000           
+
+#Network analyses
+##Centralization
+###D vs I
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.301 
+	p(f(perm) <= f(d)): 0.699 
+###I vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.07 
+	p(f(perm) <= f(d)): 0.93 
+###D vs R
+QAP Test Results
+Estimated p-values:
+	p(f(perm) >= f(d)): 0.021 
+	p(f(perm) <= f(d)): 0.979 

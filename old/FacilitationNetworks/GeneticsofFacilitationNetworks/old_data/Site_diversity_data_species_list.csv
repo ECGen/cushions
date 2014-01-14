@@ -1,0 +1,2534 @@
+Dataset code,Original recorded  name,Higher taxon,Family,Genus,Species,Subspecies etc,Checked?
+85,"Pteridophyte","Pteridophyta","","","","",1
+90,"Achillea","","Asteraceae","Achillea","","",1
+91,"Achillea","","Asteraceae","Achillea","","",1
+90,"Ajuga","","Lamiaceae","Ajuga","","",1
+91,"Ajuga","","Lamiaceae","Ajuga","","",1
+90,"Alchemilla","","Rosaceae","Alchemilla","","",1
+94,"Alchemilla","","Rosaceae","Alchemilla","","",1
+90,"Androsacae","","Primulaceae","Androsace","","",1
+91,"Androsacaea","","Primulaceae","Androsace","","",1
+92,"Androaceae","","Primulaceae","Androsace","","",1
+90,"Antilles","","Fabaceae","Anthyllis","","",1
+91,"Anthyllis ","","Fabaceae","Anthyllis","","",1
+90,"Arabis","","Brassicaceae","Arabis","","",1
+92,"Arabis","","Brassicaceae","Arabis","","",1
+93,"Arabis","","Brassicaceae","Arabis","","",1
+90,"Arctostaphylos","","Ericaceae","Arctostaphylos","","",1
+90,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+91,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+92,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+94,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+92,"Astragulus","","Fabaceae","Astragulus","","",1
+91,"Bellis","","Asteraceae","Bellis","","",1
+94,"Botrychium","Pteridophyta","Botrychiaceae","Botrychium","","",1
+90,"Campanula","","Campanulaceae","Campanula","","",1
+91,"Campanula","","Campanulaceae","Campanula","","",1
+94,"Campanula","","Campanulaceae","Campanula","","",1
+94,"Cerastium","","Brassicaceae","Cerastium","","",1
+91,"Draba","","Brassicaceae","Draba","","",1
+92,"Draba","","Brassicaceae","Draba","","",1
+93,"Draba","","Brassicaceae","Draba","","",1
+94,"Draba","","Brassicaceae","Draba","","",1
+90,"Dryas","","Rosaceae","Dryas","","",1
+90,"Elyna","","Cyperaceae","Elyna","","",1
+91,"Elyna","","Cyperaceae","Elyna","","",1
+92,"Festuca","","Poaceae","Festuca","","",1
+93,"Festuca","","Poaceae","Festuca","","",1
+94,"Festuca","","Poaceae","Festuca","","",1
+94,"Galium","","Rubiaceae","Galium","","",1
+90,"Gentiana","","Gentianaceae","Gentiana","","",1
+92,"Gentiana","","Gentianaceae","Gentiana","","",1
+75,"Carex nardina","","Cyperaceae","Carex","nardina","",1
+90,"Gnapthalium","","Asteraceae","Gnaphalium","","",1
+90,"Helianthemum","","Cistaceae","Helianthemum","","",1
+91,"Helianthemum","","Cistaceae","Helianthemum","","",1
+94,"Helianthemum","","Cistaceae","Helianthemum","","",1
+90,"Juniperus","","Cupressaceae","Juniperus","","",1
+90,"Leontodon","","Asteraceae","Leontodon","","",1
+94,"Leont","","Asteraceae","Leontodon","","",1
+91,"Leontopodium","","Asteraceae","Leontopodium","","",1
+94,"Ligusticum","","Apiaceae","Ligusticum","","",1
+94,"Linnaria","","Scrophulariaceae","Linaria","","",1
+90,"Minuartia","","Caryophyllaceae","Minuartia","","",1
+93,"Minuartia","","Caryophyllaceae","Minuartia","","",1
+92,"Oxytropis","","Fabaceae","Oxytropis","","",1
+94,"Oxytrop","","Fabaceae","Oxytropis","","",1
+91,"Papaver","","Papaveraceae","Papaver","","",1
+91,"Pedicularis","","Orobanchaceae","Pedicularis","","",1
+90,"Phyteuma","","Campanulaceae","Phyteuma","","",1
+92,"Poa","","Poaceae","Poa","","",1
+94,"Poa","","Poaceae","Poa","","",1
+92,"Polygonom","","Polygonaceae","Polygonom","","",1
+93,"Polygonum","","Polygonaceae","Polygonum","","",1
+90,"Primula","","Primulaceae","Primula","","",1
+92,"Primula","","Primulaceae","Primula","","",1
+92,"Pritzelago","","Brassicaceae","Pritzelago","","",1
+94,"Pritzelago","","Brassicaceae","Pritzelago","","",1
+93,"Ranunculus","","Ranunculaceae","Ranunculus","","",1
+94,"Ranunculus","","Ranunculaceae","Ranunculus","","",1
+91,"Salix ","","Salicaceae","Salix","","",1
+92,"Salix","","Salicaceae","Salix","","",1
+93,"Saxifraga","","Saxifragaceae","Saxifraga","","",1
+90,"Seselaria","","Poaceae","Sesleria","","",1
+91,"Sesleria","","Poaceae","Sesleria","","",1
+92,"Seselaria","","Poaceae","Sesleria","","",1
+94,"Seslaria","","Poaceae","Sesleria","","",1
+90,"Silene","","Caryophyllaceae","Silene","","",1
+92,"Silene","","Caryophyllaceae","Silene","","",1
+93,"Silene","","Caryophyllaceae","Silene","","",1
+94,"Silene","","Caryophyllaceae","Silene","","",1
+90,"Soldenella","","Primulaceae","Soldanella","","",1
+90,"Thlaspi","","Brassicaceae","Thlaspi","","",1
+91,"Thlaspi","","Brassicaceae","Thlaspi","","",1
+90,"Veronica","","Scrophulariaceae","Veronica","","",1
+91,"Viola","","Violaceae","Viola","","",1
+94,"Viola","","Violaceae","Viola","","",1
+88,"UNKNOWNgrass","","Poaceae","","","",1
+91,"Asteracaea","","Asteraceae","","","",1
+91,"Brassicacaea","","Brassicaceae","","","",1
+91,"Caryophyllacaea","","Caryophyllaceae","","","",1
+92,"Caryo1","","Caryophyllaceae","","","",1
+93,"Brassicaceae","","Brassicaceae","","","",1
+68,"Lichen ","Lichen","",""," ","",1
+99,"Lichen ","Lichen","",""," ","",1
+3,"Lysipomia acaulis","","Campanulaceae","Lysipomia","acaulis","",1
+32,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+47,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+52,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+53,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+89,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+91,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+95,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+100,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+68,"Silene acaulis","","Caryophyllaceae","Silene","acaulis ","",1
+99,"Silene acaulis","","Caryophyllaceae","Silene","acaulis ","",1
+65,"Tofieldia accidentalis","","Liliaceae","Tofieldia","accidentalis","",1
+16,"Rumex acetosella","","Polygonaceae","Rumex","acetosella","",1
+41,"Rumex acetosella","","Polygonaceae","Rumex","acetosella","",1
+77,"Ranunculus acetosellifolius","","Ranunculaceae","Ranunculus","acetosellifolius","",1
+41,"Colobanthus aciculatus","","Caryophyllaceae","Colobanthus","aciculatus","",1
+34,"Arenaria aculeata","","Caryophyllaceae","Arenaria","aculeata","",1
+31,"Cetraria aculeata","Lichen","","Cetraria","aculeata","",1
+32,"Cetraria aculeata","Lichen","","Cetraria","aculeata","",1
+33,"Cetraria aculeata","Lichen","","Cetraria","aculeata","",1
+23,"Nassauvia aculeata","","Asteraceae","Nassauvia","aculeata","",1
+24,"Nassauvia aculeata","","Asteraceae","Nassauvia","aculeata","",1
+25,"Nassauvia aculeata","","Asteraceae","Nassauvia","aculeata","",1
+26,"Nassauvia aculeata","","Asteraceae","Nassauvia","aculeata","",1
+77,"Linaria aeruginea ssp. nevadensis","","Scrophulariaceae","Linaria","aeruginea","nevadensis",1
+79,"Linaria aeruginea ssp. nevadensis","","Scrophulariaceae","Linaria","aeruginea","nevadensis",1
+81,"Linaria aeruginea ssp. nevadensis","","Scrophulariaceae","Linaria","aeruginea","nevadensis",1
+11,"Calandrinia affinis","","Portulacaceae","Calandrinia","affinis","",1
+57,"Calandrinia affinis","","Portulacaceae","Calandrinia","affinis","",1
+58,"Calandrinia affinis","","Portulacaceae","Calandrinia","affinis","",1
+61,"Calandrinia affinis","","Portulacaceae","Calandrinia","affinis","",1
+11,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+12,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+13,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+14,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+57,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+58,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+61,"Nastanthus agglomeratus","","Calyceraceae","Nastanthus","agglomeratus","",1
+47,"Draba aizoides","","Brassicaceae","Draba","aizoides","",1
+53,"Draba aizoides","","Brassicaceae","Draba","aizoides","",1
+54,"Draba aizoides","","Brassicaceae","Draba","aizoides","",1
+100,"Draba aizoides","","Brassicaceae","Draba","aizoides","",1
+47,"Saxifraga aizoides","","Saxifragaceae","Saxifraga","aizoides","",1
+53,"Saxifraga aizoides","","Saxifragaceae","Saxifraga","aizoides","",1
+54,"Saxifraga aizoides","","Saxifragaceae","Saxifraga","aizoides","",1
+100,"Saxifraga aizoides","","Saxifragaceae","Saxifraga","aizoides","",1
+82,"Tilingia_ajanensis","","Apiaceae","Tilingia","ajanensis","",1
+46,"Festuca cf. alaica","","Poaceae","Festuca","alaica","",1
+47,"Pseudorchis albida","","Orchidaceae","Pseudorchis","albida","",1
+100,"Pseudorchis albida","","Orchidaceae","Pseudorchis","albida","",1
+41,"Wahlenbergia albomarginata","","Campanulaceae","Wahlenbergia","albomarginata","",1
+31,"Gentiana algida","","Gentianaceae","Gentiana","algida","",1
+86,"Hulsia algida","","Asteraceae","Hulsea","algida","",1
+87,"Hulsia algida","","Asteraceae","Hulsea","algida","",1
+13,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+14,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+23,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+24,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+25,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+26,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+57,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+58,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+61,"Poa alopecurus","","Poaceae","Poa","alopecurus","",1
+47,"Helianthemum alpestre","","Cistaceae","Helianthemum","alpestre","",1
+53,"Helianthemum alpestre","","Cistaceae","Helianthemum","alpestre","",1
+100,"Helianthemum alpestre","","Cistaceae","Helianthemum","alpestre","",1
+47,"Trisetum alpestre","","Poaceae","Trisetum","alpestre","",1
+100,"Trisetum alpestre","","Poaceae","Trisetum","alpestre","",1
+47,"Myosotis alpestris","","Boraginaceae","Myosotis","alpestris","",1
+54,"Myosotis alpestris","","Boraginaceae","Myosotis","alpestris","",1
+69,"Myosotis alpestris (Forget me not)","","Boraginaceae","Myosotis","alpestris","",1
+100,"Myosotis alpestris","","Boraginaceae","Myosotis","alpestris","",1
+47,"Ranunculus alpestris","","Ranunculaceae","Ranunculus","alpestris","",1
+53,"Ranunculus alpestris","","Ranunculaceae","Ranunculus","alpestris","",1
+54,"Ranunculus alpestris","","Ranunculaceae","Ranunculus","alpestris","",1
+100,"Ranunculus alpestris","","Ranunculaceae","Ranunculus","alpestris","",1
+47,"Thymus alpestris","","Lamiaceae","Thymus","alpestris","",1
+100,"Thymus alpestris","","Lamiaceae","Thymus","alpestris","",1
+31,"Aster alpigenus","","Asteraceae","Aster","alpigenus","",1
+52,"Agrostis alpina","","Poaceae","Agrostis","alpina","",1
+54,"Alchemilla alpina","","Rosaceae","Alchemilla","alpina","",1
+65,"Antennaria alpina","","Asteraceae","Antennaria","alpina","",1
+67,"Antennaria alpina ","","Asteraceae","Antennaria","alpina","",1
+68,"Antennaria alpina ","","Asteraceae","Antennaria","alpina","",1
+69,"Antennaria alpina var media (White gentian)","","Asteraceae","Antennaria","alpina","media",1
+75,"Antennaria alpina","","Asteraceae","Antennaria","alpina","",1
+76,"Antennaria alpina","","Asteraceae","Antennaria","alpina","",1
+97,"Antenaria alpina","","Asteraceae","Antennaria","alpina","",1
+99,"Antennaria alpina","","Asteraceae","Antennaria","alpina","",1
+53,"Arabis alpina","","Brassicaceae","Arabis","alpina","",1
+54,"Arabis alpina","","Brassicaceae","Arabis","alpina","",1
+89,"Arabis alpina","","Brassicaceae","Arabis","alpina","",1
+91,"Arabis alpina","","Brassicaceae","Arabis","alpina","",1
+82,"Arctous_alpinus","","Ericaceae","Arctostaphylos","alpina","",1
+98,"Arnica alpina","","Asteraceae","Arnica","alpina","",1
+47,"Bartsia alpina","","Scrophulariaceae","Bartsia","alpina","",1
+52,"Bartsia alpina","","Scrophulariaceae","Bartsia","alpina","",1
+89,"Bartsia alpina","","Scrophulariaceae","Bartsia","alpina","",1
+91,"Bartsia alpina","","Scrophulariaceae","Bartsia","alpina","",1
+100,"Bartsia alpina","","Scrophulariaceae","Bartsia","alpina","",1
+88,"Besseya alpina","","Scrophulariaceae","Besseya","alpina","",1
+47,"Campanula alpina","","Campanulaceae","Campanula","alpina","",1
+100,"Campanula alpina","","Campanulaceae","Campanula","alpina","",1
+92,"Cerastium alpina","","Brassicaceae","Cerastium","alpina","",1
+47,"Chamorchis alpina","","Orchidaceae","Chamorchis","alpina","",1
+100,"Chamorchis alpina","","Orchidaceae","Chamorchis","alpina","",1
+53,"Festuca alpina","","Poaceae","Festuca","alpina","",1
+82,"Hierochloe_alpina","","Poaceae","Hierochloe","alpina","",1
+52,"Homogyne alpina","","Asteraceae","Homogyne","alpina","",1
+92,"Hutchinsia alpina","","Brassicaceae","Hutchinsia","alpina","",1
+93,"Hutchinsia alpina","","Brassicaceae","Hutchinsia","alpina","",1
+52,"Leucanthemopsis alpina","","Asteraceae","Leucanthemopsis","alpina","",1
+52,"Linaria alpina","","Scrophulariaceae","Linaria","alpina","",1
+54,"Linaria alpina","","Scrophulariaceae","Linaria","alpina","",1
+56,"Plantago alpina","","Plantaginaceae","Plantago","alpina","",1
+31,"Poa alpina","","Poaceae","Poa","alpina","",1
+47,"Poa alpina","","Poaceae","Poa","alpina","",1
+54,"Poa alpina","","Poaceae","Poa","alpina","",1
+65,"Poa alpina","","Poaceae","Poa","alpina","",1
+75,"Poa alpina","","Poaceae","Poa","alpina","",1
+76,"Poa alpina","","Poaceae","Poa","alpina","",1
+86,"Poa alpina","","Poaceae","Poa","alpina","",1
+88,"Poa alpina","","Poaceae","Poa","alpina","",1
+89,"Poa alpina","","Poaceae","Poa","alpina","",1
+93,"Poa alpina","","Poaceae","Poa","alpina","",1
+95,"Poa alpina","","Poaceae","Poa","alpina","",1
+97,"Poa alpina","","Poaceae","Poa","alpina","",1
+98,"Poa alpina","","Poaceae","Poa","alpina","",1
+100,"Poa alpina","","Poaceae","Poa","alpina","",1
+53,"Pritzelago alpina","","Brassicaceae","Pritzelago","alpina","",1
+54,"Pritzelago alpina","","Brassicaceae","Pritzelago","alpina","",1
+74,"Pritzelago alpina","","Brassicaceae","Pritzelago","alpina","",1
+47,"Salix alpina","","Salicaceae","Salix","alpina","",1
+100,"Salix alpina","","Salicaceae","Salix","alpina","",1
+47,"Saussurea alpina","","Asteraceae","Saussurea","alpina","",1
+100,"Saussurea alpina","","Asteraceae","Saussurea","alpina","",1
+54,"Soldanella alpina","","Primulaceae","Soldanella","alpina","",1
+53,"Veronica alpina","","Scrophulariaceae","Veronica","alpina","",1
+54,"Veronica alpina","","Scrophulariaceae","Veronica","alpina","",1
+86,"Astragalus alpinum","","Fabaceae","Astragalus","alpinum","",1
+87,"Astragalus alpinum","","Fabaceae","Astragalus","alpinum","",1
+89,"Cerastium alpinum","","Brassicaceae","Cerastium","alpinum","",1
+98,"Cerastium alpinum","","Brassicaceae","Cerastium","alpinum","",1
+97,"Hedysarum alpinum","","Fabaceae","Hedysarum","alpinum","",1
+98,"Hedysarum alpinum","","Fabaceae","Hedysarum","alpinum","",1
+53,"Taraxacum alpinum","","Asteraceae","Taraxacum","alpinum","",1
+54,"Taraxacum alpinum","","Asteraceae","Taraxacum","alpinum","",1
+85,"Thallictrum alpinum","","Ranunculaceae","Thalictrum","alpinum","",1
+89,"Thalictrum alpinum","","Ranunculaceae","Thalictrum","alpinum","",1
+49,"Aster alpinus L.","","Asteraceae","Aster","alpinus","",1
+52,"Aster alpinus","","Asteraceae","Aster","alpinus","",1
+83,"Aster alpinus L.","","Asteraceae","Aster","alpinus","",1
+84,"Aster alpinus L.","","Asteraceae","Aster","alpinus","",1
+65,"Astragalus alpinus","","Fabaceae","Astragalus","alpinus","",1
+89,"Astragalus alpinus","","Fabaceae","Astragalus","alpinus","",1
+47,"Erigeron alpinus","","Asteraceae","Erigeron","alpinus","",1
+100,"Erigeron alpinus","","Asteraceae","Erigeron","alpinus","",1
+41,"Melicytus alpinus","","Violaceae","Melicytus","alpinus","",1
+49,"Draba altaica (C. A. Mey.) Bunge","","Brassicaceae","Draba","altaica","",1
+83,"Draba altaica (C. A. Mey.) Bunge","","Brassicaceae","Draba","altaica","",1
+36,"Sisymbrium altissimum","","Brassicaceae","Sisymbrium","altissimum","",1
+2,"Valeriana alypifolia","","Valerianaceae","Valeriana","alypifolia","",1
+3,"Valeriana alypifolia","","Valerianaceae","Valeriana","alypifolia","",1
+4,"Valeriana alypifolia","","Valerianaceae","Valeriana","alypifolia","",1
+2,"Ephedra americana","","Ephedraceae","Ephedra","americana","",1
+3,"Ephedra americana","","Ephedraceae","Ephedra","americana","",1
+4,"Ephedra americana","","Ephedraceae","Ephedra","americana","",1
+86,"Stellaria americana","","Caryophyllaceae","Stellaria","americana","",1
+87,"Stellaria americana","","Caryophyllaceae","Stellaria","americana","",1
+31,"Bupleurum americanum","","Apiaceae","Bupleurum","americanum","",1
+65,"Bupleurum americanum","","Apiaceae","Bupleurum","americanum","",1
+88,"Bupleurum americanum","","Apiaceae","Bupleurum","americanum","",1
+98,"Bupleurum americanum","","Apiaceae","Bupleurum","americanum","",1
+77,"Jasione amethystina","","Campanulaceae","Jasione","amethystina","",1
+78,"Jasione amethystina","","Campanulaceae","Jasione","amethystina","",1
+79,"Jasione amethystina","","Campanulaceae","Jasione","amethystina","",1
+80,"Jasione amethystina","","Campanulaceae","Jasione","amethystina","",1
+81,"Jasione amethystina","","Campanulaceae","Jasione","amethystina","",1
+95,"Senecio amplectum","","Asteraceae","Senecio","amplectum","",1
+79,"Sedum amplexicaule ssp. amplexicaule","","Crassulaceae","Sedum","amplexicaule","amplexicaule",1
+81,"Sedum amplexicaule ssp. amplexicaule","","Crassulaceae","Sedum","amplexicaule","amplexicaule",1
+8,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+9,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+11,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+12,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+13,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+14,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+16,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+57,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+58,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+59,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+60,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+61,"Erigeron andicola","","Asteraceae","Erigeron","andicola","",1
+12,"Montiopsis andicola","","Portulacaceae","Montiopsis","andicola","",1
+2,"Oreomyrrhis andicola","","Apiaceae","Oreomyrrhis","andicola","",1
+3,"Oreomyrrhis andicola","","Apiaceae","Oreomyrrhis","andicola","",1
+4,"Oreomyrrhis andicola","","Apiaceae","Oreomyrrhis","andicola","",1
+101,"Carex","","Cyperaceae","Carex","","",1
+101,"Caryo","","Caryophyllaceae","","","",1
+101,"Draba","","Brassicaceae","Draba","","",1
+77,"Rumex angiocarpus","","Polygonaceae","Rumex","angiocarpus","",1
+79,"Rumex angiocarpus","","Polygonaceae","Rumex","angiocarpus","",1
+81,"Rumex angiocarpus","","Polygonaceae","Rumex","angiocarpus","",1
+65,"Epilobium angustifolium","","Onagraceae","Epilobium","angustifolium","",1
+47,"Galium anisophyllon","","Rubiaceae","Galium","anisophyllon","",1
+53,"Galium anisophyllon","","Rubiaceae","Galium","anisophyllon","",1
+54,"Galium anisophyllon","","Rubiaceae","Galium","anisophyllon","",1
+100,"Galium anisophyllon","","Rubiaceae","Galium","anisophyllon","",1
+23,"Acaena antarctica","","Rosaceae","Acaena","antarctica","",1
+24,"Acaena antarctica","","Rosaceae","Acaena","antarctica","",1
+25,"Acaena antarctica","","Rosaceae","Acaena","antarctica","",1
+26,"Acaena antarctica","","Rosaceae","Acaena","antarctica","",1
+17,"Carex aphylla","","Cyperaceae","Carex","aphylla","",1
+18,"Carex aphylla","","Cyperaceae","Carex","aphylla","",1
+19,"Carex aphylla","","Cyperaceae","Carex","aphylla","",1
+54,"Veronica aphylla","","Scrophulariaceae","Veronica","aphylla","",1
+14,"Chaetanthera apiculata","","Asteraceae","Chaetanthera","apiculata","",1
+57,"Chaetanthera apiculata","","Asteraceae","Chaetanthera","apiculata","",1
+61,"Chaetanthera apiculata","","Asteraceae","Chaetanthera","apiculata","",1
+46,"Poa araratica ","","Poaceae","Poa","araratica","",1
+97,"Salix arctica","","Salicaceae","Salix","arctica","",1
+67,"Lupinus arcticus","","Fabaceae","Lupinus","arcticus ","",1
+69,"Lupinus arcticus","","Fabaceae","Lupinus","arcticus ","",1
+70,"Lupinus arcticus","","Fabaceae","Lupinus","arcticus ","",1
+71,"Lupinus arcticus","","Fabaceae","Lupinus","arcticus ","",1
+72,"Lupinus arcticus","","Fabaceae","Lupinus","arcticus ","",1
+89,"Luzula arcuata","","Juncaceae","Luzula","arcuata","",1
+15,"Sisyrinchium arenarium","","Iridaceae","Sisyrinchium","arenarium","",1
+2,"Azorella aretioides","","Apiaceae","Azorella","aretioides","",1
+3,"Azorella aretioides","","Apiaceae","Azorella","aretioides","",1
+4,"Azorella aretioides","","Apiaceae","Azorella","aretioides","",1
+2,"Draba aretioides","","Brassicaceae","Draba","aretioides","",1
+3,"Draba aretioides","","Brassicaceae","Draba","aretioides","",1
+4,"Draba aretioides","","Brassicaceae","Draba","aretioides","",1
+3,"Valeriana aretioides","","Valerianaceae","Valeriana","aretioides","",1
+31,"Lupinus argenteus var depressum","","Fabaceae","Lupinus","argenteus","depressum",1
+33,"Potentilla arguta","","Rosaceae","Potentilla","arguta","",1
+34,"Potentilla arguta","","Rosaceae","Potentilla","arguta","",1
+36,"Potentilla arguta","","Rosaceae","Potentilla","arguta","",1
+77,"Asperula aristata ssp. scabra","","Rubiaceae","Asperula","aristata","scabra",1
+88,"Gallardia aristata","","Asteraceae","Gailardia","aristata","",1
+33,"Gaillardia aristata","","Asteraceae","Gaillardia","aristata","",1
+95,"Festuca arizonica","","Poaceae","Festuca","arizonica","",1
+42,"Anasotome laguniosum","","Apiaceae","Anisotome","aromatica","lanuginosum",1
+5,"Nototriche aruicoma","","Malvaceae","Nototriche","aruicoma","",1
+8,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+9,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+11,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+17,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+18,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+19,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+31,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+33,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+54,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+57,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+58,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+59,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+60,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+61,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+65,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+87,"Cerastium arvense","","Brassicaceae","Cerastium","arvense","",1
+88,"Cerastrium arvense","","Brassicaceae","Cerastrium","arvense","",1
+34,"Filago arvensis","","Asteraceae","Filago","arvensis","",1
+98,"Saxifraga ascendens","","Saxifragaceae","Saxifraga","ascendens","",1
+5,"Perezia atacamensis","","Asteraceae","Perezia","atacamensis","",1
+54,"Achillea atrata","","Asteraceae","Achillea","atrata","",1
+47,"Carex atrata","","Cyperaceae","Carex","atrata","",1
+100,"Carex atrata","","Cyperaceae","Carex","atrata","",1
+41,"Leptinella atrata","","Asteraceae","Leptinella","atrata","",1
+47,"Sedum atratum","","Crassulaceae","Sedum","atratum","",1
+53,"Sedum atrata","","Crassulaceae","Sedum","atratum","",1
+54,"Sedum atrata","","Crassulaceae","Sedum","atratum","",1
+100,"Sedum atratum","","Crassulaceae","Sedum","atratum","",1
+11,"Viola atropurpurea","","Violaceae","Viola","atropurpurea","",1
+58,"Viola atropurpurea","","Violaceae","Viola","atropurpurea","",1
+65,"Agoseris aurantiaca","","Asteraceae","Agoseris","aurantiaca","",1
+95,"Agoseris aurantiaca","","Asteraceae","Agoseris","aurantiaca","",1
+88,"Agoseris aurantica","","Asteraceae","Agoseris","aurantica","",1
+88,"Draba aurea","","Brassicaceae","Draba","aurea","",1
+82,"Rhododendron_aureum","","Ericaceae","Rhododendron","aureum","",1
+97,"Erigeron aureus","","Asteraceae","Erigeron","aureus","",1
+17,"Chuquiraga avellanae","","Asteraceae","Chuquiraga","avellanae","",1
+18,"Chuquiraga avellanae","","Asteraceae","Chuquiraga","avellanae","",1
+19,"Chuquiraga avellanae","","Asteraceae","Chuquiraga","avellanae","",1
+13,"Nassauvia axillaris","","Asteraceae","Nassauvia","axillaris","",1
+3,"Viola bangii","","Violaceae","Viola","bangii","",1
+17,"Plantago barbata subsp barbata","","Plantaginaceae","Plantago","barbata","barbata",1
+18,"Plantago barbata subsp barbata","","Plantaginaceae","Plantago","barbata","barbata",1
+19,"Plantago barbata subsp barbata","","Plantaginaceae","Plantago","barbata","barbata",1
+17,"Trisetum barbinode","","Poaceae","Trisetum","barbinode","",1
+18,"Trisetum barbinode","","Poaceae","Trisetum","barbinode","",1
+19,"Trisetum barbinode","","Poaceae","Trisetum","barbinode","",1
+32,"Cerastium beeringianum","","Brassicaceae","Cerastium","beeringianum","",1
+38,"Cerastium","","Brassicaceae","Cerastium","beeringianum","",1
+39,"Cerastium","","Brassicaceae","Cerastium","beeringianum","",1
+53,"Arabis bellidifolia","","Brassicaceae","Arabis","bellidifolia","",1
+54,"Arabis bellidifolia","","Brassicaceae","Arabis","bellidifolia","",1
+89,"Cardamine bellidifolia","","Brassicaceae","Cardamine","bellidifolia","",1
+41,"Brachyglottis bellioides","","Asteraceae","Brachyglottis","bellidioides","",1
+43,"Brachyglottis bellidifolia","","Asteraceae","Brachyglottis","bellidioides","",1
+41,"Helichrysum bellidioides","","Asteraceae","Helichrysum","bellidioides","",1
+82,"Spirea_betulifolia","","Rosaceae","Spirea","betulifolia","",1
+23,"Phaiophleps biflora","","Iridaceae","Phaiophleps","biflora","",1
+25,"Phaiophleps biflora","","Iridaceae","Phaiophleps","biflora","",1
+85,"Viola biflora","","Violaceae","Viola","biflora","",1
+89,"Viola biflora","","Violaceae","Viola","biflora","",1
+89,"Carex bigelowii","","Cyperaceae","Carex","bigelowii","",1
+95,"Carex bigelowii","","Cyperaceae","Carex","bigelowii","",1
+89,"Juncus biglumis","","Juncaceae","Juncus","biglumis","",1
+23,"Vicia bijuga","","Fabaceae","Vicia","bijuga","",1
+24,"Vicia bijuga","","Fabaceae","Vicia","bijuga","",1
+25,"Vicia bijuga","","Fabaceae","Vicia","bijuga","",1
+26,"Vicia bijuga","","Fabaceae","Vicia","bijuga","",1
+41,"Cardamine bilobata","","Brassicaceae","Cardamine","bilobata","",1
+47,"Persicaria bistorta","","Polygonaceae","Persicaria","bistorta","",1
+100,"Persicaria bistorta","","Polygonaceae","Persicaria","bistorta","",1
+31,"Polygonum bistortioides","","Polygonaceae","Polygonum","bistortioides","",1
+32,"Polygonum bistortioides","","Polygonaceae","Polygonum","bistortioides","",1
+88,"Polygonum bistortoides","","Polygonaceae","Polygonum","bistortoides","",1
+77,"Herniaria boissieri ssp. boissieri","","Caryophyllaceae","Herniaria","boissieri","boissieri",1
+80,"Herniaria boissieri ssp. boissieri","","Caryophyllaceae","Herniaria","boissieri","boissieri",1
+77,"Senecio boissieri","","Asteraceae","Senecio","boissieri","",1
+79,"Senecio boissieri","","Asteraceae","Senecio","boissieri","",1
+81,"Senecio boissieri","","Asteraceae","Senecio","boissieri","",1
+43,"Celmisia bondplanii","","Asteraceae","Celmisia","bondplanii","",1
+33,"Galium boreale","","Rubiaceae","Galium","boreale","",1
+88,"Galium boreale","","Rubiaceae","Galium","boreale","",1
+98,"Galium boreale","","Rubiaceae","Galium","boreale","",1
+98,"Polemonium boreale","","Polemoniaceae","Polemonium","boreale","",1
+97,"Agrostis borealis","","Poaceae","Agrostis","borealis","",1
+82,"Linnea_borealis","","Caprifoliaceae","Linnea","borealis","",1
+97,"Stellaria borealis","","Caryophyllaceae","Stellaria","borealis","",1
+77,"Leontodon boryi","","Asteraceae","Leontodon","boryi","",1
+78,"Leontodon boryi","","Asteraceae","Leontodon","boryi","",1
+79,"Leontodon boryi","","Asteraceae","Leontodon","boryi","",1
+80,"Leontodon boryi","","Asteraceae","Leontodon","boryi","",1
+81,"Leontodon boryi","","Asteraceae","Leontodon","boryi","",1
+79,"Silene boryi","","Caryophyllaceae","Silene","boryi","",1
+81,"Silene boryi","","Caryophyllaceae","Silene","boryi","",1
+98,"Astrag bourgovii","","Fabaceae","Astragalus","bourgovii","",1
+79,"Dianthus brachyanthus","","Caryophyllaceae","Dianthus","brachyanthus","",1
+81,"Dianthus brachyanthus","","Caryophyllaceae","Dianthus","brachyanthus","",1
+97,"Festuca brachyphylla","","Poaceae","Festuca","brachyphylla","",1
+52,"Gentiana brachyphylla","","Gentianaceae","Gentiana","brachyphylla","",1
+85,"Saxifraga brachypoda","","Saxifragaceae","Saxifraga","brachypoda","",1
+46,"Acantholimon brachystachyum","","Plumbaginaceae","Acantholimon","brachystachyum","",1
+65,"Pedicularis bracteosa","","Orobanchaceae","Pedicularis","bracteosa","",1
+98,"Pedicularis bracteosa","","Orobanchaceae","Pedicularis","bracteosa","",1
+56,"Sedum brevifolium","","Crassulaceae","Sedum","brevifolium","",1
+47,"Ranunculus breyninus","","Ranunculaceae","Ranunculus","breyninus","",1
+100,"Ranunculus breyninus","","Ranunculaceae","Ranunculus","breyninus","",1
+69,"Saxifraga bronchialis (Red saxifrage)","","Saxifragaceae","Saxifraga","bronchialis","",1
+75,"Saxifraga bronchialis","","Saxifragaceae","Saxifraga","bronchialis","",1
+76,"Saxifraga bronchialis","","Saxifragaceae","Saxifraga","bronchialis","",1
+86,"Saxifraga bronchialis","","Saxifragaceae","Saxifraga","bronchialis","",1
+87,"Saxifraga bronchialis","","Saxifragaceae","Saxifraga","bronchialis","",1
+98,"Saxifraga bronchialis","","Saxifragaceae","Saxifraga","bronchialis","",1
+43,"Colobanthus buchananii","","Caryophyllaceae","Colobanthus","buchannii","",1
+42,"Colobanthus buchannii","","Caryophyllaceae","Colobanthus","buchannii","",1
+16,"Juncus bufonius","","Juncaceae","Juncus","bufonius","",1
+84,"Capsella Bursa-pastoris (L.) Medic","","Brassicaceae","Capsella","bursa-pastoris","",1
+13,"Senecio bustillosianus","","Asteraceae","Senecio","bustillosianus","",1
+14,"Senecio bustillosianus","","Asteraceae","Senecio","bustillosianus","",1
+57,"Senecio bustillosianus","","Asteraceae","Senecio","bustillosianus","",1
+61,"Senecio bustillosianus","","Asteraceae","Senecio","bustillosianus","",1
+23,"Berberis buxifolia","","Berberidaceae","Berberis","buxifolia","",1
+25,"Berberis buxifolia","","Berberidaceae","Berberis","buxifolia","",1
+17,"Carex caduca var ortegae","","Cyperaceae","Carex","caduca","ortegae",1
+18,"Carex caduca var ortegae","","Cyperaceae","Carex","caduca","ortegae",1
+19,"Carex caduca var ortegae","","Cyperaceae","Carex","caduca","ortegae",1
+98,"Aquilegia caerula","","Ranunculaceae","Aquilegia","caerulea","",1
+98,"Aquilegia caerulea","","Ranunculaceae","Aquilegia","caerulea","",1
+82,"Phyllodoce_caerulea","","Ericaceae","Phyllodoce","caerulea","",1
+52,"Sesleria caerulea","","Poaceae","Sesleria","caerulea","",1
+53,"Sesleria caerulea","","Poaceae","Sesleria","caerulea","",1
+54,"Sesleria caerulea","","Poaceae","Sesleria","caerulea","",1
+90,"Saxifraga saesia","","Saxifragaceae","Saxifraga","caesia","",1
+91,"Saxifraga caesia","","Saxifragaceae","Saxifraga","caesia","",1
+56,"Armeria caespitosa","","Plumbaginaceae","Armeria","caespitosa","",1
+2,"Baccharis caespitosa","","Asteraceae","Baccharis","caespitosa","",1
+3,"Baccharis caespitosa","","Asteraceae","Baccharis","caespitosa","",1
+4,"Baccharis caespitosa","","Asteraceae","Baccharis","caespitosa","",1
+8,"Calandrinia caespitosa","","Portulacaceae","Calandrinia","caespitosa","",1
+9,"Calandrinia caespitosa ","","Portulacaceae","Calandrinia","caespitosa","",1
+13,"Calandrinia caespitosa","","Portulacaceae","Calandrinia","caespitosa","",1
+57,"Calandrinia caespitosa","","Portulacaceae","Calandrinia","caespitosa","",1
+59,"Calandrinia caespitosa","","Portulacaceae","Calandrinia","caespitosa","",1
+60,"Calandrinia caespitosa","","Portulacaceae","Calandrinia","caespitosa","",1
+61,"Calandrinia caespitosa","","Portulacaceae","Calandrinia","caespitosa","",1
+82,"Deschampsia_caespitosa","","Poaceae","Deschampsia","caespitosa","",1
+97,"Deschampsia caespitosa","","Poaceae","Deschampsia","caespitosa","",1
+43,"Hectorella caespitosa","","Portulaceae","Hectorella","caespitosa","",1
+41,"Ourisia caespitosa","","Plantaginaceae","Ourisia","caespitosa","",1
+73,"Saponaria caespitosa","","Caryophyllaceae","Saponaria","caespitosa","",1
+74,"Saponaria caespitosa","","Caryophyllaceae","Saponaria","caespitosa","",1
+31,"Erigeron caespitosum","","Asteraceae","Erigeron","caespitosum","",1
+36,"Erigeron caespitosum","","Asteraceae","Erigeron","caespitosum","",1
+17,"Nastanthus caespitosum","","Calyceraceae","Nastanthus","caespitosum","",1
+18,"Nastanthus caespitosum","","Calyceraceae","Nastanthus","caespitosum","",1
+19,"Nastanthus caespitosum","","Calyceraceae","Nastanthus","caespitosum","",1
+52,"Viola calcarata","","Violaceae","Viola","calcarata","",1
+54,"Viola calcarata","","Violaceae","Viola","calcarata","",1
+85,"Neottianthe calcicola","","Orchidaceae","Neottianthe","calcicola","",1
+31,"Smelowskia calicina","","Brassicaceae","Smelowskia","calycina","",1
+32,"Smelowskia calicina","","Brassicaceae","Smelowskia","calycina","",1
+86,"Smelowskia calycia","","Brassicaceae","Smelowskia","calycina","",1
+87,"Smelowskia calycia","","Brassicaceae","Smelowskia","calycina","",1
+97,"Smelowskia calycia","","Brassicaceae","Smelowskia","calycina","",1
+88,"Smelowskia calycina","","Brassicaceae","Smelowskia","calycina","",1
+95,"Smelowskia calycina","","Brassicaceae","Smelowskia","calycina","",1
+98,"Smelowskia calycina","","Brassicaceae","Smelowskia","calycina","",1
+47,"Oxytropis campestris","","Fabaceae","Oxytropis","campestris","",1
+86,"Oxytropis campestris","","Fabaceae","Oxytropis","campestris","",1
+87,"Oxytropis campestris","","Fabaceae","Oxytropis","campestris","",1
+88,"Oxytropis campestris","","Fabaceae","Oxytropis","campestris","",1
+98,"Oxytropis campestris","","Fabaceae","Oxytropis","campestris","",1
+100,"Oxytropis campestris","","Fabaceae","Oxytropis","campestris","",1
+95,"Draba cana","","Brassicaceae","Draba","cana","",1
+23,"Leucheria candidissima","","Asteraceae","Leucheria","candidissima","",1
+24,"Leucheria candidissima","","Asteraceae","Leucheria","candidissima","",1
+25,"Leucheria candidissima","","Asteraceae","Leucheria","candidissima","",1
+26,"Leucheria candidissima","","Asteraceae","Leucheria","candidissima","",1
+56,"Sedum candollei","","Crassulaceae","Sedum","candollei","",1
+2,"Senecio canescens","","Asteraceae","Senecio","canescens","",1
+3,"Senecio canescens","","Asteraceae","Senecio","canescens","",1
+4,"Senecio canescens","","Asteraceae","Senecio","canescens","",1
+37,"Castilleja miniata","","Scrophulariaceae","Castilleja","miniata","",1
+37,"Cirsium etonii","","Asteraceae","Cirsium","etonii","",1
+37,"Draba cana","","Brassicaceae","Draba","cana","",1
+37,"Erigeron simplex","","Asteraceae","Erigeron","simplex","",1
+37,"Erigeron tomentosa","","Asteraceae","Erigeron","tomentosa","",1
+37,"Festuca arizonica","","Poaceae","Festuca","arizonica","",1
+37,"Ivesia gordoni","","Rosaceae","Ivesia","gordoni","",1
+37,"Minuartia macrantha","","Caryophyllaceae","Minuartia","macrantha","",1
+37,"Poa alpina","","Poaceae","Poa","alpina","",1
+101,"Draba (yellow)","","Brassicaceae","Draba","","",1
+37,"Potentilla gracilis","","Rosaceae","Potentilla","gracilis","",1
+37,"Sedum debile","","Crassulaceae","Sedum","debile","",1
+37,"Senecio amplectum","","Asteraceae","Senecio","amplectum","",1
+37,"Silene acaulis","","Caryophyllaceae","Silene","acaulis","",1
+37,"Smelowskia calycina","","Brassicaceae","Smelowskia","calycina","",1
+37,"Solidago multiradiata","","Asteraceae","Solidago","multiradiata","",1
+86,"Erigeron canus","","Asteraceae","Erigeron","canus","",1
+87,"Erigeron canus","","Asteraceae","Erigeron","canus","",1
+31,"Senecio canus","","Asteraceae","Senecio","canus","",1
+34,"Senecio canus","","Asteraceae","Senecio","canus","",1
+36,"Senecio canus","","Asteraceae","Senecio","canus","",1
+65,"Senecio canus","","Asteraceae","Senecio","canus","",1
+88,"Senecio  spp.","","Asteraceae","Senecio","canus","",1
+97,"Senecio canus","","Asteraceae","Senecio","canus","",1
+98,"Senecio canus","","Asteraceae","Senecio","canus","",1
+36,"Arenaria capillaris","","Caryophyllaceae","Arenaria","capillaris","",1
+47,"Carex capillaris","","Cyperaceae","Carex","capillaris","",1
+52,"Carex capillaris","","Cyperaceae","Carex","capillaris","",1
+53,"Carex capillaris","","Cyperaceae","Carex","capillaris","",1
+54,"Carex capillaris","","Cyperaceae","Carex","capillaris","",1
+100,"Carex capillaris","","Cyperaceae","Carex","capillaris","",1
+43,"Anisotome capillifolia","","Apiaceae","Anisotome","capillifolia","",1
+46,"Astragalus capito","","Fabaceae","Astragalus","capito","",1
+88,"Bromus carinatus","","Poaceae","Bromus","carinatus","",1
+52,"Antennaria carpatica","","Asteraceae","Antennaria","carpatica","",1
+54,"Antennaria carpatica","","Asteraceae","Antennaria","carpatica","",1
+47,"Oxytropis carpatica","","Fabaceae","Oxytropis","carpatica","",1
+100,"Oxytropis carpatica","","Fabaceae","Oxytropis","carpatica","",1
+11,"Perezia carthamoides","","Asteraceae","Perezia","carthamoides","",1
+13,"Perezia carthamoides","","Asteraceae","Perezia","carthamoides","",1
+14,"Perezia carthamoides","","Asteraceae","Perezia","carthamoides","",1
+57,"Perezia carthamoides","","Asteraceae","Perezia","carthamoides","",1
+58,"Perezia carthamoides","","Asteraceae","Perezia","carthamoides","",1
+61,"Perezia carthamoides","","Asteraceae","Perezia","carthamoides","",1
+67,"Salix cascadensis (Salix 2)","","Salicaceae","Salix","cascadensis","",1
+68,"Salix cascadensis (Salix 2)","","Salicaceae","Salix","cascadensis","",1
+69,"Salix cascadensis (Salix 2)","","Salicaceae","Salix","cascadensis","",1
+99,"Salix cascadensis (Salix 2)","","Salicaceae","Salix","cascadensis","",1
+56,"Agrostis castellana","","Poaceae","Agrostis","castellana","",1
+13,"Bromus catharticus","","Poaceae","Bromus","catharticus","",1
+57,"Bromus catharticus","","Poaceae","Bromus","catharticus","",1
+61,"Bromus catharticus","","Poaceae","Bromus","catharticus","",1
+57,"Jaborosa caulescens","","Solanaceae","Jaborosa","caulescens","",1
+61,"Jaborosa caulescens","","Solanaceae","Jaborosa","caulescens","",1
+65,"Cryptantha celosiodes","","Boraginaceae","Cryptantha","celosiodes","",1
+34,"Chryptantha celosioides","","Boraginaceae","Chryptantha","celosioides","",1
+88,"Cryptantha celosioides","","Boraginaceae","Cryptantha","celosioides","",1
+90,"Pinus cembra","","Pinaceae","Pinus","cembra","",1
+89,"Saxifraga cernua","","Saxifragaceae","Saxifraga","cernua","",1
+47,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+53,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+54,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+86,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+87,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+97,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+100,"Androsace chamaejasme","","Primulaceae","Androsace","chamaejasme","",1
+13,"Quinchamalium chilense","","Santalaceae","Quinchamalium","chilense","",1
+14,"Quinchamalium chilense","","Santalaceae","Quinchamalium","chilense","",1
+57,"Quinchamalium chilense","","Santalaceae","Quinchamalium","chilense","",1
+61,"Quinchamalium chilense","","Santalaceae","Quinchamalium","chilense","",1
+14,"Cuscuta chilensis","","Convolvulaceae","Cuscuta","chilensis","",1
+13,"Ephedra chilensis","","Ephedraceae","Ephedra","chilensis","",1
+17,"Luzula chilensis","","Juncaceae","Luzula","chilensis","",1
+18,"Luzula chilensis","","Juncaceae","Luzula","chilensis","",1
+19,"Luzula chilensis","","Juncaceae","Luzula","chilensis","",1
+8,"Jarava chrysophylla","","Poaceae","Jarava","chrysophylla","",1
+9,"Jarava chrysophylla","","Poaceae","Jarava","chrysophylla","",1
+59,"Jarava chrysophylla","","Poaceae","Jarava","chrysophylla","",1
+60,"Jarava chrysophylla","","Poaceae","Jarava","chrysophylla","",1
+47,"Arenaria ciliata","","Caryophyllaceae","Arenaria","ciliata","",1
+52,"Arenaria ciliata","","Caryophyllaceae","Arenaria","ciliata","",1
+54,"Arenaria ciliata","","Caryophyllaceae","Arenaria","ciliata","",1
+100,"Arenaria ciliata","","Caryophyllaceae","Arenaria","ciliata","",1
+43,"Chianohebe ciliata","","Scrophulariaceae","Chianohebe","ciliata","",1
+56,"Silene ciliata","","Caryophyllaceae","Silene","ciliata","",1
+85,"Swertia ciliata","","Gentianaceae","Swertia","ciliata","",1
+85,"Veronica ciliata","","Scrophulariaceae","Veronica","ciliata","",1
+16,"Hypochaeris clarionoides","","Asteraceae","Hypochaeris","clarionoides","",1
+79,"Festuca clementei","","Poaceae","Festuca","clementei","",1
+80,"Festuca clementei","","Poaceae","Festuca","clementei","",1
+81,"Festuca clementei","","Poaceae","Festuca","clementei","",1
+46,"Ziziphora clinopodioides subsp. rigida","","Lamiaceae","Ziziphora","clinopodioides","rigida",1
+47,"Doronicum clusii","","Asteraceae","Doronicum","clusii","",1
+100,"Doronicum clusii","","Asteraceae","Doronicum","clusii","",1
+47,"Campanula cochleariifolia","","Campanulaceae","Campanula","cochleariifolia","",1
+53,"Campanula cochleariifolia","","Campanulaceae","Campanula","cochleariifolia","",1
+54,"Campanula cochleariifolia","","Campanulaceae","Campanula","cochleariifolia","",1
+100,"Campanula cochleariifolia","","Campanulaceae","Campanula","cochleariifolia","",1
+23,"Azorella coespitosa","","Apiaceae","Azorella","coespitosa","",1
+24,"Azorella coespitosa","","Apiaceae","Azorella","coespitosa","",1
+25,"Azorella coespitosa","","Apiaceae","Azorella","coespitosa","",1
+26,"Azorella coespitosa","","Apiaceae","Azorella","coespitosa","",1
+41,"Poa colensoi","","Poaceae","Poa","colensoi","",1
+42,"Poa colensoi","","Poaceae","Poa","colensoi","",1
+43,"Poa colensis","","Poaceae","Poa","colensoi","",1
+13,"Euphorbia collina","","Euphorbiaceae","Euphorbia","collina","",1
+15,"Euphorbia collina","","Euphorbiaceae","Euphorbia","collina","",1
+97,"Phleum commutatum","","Poaceae","Phleum","commutatum","",1
+34,"Bromus commutatus","","Poaceae","Bromus","commutatus","",1
+36,"Bromus commutatus","","Poaceae","Bromus","commutatus","",1
+8,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+9,"Hordeum comosum ","","Poaceae","Hordeum","comosum","",1
+11,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+12,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+13,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+14,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+17,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+18,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+19,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+57,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+58,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+59,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+60,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+61,"Hordeum comosum","","Poaceae","Hordeum","comosum","",1
+11,"Oxalis compacta","","Oxalidaceae","Oxalis","compacta","",1
+12,"Oxalis compacta","","Oxalidaceae","Oxalis","compacta","",1
+14,"Oxalis compacta","","Oxalidaceae","Oxalis","compacta","",1
+57,"Oxalis compacta","","Oxalidaceae","Oxalis","compacta","",1
+58,"Oxalis compacta","","Oxalidaceae","Oxalis","compacta","",1
+61,"Oxalis compacta","","Oxalidaceae","Oxalis","compacta","",1
+33,"Erigeron compositus","","Asteraceae","Erigeron","compositus","",1
+34,"Erigeron compositus","","Asteraceae","Erigeron","compositus","",1
+36,"Erigeron compositus","","Asteraceae","Erigeron","compositus","",1
+65,"Erigeron compositus","","Asteraceae","Erigeron","compositus","",1
+86,"Erigeron compositus","","Asteraceae","Erigeron","compositus","",1
+87,"Erigeron compositus","","Asteraceae","Erigeron","compositus","",1
+32,"Potentilla concinna","","Rosaceae","Potentilla","concinna","",1
+33,"Arenaria congesta","","Caryophyllaceae","Arenaria","congesta","",1
+95,"Arenaria congesta","","Caryophyllaceae","Arenaria","congesta","",1
+43,"Aciphyllum congestum","","Apiaceae","Aciphyllum","congestum","",1
+85,"Anaphalis contorta","","Asteraceae","Anaphalis","contorta","",1
+8,"Montiopsis copiapina","","Portulacaceae","Montiopsis","copiapina","",1
+9,"Montiopsis copiapina","","Portulacaceae","Montiopsis","copiapina","",1
+59,"Montiopsis copiapina","","Portulacaceae","Montiopsis","copiapina","",1
+60,"Montiopsis copiapina","","Portulacaceae","Montiopsis","copiapina","",1
+11,"Pozoa coriacea","","Apiaceae","Pozoa","coriacea","",1
+12,"Pozoa coriacea","","Apiaceae","Pozoa","coriacea","",1
+14,"Pozoa coriacea","","Apiaceae","Pozoa","coriacea","",1
+57,"Pozoa coriacea","","Apiaceae","Pozoa","coriacea","",1
+58,"Pozoa coriacea","","Apiaceae","Pozoa","coriacea","",1
+61,"Pozoa coriacea","","Apiaceae","Pozoa","coriacea","",1
+78,"Lotus corniculatus ssp. glacialis","","Fabaceae","Lotus","corniculatus","glacialis",1
+79,"Lotus corniculatus ssp. glacialis","","Fabaceae","Lotus","corniculatus","glacialis",1
+81,"Lotus corniculatus ssp. glacialis","","Fabaceae","Lotus","corniculatus","glacialis",1
+41,"Gentiana corymbifera","","Gentianaceae","Gentiana","corymbifera","",1
+15,"Viola cotyledon","","Violaceae","Viola","cotyledon","",1
+17,"Viola cotyledon","","Violaceae","Viola","cotyledon","",1
+18,"Viola cotyledon","","Violaceae","Viola","cotyledon","",1
+19,"Viola cotyledon","","Violaceae","Viola","cotyledon","",1
+89,"Potentilla crantzii","","Rosaceae","Potentilla","crantzii","",1
+2,"Huperzia crassa","Lycopodiophyta","Lycopodiaceae","Huperzia","crassa","",1
+3,"Huperzia crassa","Lycopodiophyta","Lycopodiaceae","Huperzia","crassa","",1
+4,"Huperzia crassa","Lycopodiophyta","Lycopodiaceae","Huperzia","crassa","",1
+31,"Koeleria crassipes","","Poaceae","Koeleria","crassipes","",1
+78,"Viola crassiuscula","","Violaceae","Viola","crassiuscula","",1
+43,"Luzula crinita","","Juncaceae","Luzula","crinita","",1
+56,"Jasione crispa","","Campanulaceae","Jasione","crispa","",1
+34,"Koeleria cristata","","Poaceae","Koeleria","cristata","",1
+43,"Kelleria croizatii","","Poaceae","Koeleria","croizatii","",1
+69,"Cetraria cuculata (Leafy lichen)","Lichen","","Cetraria","cuculata","",1
+67,"Cetraria cuculata","Lichen","","Cetraria","cuculata ","",1
+68,"Cetraria cuculata","Lichen","","Cetraria","cuculata ","",1
+99,"Cetraria cuculata","Lichen","","Cetraria","cuculata ","",1
+23,"Ribes cucullatum","","Saxifragaceae","Ribes","cucullatum","",1
+25,"Ribes cucullatum","","Saxifragaceae","Ribes","cucullatum","",1
+8,"Nassauvia cumingii","","Asteraceae","Nassauvia","cumingii","",1
+9,"Nassauvia cumingii","","Asteraceae","Nassauvia","cumingii","",1
+59,"Nassauvia cumingii","","Asteraceae","Nassauvia","cumingii","",1
+60,"Nassauvia cumingii","","Asteraceae","Nassauvia","cumingii","",1
+82,"Primula_cuneifolia","","Primulaceae","Primula","cuneifolia","",1
+41,"Viola cunninghamii","","Violaceae","Viola","cunninghamii","",1
+56,"Festuca curvifolia","","Poaceae","Festuca","curvifolia","",1
+5,"Calamagrostis curvula","","Poaceae","Calamagrostis","curvula","",1
+52,"Carex curvula","","Cyperaceae","Carex","curvula","",1
+90,"Carex curvula","","Cyperaceae","Carex","curvula","",1
+91,"Carex curvula","","Cyperaceae","Carex","curvula","",1
+92,"Carex curvula","","Cyperaceae","Carex","curvula","",1
+33,"Heuchera cylindrica","","Saxifragaceae","Heuchera","cylindrica","",1
+85,"Epilobium cylindricum","","Onagraceae","Epilobium","cylindricum","",1
+91,"Festuca dark","","Poaceae","Festuca","","",1
+95,"Sedum debile","","Crassulaceae","Sedum","debile","",1
+54,"Alchemilla decumbens","","Rosaceae","Alchemilla","decumbens","",1
+46,"Galium decumbens","","Rubiaceae","Galium","decumbens","",1
+98,"Gnaphalium decurrens","","Asteraceae","Gnaphalium","decurrens","",1
+70,"Aconitum delphinifolium","","Ranunculaceae","Aconitum","delphinifolium ","",1
+71,"Aconitum delphinifolium","","Ranunculaceae","Aconitum","delphinifolium ","",1
+72,"Aconitum delphinifolium","","Ranunculaceae","Aconitum","delphinifolium ","",1
+78,"Ranunculus demissus","","Ranunculaceae","Ranunculus","demissus","",1
+31,"Selaginella densa","","Selaginaceae","Selaginella","densa","",1
+32,"Selaginella densa","","Selaginaceae","Selaginella","densa","",1
+36,"Selaginella densa","","Selaginaceae","Selaginella","densa","",1
+67,"Selaginella densa","","Selaginaceae","Selaginella","densa ","",1
+85,"Cortia depressa","","Apiaceae","Cortia","depressa","",1
+41,"Gaultheria depressa","","Ericaceae","Gaultheria","depressa","",1
+85,"Gentiana depressa","","Gentianaceae","Gentiana","depressa","",1
+46,"Trachydium depressum","","Apiaceae","Trachydium","depressum","",1
+43,"Kelleria dieffenbachii","","Poaceae","Koeleria","dieffenbachii","",1
+88,"Phlox diffusa","","Polemoniaceae","Phlox","diffusa","",1
+97,"Oxyria dignya","","Polygonaceae","Oxyria","dignya","",1
+65,"Oxyria digyna","","Polygonaceae","Oxyria","digyna","",1
+88,"Oxyria digyna","","Polygonaceae","Oxyria","digyna","",1
+89,"Oxyria digyna","","Polygonaceae","Oxyria","digyna","",1
+98,"Oxyria digyna","","Polygonaceae","Oxyria","digyna","",1
+24,"Acaena diminuta","","Rosaceae","Acaena","diminuta","",1
+26,"Acaena diminuta","","Rosaceae","Acaena","diminuta","",1
+36,"Antennaria dimorpha","","Asteraceae","Antennaria","dimorpha","",1
+16,"Haplopappus diplopappus","","Asteraceae","Haplopappus","diplopappus","",1
+95,"Arnica diversifolia","","Asteraceae","Arnica","diversifolia","",1
+31,"Potentilla diversifolia","","Rosaceae","Potentilla","diversifolia","",1
+32,"Potentilla diversifolia","","Rosaceae","Potentilla","diversifolia","",1
+33,"Potentilla diversifolia","","Rosaceae","Potentilla","diversifolia","",1
+65,"Potentilla diversifolia","","Rosaceae","Potentilla","diversifolia","",1
+88,"Potentilla diversifolia","","Rosaceae","Potentilla","diversifolia","",1
+98,"Potentila diversifolia","","Rosaceae","Potentilla","diversifolia","",1
+43,"Gentiana divisa","","Gentianaceae","Gentiana","divisa","",1
+85,"Geranium donianum","","Geraniaceae","Geranium","donianum","",1
+65,"Silene douglasii","","Caryophyllaceae","Silene","douglasii","",1
+65,"Anenome drummondii","","Ranunculaceae","Anenome","drummondii","",1
+88,"Anenome drummondii","","Ranunculaceae","Anenome","drummondii","",1
+16,"Trifolium dubium","","Fabaceae","Trifolium","dubium","",1
+8,"Adesmia echinus","","Fabaceae","Adesmia","echinus","",1
+9,"Adesmia echinus","","Fabaceae","Adesmia","echinus","",1
+59,"Adesmia echinus","","Fabaceae","Adesmia","echinus","",1
+60,"Adesmia echinus","","Fabaceae","Adesmia","echinus","",1
+2,"Erigeron ecuadoriensis","","Asteraceae","Erigeron","ecuadoriensis","",1
+3,"Erigeron ecuadoriensis","","Asteraceae","Erigeron","ecuadoriensis","",1
+4,"Erigeron ecuadoriensis","","Asteraceae","Erigeron","ecuadoriensis","",1
+3,"Geranium ecuadoriensis","","Geraniaceae","Geranium","ecuadoriensis","",1
+13,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+16,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+17,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+18,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+19,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+23,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+25,"Berberis empetrifolia","","Berberidaceae","Berberis","empetrifolia","",1
+23,"Oxalis enneaphylla","","Oxalidaceae","Oxalis","enneaphylla","",1
+24,"Oxalis enneaphylla","","Oxalidaceae","Oxalis","enneaphylla","",1
+25,"Oxalis enneaphylla","","Oxalidaceae","Oxalis","enneaphylla","",1
+26,"Oxalis enneaphylla","","Oxalidaceae","Oxalis","enneaphylla","",1
+37,"Thalictrum fendleri","","Ranunculaceae","Thalictrum","fendleri","",1
+37,"Thlaspi montanum","","Brassicaceae","Thlaspi","montanum","",1
+37,"Trisetum spicatum","","Poaceae","Trisetum","spicatum","",1
+101,"Festuca","","Poaceae","Festuca","","",1
+101,"Koeleria macrantha","","Poaceae","Koeleria","macrantha","",1
+101,"Penstemon heterodoxus","","Scrophulariaceae","Penstemon","heterodoxus","",1
+101,"Plantago","","Plantaginaceae","Plantago","","",1
+101,"Aster","","Asteraceae","Aster","","",1
+101,"Phlox","","Polemoniaceae","Phlox","","",1
+37,"UNKleaf","","S37_UNKNOWN1","S37_UNKNOWN1","S37_UNKNOWN1","",1
+101,"Trifolium andersonii","","Fabaceae","Trifolium","andersonii","",1
+47,"Artemisia eriantha","","Asteraceae","Artemisia","eriantha","",1
+100,"Artemisia eriantha","","Asteraceae","Artemisia","eriantha","",1
+52,"Carex ericetorum","","Cyperaceae","Carex","ericetorum","",1
+83,"Erigeron eriocalyx (Ledb.) Vierth.","","Asteraceae","Erigeron","eriocalyx","",1
+65,"Plantago eriopoda","","Plantaginaceae","Plantago","eriopoda","",1
+85,"Elsholtzia eriostachya","","Lamiaceae","Elsholtzia","eriostachya","",1
+49,"Soroseris erysimoides (Hand-Mazz) Shih","","Asteraceae","Soroseris","erysimoides","",1
+83,"Soroseris erysimoides (Hand-Mazz) Shih","","Asteraceae","Soroseris","erysimoides","",1
+34,"Euphorbia esula","","Euphorbiaceae","Euphorbia","esula","",1
+95,"Cirsium etonii","","Asteraceae","Cirsium","etonii","",1
+11,"Chaetanthera euphrasioides","","Asteraceae","Chaetanthera","euphrasioides","",1
+12,"Chaetanthera euphrasioides","","Asteraceae","Chaetanthera","euphrasioides","",1
+13,"Chaetanthera euphrasioides","","Asteraceae","Chaetanthera","euphrasioides","",1
+14,"Chaetanthera euphrasioides","","Asteraceae","Chaetanthera","euphrasioides","",1
+57,"Chaetanthera euphrasioides","","Asteraceae","Chaetanthera","euphrasioides","",1
+61,"Chaetanthera euphrasioides","","Asteraceae","Chaetanthera","euphrasioides","",1
+54,"Saxifraga exarata","","Saxifragaceae","Saxifraga","exarata","",1
+85,"Gentianella falcata","","Gentianaceae","Gentianella","falcata","",1
+85,"Rhodiola fastigiata","","Crassulaceae","Rhodiola","fastigiata","",1
+85,"Avena fatua","","Poaceae","Avena","fatua","",1
+95,"Thalictrum fendleri","","Ranunculaceae","Thalictrum","fendleri","",1
+47,"Carex firma","","Cyperaceae","Carex","firma","",1
+54,"Carex firma","","Cyperaceae","Carex","firma","",1
+91,"Carex firma","","Cyperaceae","Carex","firma","",1
+92,"Carex firma","","Cyperaceae","Carex","firma","",1
+94,"Carex firma","","Cyperaceae","Carex","firma","",1
+100,"Carex firma","","Cyperaceae","Carex","firma","",1
+82,"Agrostis_flaccida","","Poaceae","Agrostis","flaccida","",1
+47,"Trisetum flavescens","","Poaceae","Trisetum","flavescens","",1
+100,"Trisetum flavescens","","Poaceae","Trisetum","flavescens","",1
+82,"Carex_flavocuspis","","Cyperaceae","Carex","flavocuspis","",1
+65,"Eriogonum flavum","","Polygonaceae","Eriogonum","flavum","",1
+41,"Anisotome flexuosa","","Apiaceae","Anisotome","flexuosa","",1
+56,"Avenella iberica","","Poaceae","Deschampsia","flexuosa","iberica",1
+78,"Avenella flexuosa ssp. iberica","","Poaceae","Deschampsia","flexuosa","iberica",1
+82,"Deschampsia_flexuosa","","Poaceae","Deschampsia","flexuosa","",1
+2,"Cerastium floccosum","","Brassicaceae","Cerastium","floccosum","",1
+3,"Cerastium floccosum","","Brassicaceae","Cerastium","floccosum","",1
+4,"Cerastium floccosum","","Brassicaceae","Cerastium","floccosum","",1
+1,"Agrostis foliata","","Poaceae","Agrostis","foliata","",1
+2,"Agrostis foliata","","Poaceae","Agrostis","foliata","",1
+38,"Senecio franciscanus","","Asteraceae","Senecio","franciscanus","",1
+15,"Senecio francisci","","Asteraceae","Senecio","francisqui","",1
+41,"Leucopogon frazeri","","Ericaceae","Leucopogon","frazeri","",1
+97,"Senecio fremontii","","Asteraceae","Senecio","fremontii","",1
+98,"Artemisia frigida","","Asteraceae","Artemisia","frigida","",1
+89,"Euphrasia frigida","","Oroeanchaceae","Euphrasia","frigida","",1
+46,"Jurinella frijida ","","Asteraceae","Jurinella","frigida","",1
+15,"Olsynium frigidum","","Iridaceae","Olsynium","frigidum","",1
+47,"Astragalus frigidus","","Fabaceae","Astragalus","frigidus","",1
+100,"Astragalus frigidus","","Fabaceae","Astragalus","frigidus","",1
+77,"Erigeron frigidus","","Asteraceae","Erigeron","frigidus","",1
+78,"Erigeron frigidus","","Asteraceae","Erigeron","frigidus","",1
+79,"Erigeron frigidus","","Asteraceae","Erigeron","frigidus","",1
+80,"Erigeron frigidus","","Asteraceae","Erigeron","frigidus","",1
+81,"Erigeron frigidus","","Asteraceae","Erigeron","frigidus","",1
+70,"Woody potentilla","","Rosaceae","Dasiphora","fruticosa","",1
+71,"Woody potentilla","","Rosaceae","Dasiphora","fruticosa","",1
+72,"Woody potentilla","","Rosaceae","Dasiphora","fruticosa","",1
+86,"Dasiphora fruticosa","","Rosaceae","Dasiphora","fruticosa","",1
+98,"Potentilla fruiticosa","","Rosaceae","Dasiphora","fruticosa","",1
+65,"Penstemon fruticosa","","Scrophulariaceae","Penstemon","fruticosa","",1
+23,"Azorella fuegiana","","Apiaceae","Azorella","fuegiana","",1
+24,"Azorella fuegiana","","Apiaceae","Azorella","fuegiana","",1
+25,"Azorella fuegiana","","Apiaceae","Azorella","fuegiana","",1
+26,"Azorella fuegiana","","Apiaceae","Azorella","fuegiana","",1
+23,"Poa fuegiana","","Poaceae","Poa","fuegiana","",1
+24,"Poa fuegiana","","Poaceae","Poa","fuegiana","",1
+25,"Poa fuegiana","","Poaceae","Poa","fuegiana","",1
+26,"Poa fuegiana","","Poaceae","Poa","fuegiana","",1
+47,"Carex fuliginosa","","Cyperaceae","Carex","fuliginosa","",1
+100,"Carex fuliginosa","","Cyperaceae","Carex","fuliginosa","",1
+23,"Draba funiculosa","","Brassicaceae","Draba","funiculosa","",1
+24,"Draba funiculosa","","Brassicaceae","Draba","funiculosa","",1
+25,"Draba funiculosa","","Brassicaceae","Draba","funiculosa","",1
+26,"Draba funiculosa","","Brassicaceae","Draba","funiculosa","",1
+77,"Cytisus galianoi","","Fabaceae","Cytisus","galianoi","",1
+78,"Cytisus galianoi","","Fabaceae","Cytisus","galianoi","",1
+54,"Vaccinium gaultherioides","","Ericaceae","Vaccinium","gaultherioides","",1
+17,"Calandrinia gayana","","Portulacaceae","Calandrinia","gayana","",1
+18,"Calandrinia gayana","","Portulacaceae","Calandrinia","gayana","",1
+19,"Calandrinia gayana","","Portulacaceae","Calandrinia","gayana","",1
+13,"Montiopsis gayana","","Portulacaceae","Montiopsis","gayana","",1
+17,"Montiopsis gayana","","Portulacaceae","Montiopsis","gayana","",1
+18,"Montiopsis gayana","","Portulacaceae","Montiopsis","gayana","",1
+19,"Montiopsis gayana","","Portulacaceae","Montiopsis","gayana","",1
+13,"Anarthrophyllum gayanum","","Fabaceae","Anarthrophyllum","gayanum","",1
+16,"Heliotropium geissei","","Boraginaceae","Heliotropium","geissei","",1
+84,"Ephedra gerardiana Wall.","","Ephedraceae","Ephedra","gerardiana","",1
+85,"Ephedra gerardiana","","Ephedraceae","Ephedra","gerardiana","",1
+47,"Minuartia gerardii","","Caryophyllaceae","Minuartia","gerardii","",1
+100,"Minuartia gerardii","","Caryophyllaceae","Minuartia","gerardii","",1
+65,"Carex geyeri","","Cyperaceae","Carex","geyeri","",1
+86,"Carex geyeri","","Cyperaceae","Carex","geyeri","",1
+87,"Carex geyeri","","Cyperaceae","Carex","geyeri","",1
+88,"Carex geyeri","","Cyperaceae","Carex","geyeri","",1
+98,"Carex geyeri","","Cyperaceae","Carex","geyeri","",1
+17,"Drava gilliesii","","Brassicaceae","Draba","gilliesii","",1
+18,"Drava gilliesii","","Brassicaceae","Draba","gilliesii","",1
+19,"Drava gilliesii","","Brassicaceae","Draba","gilliesii","",1
+11,"Galium gilliesii","","Rubiaceae","Galium","gilliesii","",1
+57,"Galium gilliesii","","Rubiaceae","Galium","gilliesii","",1
+61,"Galium gilliesii","","Rubiaceae","Galium","gilliesii","",1
+5,"Werneria glaberrima","","Asteraceae","Werneria","glaberrima","",1
+75,"Luzula glabra","","Juncaceae","Luzula","glabra","",1
+76,"Luzula glabra","","Juncaceae","Luzula","glabra","",1
+53,"Erigeron glabratus","","Asteraceae","Erigeron","glabratus","",1
+54,"Erigeron glabratus","","Asteraceae","Erigeron","glabratus","",1
+77,"Eryngium glaciale","","Apiaceae","Eryngium","glaciale","",1
+78,"Eryngium glaciale","","Apiaceae","Eryngium","glaciale","",1
+79,"Eryngium glaciale","","Apiaceae","Eryngium","glaciale","",1
+80,"Eryngium glaciale","","Apiaceae","Eryngium","glaciale","",1
+79,"Trisetum glaciale","","Poaceae","Trisetum","glaciale","",1
+80,"Trisetum glaciale","","Poaceae","Trisetum","glaciale","",1
+81,"Trisetum glaciale","","Poaceae","Trisetum","glaciale","",1
+77,"Biscutella glacialis","","Brassicaceae","Biscutella","glacialis","",1
+79,"Biscutella glacialis","","Brassicaceae","Biscutella","glacialis","",1
+80,"Biscutella glacialis","","Brassicaceae","Biscutella","glacialis","",1
+81,"Biscutella glacialis","","Brassicaceae","Biscutella","glacialis","",1
+17,"Oreopolus glacialis","","Rubiaceae","Oreopolus","glacialis","",1
+18,"Oreopolus glacialis","","Rubiaceae","Oreopolus","glacialis","",1
+19,"Oreopolus glacialis","","Rubiaceae","Oreopolus","glacialis","",1
+57,"Oreopolus glacialis","","Rubiaceae","Oreopolus","glacialis","",1
+61,"Oreopolus glacialis","","Rubiaceae","Oreopolus","glacialis","",1
+78,"Sideritis glacialis","","Lamiaceae","Sideritis","glacialis","",1
+79,"Sideritis glacialis","","Lamiaceae","Sideritis","glacialis","",1
+81,"Sideritis glacialis","","Lamiaceae","Sideritis","glacialis","",1
+43,"Celmisia glandulosa","","Asteraceae","Celmisia","glandulosa","",1
+43,"Ourisia glandulosa","","Plantaginaceae","Ourisia","glandulosa","",1
+75,"Phyllodoce glandulosa","","Ericaceae","Phyllodoce","glandulosa","",1
+76,"Phyllodoce glandulosa","","Ericaceae","Phyllodoce","glandulosa","",1
+80,"Chaenorhinum glareosum","","Scrophulariaceae","Chaenorhinum","glareosum","",1
+87,"Agroseris glauca","","Asteraceae","Agoseris","glauca","",1
+88,"Agoseris glauca","","Asteraceae","Agoseris","glauca","",1
+95,"Agoseris glauca","","Asteraceae","Agoseris","glauca","",1
+86,"Picea glauca","","Pinaceae","Picea","glauca","",1
+33,"Cymopterus glaucus","","Apiaceae","Cymopterus","glaucus","",1
+46,"Asperula glomerata ","","Rubiaceae","Asperula","glomerata","",1
+79,"Dactylis glomerata ssp. juncinella","","Poaceae","Dactylis","glomerata","juncinella",1
+81,"Dactylis glomerata ssp. juncinella","","Poaceae","Dactylis","glomerata","juncinella",1
+88,"Tofieldia glutinosa","","Liliaceae","Tofieldia","glutinosa","",1
+98,"Tofieldia glutinosa","","Liliaceae","Tofieldia","glutinosa","",1
+85,"Artimisia gmelinii","","Asteraceae","Artemisia","gmelinii","",1
+82,"Bryanthus_gmelinii","","Ericaceae","Bryanthus","gmelinii","",1
+46,"Physoptychis gnaphalodes ","","Brassicaceae","Physoptychis","gnaphalodes","",1
+49,"Saussurea gnaphalodes (Royle) Sch.-Bip.","","Asteraceae","Saussurea","gnaphalodes","",1
+83,"Saussurea gnaphalodes (Royle) Sch.-Bip.","","Asteraceae","Saussurea","gnaphalodes","",1
+84,"Saussurea gnaphalodes (Royle) Sch.-Bip.","","Asteraceae","Saussurea","gnaphalodes","",1
+85,"Silene gonosperma ssp. himalayensis","","Caryophyllaceae","Silene","gonosperma","himalayensis",1
+95,"Ivesia gordoni","","Rosaceae","Ivesia","gordoni","",1
+42,"Leptinella goyenii","","Asteraceae","Leptinella","goyenii","",1
+43,"Leptinella goyenii","","Asteraceae","Leptinella","goyenii","",1
+43,"Marsippospermum gracile","","Juncaceae","Marsippospermum","gracile","",1
+57,"Microsteris gracilis","","Polemoniaceae","Microsteris","gracilis","",1
+61,"Microsteris gracilis","","Polemoniaceae","Microsteris","gracilis","",1
+95,"Potentilla gracilis","","Rosaceae","Potentilla","gracilis","",1
+42,"Raoulia grandiflora","","Asteraceae","Raoulia","grandiflora","",1
+43,"Raoulia grandiflora","","Asteraceae","Raoulia","grandiflora","",1
+47,"Helianthemum grandiflorum","","Cistaceae","Helianthemum","grandiflorum","",1
+100,"Helianthemum grandiflorum","","Cistaceae","Helianthemum","grandiflorum","",1
+57,"Sanicula graveolens","","Apiaceae","Sanicula","graveolens","",1
+61,"Sanicula graveolens","","Apiaceae","Sanicula","graveolens","",1
+3,"Ranunculus guzmanii","","Ranunculaceae","Ranunculus","guzmanii","",1
+41,"Anisotome haastii","","Apiaceae","Anisotome","haastii","",1
+43,"Anistome hasstii","","Apiaceae","Anisotome","haastii","",1
+47,"Oxytropis halleri","","Fabaceae","Oxytropis","halleri","",1
+100,"Oxytropis halleri","","Fabaceae","Oxytropis","halleri","",1
+2,"Nototriche hartwegii","","Malvaceae","Nototriche","hartwegii","",1
+3,"Nototriche hartwegii","","Malvaceae","Nototriche","hartwegii","",1
+4,"Nototriche hartwegii","","Malvaceae","Nototriche","hartwegii","",1
+43,"Hebe hectorii","","Scrophulariaceae","Hebe","hectorii","",1
+42,"Raoulia hectori","","Asteraceae","Raoulia","hectorii","",1
+43,"Raoulia hectorii","","Asteraceae","Raoulia","hectorii","",1
+47,"Hedysarum hedysaroides","","Fabaceae","Hedysarum","hedysaroides","",1
+52,"Hedysarum hedysaroides","","Fabaceae","Hedysarum","hedysaroides","",1
+100,"Hedysarum hedysaroides","","Fabaceae","Hedysarum","hedysaroides","",1
+52,"Leontodon helveticus","","Asteraceae","Leontodon","helveticus","",1
+75,"Potentilla heptaphylla","","Rosaceae","Potentilla","heptaphylla","",1
+76,"Potentilla heptaphylla","","Rosaceae","Potentilla","heptaphylla","",1
+47,"Salix herbacea","","Salicaceae","Salix","herbacea","",1
+52,"Salix herbacea","","Salicaceae","Salix","herbacea","",1
+53,"Salix herbacea","","Salicaceae","Salix","herbacea","",1
+54,"Salix herbacea","","Salicaceae","Salix","herbacea","",1
+89,"Salix herbacea","","Salicaceae","Salix","herbacea","",1
+100,"Salix herbacea","","Salicaceae","Salix","herbacea","",1
+46,"Crepis heterotricha ","","Asteraceae","Crepis","heterotricha","",1
+85,"Aster himailacus","","Asteraceae","Aster","himailacus","",1
+85,"Veronica himailaica","","Scrophulariaceae","Veronica","himalaica","",1
+85,"Cyananthus himalaicus","","Asteraceae","Cyananthus","himalaicus","",1
+91,"Arabis hirsuta","","Brassicaceae","Arabis","hirsuta","",1
+94,"Arabis hischuta","","Brassicaceae","Arabis","hirsuta","",1
+81,"Draba hispanica ssp. laderoi","","Brassicaceae","Draba","hispanica","laderoi",1
+56,"Luzula hispanica","","Juncaceae","Luzula","hispanica","",1
+85,"Dubyaea hispida","","Asteraceae","Dubyaea","hispida","",1
+3,"Lachemilla hispidulata","","Rosaceae","Lachemilla","hispidulata","",1
+34,"Arabis holboellii var pendulocarpa","","Brassicaceae","Arabis","holboellii","pendulocarpa",1
+8,"Poa holciformis","","Poaceae","Poa","holciformis","",1
+9,"Poa holciformis","","Poaceae","Poa","holciformis","",1
+59,"Poa holciformis","","Poaceae","Poa","holciformis","",1
+60,"Poa holciformis","","Poaceae","Poa","holciformis","",1
+79,"Plantago holosteum","","Plantaginaceae","Plantago","holosteum","",1
+86,"Phlox hoodii","","Polemoniaceae","Phlox","hoodii","",1
+54,"Gnaphalium hoppeanum","","Asteraceae","Gnaphalium","hoppeanum","",1
+57,"Gayophytum humile","","Onagraceae","Gayophytum","humile","",1
+61,"Gayophytum humile","","Onagraceae","Gayophytum","humile","",1
+56,"Jurinea humilis","","Asteraceae","Jurinea","humilis","",1
+77,"Jurinea humulis","","Asteraceae","Jurinea","humilis","",1
+33,"Lesquerella humilis","","Brassicaceae","Lesquerella","humilis","",1
+15,"Tarasa humilis","","Malvaceae","Tarasa","humilis","",1
+89,"Cassiope hypnoides","","Ericaceae","Cassiope","hypnoides","",1
+3,"Floscaldasia hypsophila","","Asteraceae","Floscaldasia","hypsophila","",1
+56,"Festuca iberica","","Poaceae","Festuca","iberica","",1
+33,"Festuca idahoensis","","Poaceae","Festuca","idahoensis","",1
+86,"Festuca idahoensis","","Poaceae","Festuca","idahoensis","",1
+87,"Festuca idahoensis","","Poaceae","Festuca","idahoensis","",1
+98,"Festuca idahoensis","","Poaceae","Festuca","idahoensis","",1
+43,"Anisotime imbricata","","Apiaceae","Anisotome","imbricata","",1
+3,"Cerastium imbricatum","","Brassicaceae","Cerastium","imbricatum","",1
+16,"Juncus imbricatus","","Juncaceae","Juncus","imbricatus","",1
+23,"Hypochaeris incana","","Asteraceae","Hypochaeris","incana","",1
+24,"Hypochaeris incana","","Asteraceae","Hypochaeris","incana","",1
+25,"Hypochaeris incana","","Asteraceae","Hypochaeris","incana","",1
+26,"Hypochaeris incana","","Asteraceae","Hypochaeris","incana","",1
+42,"Abrotanella inconspicua","","Asteraceae","Abrotanella","inconspicua","",1
+77,"Festuca indigesta","","Poaceae","Festuca","indigesta","",1
+79,"Festuca indigesta","","Poaceae","Festuca","indigesta","",1
+81,"Festuca indigesta","","Poaceae","Festuca","indigesta","",1
+46,"Arenaria insignis","","Caryophyllaceae","Arenaria","insignis","",1
+52,"Primula integrifolia","","Primulaceae","Primula","integrifolia","",1
+65,"Danthonia intermedia","","Poaceae","Danthonia","intermedia","",1
+88,"Danthonia intermedia","","Poaceae","Danthonia","intermedia","",1
+31,"Cetraria islandica","Lichen","","Cetraria","islandica","",1
+32,"Cetraria islandica","Lichen","","Cetraria","islandica","",1
+52,"lichen (Cetraria islandica)","Lichen","","Cetraria","islandica","",1
+47,"Crepis jacquinii","","Asteraceae","Crepis","jacquinii","",1
+100,"Crepis jacquinii","","Asteraceae","Crepis","jacquinii","",1
+52,"Oxytropis jacquinii","","Fabaceae","Oxytropis","jacquinii","",1
+82,"Oxytropis_japonica","","Fabaceae","Oxytropis","japonica","",1
+85,"Arasaema jaqmontii","","Araceae","Arasaema","jaqmontii","",1
+85,"Lentopodium jocacianum","","Asteraceae","Leontopodium","jocacianum","",1
+8,"Olsynium junceum","","Iridaceae","Olsynium","junceum","",1
+9,"Olsynium junceum","","Iridaceae","Olsynium","junceum","",1
+59,"Olsynium junceum","","Iridaceae","Olsynium","junceum","",1
+60,"Olsynium junceum","","Iridaceae","Olsynium","junceum","",1
+56,"Polytrichum juniperinum","Bryophyta","","Polytrichum","juniperinum","",1
+83,"Rhodiola juparensis (Frod.) S.H.Fu","","Crassulaceae","Rhodiola","juparensis","",1
+2,"Chuqiragua jussieui","","Asteraceae","Chuqiragua","jussieui","",1
+3,"Chuqiragua jussieui","","Asteraceae","Chuquiraga","jussieui","",1
+4,"Chuqiragua jussieui","","Asteraceae","Chuquiraga","jussieui","",1
+49,"Arenaria kansuensis Maxim.","","Caryophyllaceae","Arenaria","kansuensis","",1
+34,"Phlox kelseyi var missoulensis","","Polemoniaceae","Phlox","kelseyi","missoulensis",1
+97,"Astragalus kentrophyta implexus","","Fabaceae","Astragalus","kentrophyta","implexus",1
+98,"Astragalus kentrophyta","","Fabaceae","Astragalus","kentrophyta","implexus",1
+88,"Astragulus kentrophyta","","Fabaceae","Astragulus","kentrophyta","",1
+49,"Rhodiola kirilowii (Regel) Maxim. ","","Crassulaceae","Rhodiola","kirilowii","",1
+2,"Lucilia kunthiana","","Asteraceae","Lucilia","kunthiana","",1
+3,"Lucilia kunthiana","","Asteraceae","Lucilia","kunthiana","",1
+4,"Lucilia kunthiana","","Asteraceae","Lucilia","kunthiana","",1
+46,"Veronica kurdica subsp. kurdica","","Scrophulariaceae","Veronica","kurdica","kurdica",1
+89,"Carex lachenalii","","Cyperaceae","Carex","lachenalii","",1
+11,"Nassauvia lagascae","","Asteraceae","Nassauvia","lagascae","",1
+12,"Nassauvia lagascae","","Asteraceae","Nassauvia","lagascae","",1
+14,"Nassauvia lagascae","","Asteraceae","Nassauvia","lagascae","",1
+57,"Nassauvia lagascae","","Asteraceae","Nassauvia","lagascae","",1
+58,"Nassauvia lagascae","","Asteraceae","Nassauvia","lagascae","",1
+61,"Nassauvia lagascae","","Asteraceae","Nassauvia","lagascae","",1
+85,"Nepeta lamiopsis","","Lamiaceae","Nepeta","lamiopsis","",1
+86,"Antennaria lanata","","Asteraceae","Antennaria","lanata","",1
+87,"Antennaria lanata","","Asteraceae","Antennaria","lanata","",1
+88,"Antenaria lanata","","Asteraceae","Antennaria","lanata","",1
+95,"Antenaria lanata","","Asteraceae","Antennaria","lanata","",1
+98,"Antenaria lanata","","Asteraceae","Antennaria","lanata","",1
+47,"Cerastium lanatum","","Brassicaceae","Cerastium","lanatum","",1
+100,"Cerastium lanatum","","Brassicaceae","Cerastium","lanatum","",1
+65,"Eriophylum lantanum","","Asteraceae","Eriophyllum","lanatum","",1
+88,"Eriophylum lantanum","","Asteraceae","Eriophyllum","lanatum","",1
+1,"Bromus lanatus","","Poaceae","Bromus","lanatus","",1
+3,"Bromus lanatus","","Poaceae","Bromus","lanatus","",1
+88,"Erigeron lanatus","","Asteraceae","Erigeron","lanatus","",1
+98,"Erigeron lanatus","","Asteraceae","Erigeron","lanatus","",1
+98,"Mertensia lanceolata","","Boraginaceae","Mertensia","lanceolata","",1
+16,"Plantago lanceolata","","Plantaginaceae","Plantago","lanceolata","",1
+88,"Sedum lanceolata","","Crassulaceae","Sedum","lanceolata","",1
+98,"Sedum lanceolata","","Crassulaceae","Sedum","lanceolata","",1
+31,"Sedum lanceolatum","","Crassulaceae","Sedum","lanceolatum","",1
+32,"Sedum lanceolatum","","Crassulaceae","Sedum","lanceolatum","",1
+33,"Sedum lanceolatum","","Crassulaceae","Sedum","lanceolatum","",1
+65,"Sedum lanceolatum","","Crassulaceae","Sedum","lanceolatum","",1
+86,"Sedum lanceolatum","","Crassulaceae","Sedum","lanceolatum","",1
+87,"Sedum lanceolatum","","Crassulaceae","Sedum","lanceolatum","",1
+89,"Calamagrostis lapponica","","Poaceae","Calamagrostis","lapponica","",1
+82,"Diapensia_lapponica","","Diapensiaceae","Diapensia","lapponica","",1
+42,"Celmisia laricifolia","","Asteraceae","Celmisia","laricifolia","",1
+43,"Celmisia laricifolia","","Asteraceae","Celmisia","laricifolia","",1
+46,"Piptatherum laterale ","","Poaceae","Piptatherum","laterale","",1
+53,"Cerastium latifolium","","Brassicaceae","Cerastium","latifolium","",1
+54,"Cerastium latifolium","","Brassicaceae","Cerastium","latifolium","",1
+33,"Arabis lemonii","","Brassicaceae","Arabis","lemonii","",1
+23,"Leucheria leontopodioides","","Asteraceae","Leucheria","leontopodioides","",1
+25,"Leucheria leontopodioides","","Asteraceae","Leucheria","leontopodioides","",1
+5,"Parastrephia lepidophylla","","Asteraceae","Parastrephia","lepidophylla","",1
+14,"Acaena leptacantha","","Rosaceae","Acaena","leptacantha","",1
+57,"Acaena leptacantha","","Rosaceae","Acaena","leptacantha","",1
+61,"Acaena leptacantha","","Rosaceae","Acaena","leptacantha","",1
+17,"Mulinum leptacanthum","","Apiaceae","Mulinum","leptacanthum","",1
+18,"Mulinum leptacanthum","","Apiaceae","Mulinum","leptacanthum","",1
+19,"Mulinum leptacanthum","","Apiaceae","Mulinum","leptacanthum","",1
+65,"Linum lewisii","","Linaceae","Linum","lewisii","",1
+88,"Linum lewisii","","Linaceae","Linum","lewisii","",1
+98,"Linum lewisii","","Linaceae","Linum","lewisii","",1
+24,"Azorella licopodioidea","","Apiaceae","Azorella","licopodioidis","",1
+26,"Azorella licopodioidea","","Apiaceae","Azorella","licopodioidis","",1
+64,"Azorella lycopoideodes","","Apiaceae","Azorella","licopodioidis","",1
+77,"Poa ligulata","","Poaceae","Poa","ligulata","",1
+79,"Poa ligulata","","Poaceae","Poa","ligulata","",1
+81,"Poa ligulata","","Poaceae","Poa","ligulata","",1
+49,"Koeleria litwinowii Domin","","Poaceae","Koeleria","litwinowii","",1
+83,"Koeleria litwinowii Domin","","Poaceae","Koeleria","litwinowii","",1
+46,"Elymus longaristatus","","Poaceae","Elymus","longaristatus","",1
+65,"Mertensia longiflora","","Boraginaceae","Mertensia","longiflora","",1
+88,"Mertensia longiflora","","Boraginaceae","Mertensia","longiflora","",1
+97,"Draba longipes","","Brassicaceae","Draba","longipes","",1
+11,"Senecio looseri","","Asteraceae","Senecio","looseri","",1
+12,"Senecio looseri","","Asteraceae","Senecio","looseri","",1
+14,"Senecio looseri","","Asteraceae","Senecio","looseri","",1
+57,"Senecio looseri","","Asteraceae","Senecio","looseri","",1
+58,"Senecio looseri","","Asteraceae","Senecio","looseri","",1
+61,"Senecio looseri","","Asteraceae","Senecio","looseri","",1
+23,"Adesmia lotoides","","Fabaceae","Adesmia","lotoides","",1
+24,"Adesmia lotoides","","Fabaceae","Adesmia","lotoides","",1
+25,"Adesmia lotoides","","Fabaceae","Adesmia","lotoides","",1
+26,"Adesmia lotoides","","Fabaceae","Adesmia","lotoides","",1
+47,"Scabiosa lucida","","Dipsacaceae","Scabiosa","lucida","",1
+100,"Scabiosa lucida","","Dipsacaceae","Scabiosa","lucida","",1
+34,"Artemisia ludoviciana","","Asteraceae","Artemisia","ludoviciana","",1
+47,"Botrychium lunaria","Pteridophyta","Botrychiaceae","Botrychium","lunaria","",1
+53,"Botrychium lunaria","Pteridophyta","Botrychiaceae","Botrychium","lunaria","",1
+54,"Botrychium lunaria","Pteridophyta","Botrychiaceae","Botrychium","lunaria","",1
+85,"Botrychium lunaria","Pteridophyta","Botrychiaceae","Botrychium","lunaria","",1
+91,"Botrychium lunaria","Pteridophyta","Botrychiaceae","Botrychium","lunaria","",1
+100,"Botrychium lunaria","Pteridophyta","Botrychiaceae","Botrychium","lunaria","",1
+52,"Luzula lutea","","Juncaceae","Luzula","lutea","",1
+47,"Gentianella lutescens","","Gentianaceae","Gentianella","lutescens","",1
+100,"Gentianella lutescens","","Gentianaceae","Gentianella","lutescens","",1
+88,"Arabis lyallii","","Brassicaceae","Arabis","lyallii","",1
+41,"Celmisia lyallii","","Asteraceae","Celmisia","lyallii","",1
+98,"Penstemon lyallii","","Scrophulariaceae","Penstemon","lyallii","",1
+65,"Phacelia lyallii","","Hydrophyllaceae","Phacelia","lyallii","",1
+86,"Saxifraga lyallii","","Saxifragaceae","Saxifraga","lyallii","",1
+88,"Saxifraga lyallii","","Saxifragaceae","Saxifraga","lyallii","",1
+97,"Saxifraga lyallii","","Saxifragaceae","Saxifraga","lyallii","",1
+98,"Saxifraga lyallii","","Saxifragaceae","Saxifraga","lyallii","",1
+82,"Cassiope_lycopodioides","","Ericaceae","Cassiope","lycopodioides","",1
+8,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+9,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+11,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+16,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+57,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+58,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+59,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+60,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+61,"Chaetanthera lycopodioides","","Asteraceae","Chaetanthera","lycopodioides","",1
+24,"Colobantus lycopodioides","","Caryophyllaceae","Colobanthus","lycopodioides","",1
+26,"Colobantus lycopodioides","","Caryophyllaceae","Colobanthus","lycopodioides","",1
+95,"Minuartia macrantha","","Caryophyllaceae","Minuartia","macrantha","",1
+17,"Acaena macrocephala","","Rosaceae","Acaena","macrocephala","",1
+18,"Acaena macrocephala","","Rosaceae","Acaena","macrocephala","",1
+19,"Acaena macrocephala","","Rosaceae","Acaena","macrocephala","",1
+85,"Herminium macrophyllum","","Orchidaceae","Herminium","macrophyllum","",1
+46,"Astragalus macrosemius seedling  ","","Fabaceae","Astragalus","macrosemius","",1
+34,"Centaurea maculosa","","Asteraceae","Centaurea","maculosa","",1
+8,"Azorella madreporica","","Apiaceae","Azorella","madreporica","",1
+9,"Azorella madreporica","","Apiaceae","Azorella","madreporica","",1
+59,"Azorella madreporica","","Apiaceae","Azorella","madreporica","",1
+60,"Azorella madreporica","","Apiaceae","Azorella","madreporica","",1
+31,"Dactylina madreporiformis","Lichen","","Dactylina","madreporiformis","",1
+32,"Dactylina madreporiformis","","","Dactylina","madreporiformis","",1
+23,"Acaena magellanica","","Rosaceae","Acaena","magellanica","",1
+24,"Acaena magellanica","","Rosaceae","Acaena","magellanica","",1
+25,"Acaena magellanica","","Rosaceae","Acaena","magellanica","",1
+26,"Acaena magellanica","","Rosaceae","Acaena","magellanica","",1
+23,"Draba magellanica","","Brassicaceae","Draba","magellanica","",1
+24,"Draba magellanica","","Brassicaceae","Draba","magellanica","",1
+25,"Draba magellanica","","Brassicaceae","Draba","magellanica","",1
+26,"Draba magellanica","","Brassicaceae","Draba","magellanica","",1
+23,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+24,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+25,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+26,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+57,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+58,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+61,"Festuca magellanica","","Poaceae","Festuca","magellanica","",1
+24,"Perecia magellantha","","Asteraceae","Perezia","magellanica","",1
+26,"Perecia magellantha","","Asteraceae","Perezia","magellanica","",1
+23,"Vicia magellanica","","Fabaceae","Vicia","magellanica","",1
+25,"Vicia magellanica","","Fabaceae","Vicia","magellanica","",1
+11,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+12,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+13,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+14,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+57,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+58,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+61,"Thlaspi magellanicum","","Brassicaceae","Thlaspi","magellanicum","",1
+23,"Senecio magellanicus","","Asteraceae","Senecio","magellanicus","",1
+24,"Senecio magellanicus","","Asteraceae","Senecio","magellanicus","",1
+25,"Senecio magellanicus","","Asteraceae","Senecio","magellanicus","",1
+26,"Senecio magellanicus","","Asteraceae","Senecio","magellanicus","",1
+11,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+12,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+13,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+14,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+57,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+58,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+61,"Barneoudia major","","Ranunculaceae","Barneoudia","major","",1
+34,"Plantago major var pachyphylla","","Plantaginaceae","Plantago","major","pachyphylla",1
+85,"Paraceterach marantae","Pteridophyta","Adiantaceae","Paraceterach","marantae","",1
+17,"Armeria maritima","","Plumbaginaceae","Armeria","maritima","",1
+18,"Armeria maritima","","Plumbaginaceae","Armeria","maritima","",1
+19,"Armeria maritima","","Plumbaginaceae","Armeria","maritima","",1
+82,"Potentilla_matsumurae","","Rosaceae","Potentilla","matsumurae","",1
+53,"Galium megalospermum","","Rubiaceae","Galium","megalospermum","",1
+54,"Galium megalospermum","","Rubiaceae","Galium","megalospermum","",1
+65,"Claytonia megarhiza","","Portulaceae","Claytonia","megarhiza","",1
+97,"Claytonia megarhiza","","Portulaceae","Claytonia","megarhiza","",1
+86,"Claytonia megarhriza","","Portulaceae","Claytonia","megarhiza","",1
+87,"Claytonia megarhriza","","Portulaceae","Claytonia","megarhiza","",1
+98,"Claytonia megarhriza","","Portulaceae","Claytonia","megarhiza","",1
+46,"Scorzonera meyeri","","Asteraceae","Scorzonera","meyeri","",1
+65,"Artemisia michauxiana","","Asteraceae","Artemisia","michauxiana","",1
+88,"Artemisia michauxiana","","Asteraceae","Artemisia","michauxiana","",1
+8,"Gayophytum micranthum","","Onagraceae","Gayophytum","micranthum","",1
+9,"Gayophytum micranthum","","Onagraceae","Gayophytum","micranthum","",1
+59,"Gayophytum micranthum","","Onagraceae","Gayophytum","micranthum","",1
+60,"Gayophytum micranthum","","Onagraceae","Gayophytum","micranthum","",1
+1,"Pentacalia microdon","","Asteraceae","Pentacalia","microdon","",1
+85,"Potentilla microphylla","","Rosaceae","Potentilla","microphylla","",1
+85,"Cyananthus microphyllus","","Asteraceae","Cyananthus","microphyllus","",1
+2,"Lupinus microphyllus","","Fabaceae","Lupinus","microphyllus","",1
+3,"Lupinus microphyllus","","Fabaceae","Lupinus","microphyllus","",1
+4,"Lupinus microphyllus","","Fabaceae","Lupinus","microphyllus","",1
+33,"Achillea millefolium","","Asteraceae","Achillea","millefolium","",1
+34,"Achillea millefolium","","Asteraceae","Achillea","millefolium","",1
+36,"Achillea millefolium","","Asteraceae","Achillea","millefolium","",1
+65,"Achillea millefolium alpicola","","Asteraceae","Achillea","millefolium","alpicola",1
+88,"Achillea millefolium var. alpina","","Asteraceae","Achillea","millefolium","alpina",1
+98,"Achillea millefolium alpicola","","Asteraceae","Achillea","millefolium","alpicola",1
+17,"Leucheria millefolium","","Asteraceae","Leucheria","millefolium","",1
+18,"Leucheria millefolium","","Asteraceae","Leucheria","millefolium","",1
+19,"Leucheria millefolium","","Asteraceae","Leucheria","millefolium","",1
+95,"Castilleja miniata","","Scrophulariaceae","Castilleja","miniata","",1
+52,"Euphrasia minima","","Oroeanchaceae","Euphrasia","minima","",1
+53,"Euphrasia minima","","Oroeanchaceae","Euphrasia","minima","",1
+54,"Euphrasia minima","","Oroeanchaceae","Euphrasia","minima","",1
+46,"Polygonum molliaeforme","","Polygonaceae","Polygonum","molliaeforme","",1
+17,"Azorella monantha","","Apiaceae","Azorella","monantha","",1
+18,"Azorella monantha","","Apiaceae","Azorella","monantha","",1
+19,"Azorella monantha","","Apiaceae","Azorella","monantha","",1
+83,"Taraxacum mongolicum Hand.-Mazz.","","Asteraceae","Taraxacum","mongolicum","",1
+5,"Moschopsis monocephala","","Calyceraceae","Moschopsis","monocephala","",1
+41,"Aciphylla monroi","","Apiaceae","Aciphylla","monroi","",1
+8,"Viola montagnei","","Violaceae","Viola","montagnei","",1
+9,"Viola montagnei","","Violaceae","Viola","montagnei","",1
+59,"Viola montagnei","","Violaceae","Viola","montagnei","",1
+60,"Viola montagnei","","Violaceae","Viola","montagnei","",1
+31,"Douglasia montana","","Primulaceae","Douglasia","montana","",1
+32,"Douglasia montana","","Primulaceae","Douglasia","montana","",1
+33,"Douglasia montana","","Primulaceae","Douglasia","montana","",1
+34,"Douglasia montana","","Primulaceae","Douglasia","montana","",1
+95,"Thlaspi montanum","","Brassicaceae","Thlaspi","montanum","",1
+54,"Ranunculus montanus","","Ranunculaceae","Ranunculus","montanus","",1
+85,"Saxifraga moorcroftiana","","Saxifragaceae","Saxifraga","moorcroftiana","",1
+63,"Potentilla morefieldii","","Rosaceae","Potentilla","morefieldii","",1
+23,"Pernettya mucronata","","Ericaceae","Pernettya","mucronata","",1
+24,"Pernettya mucronata","","Ericaceae","Pernettya","mucronata","",1
+25,"Pernettya mucronata","","Ericaceae","Pernettya","mucronata","",1
+26,"Pernettya mucronata","","Ericaceae","Pernettya","mucronata","",1
+42,"Agrostis mulleria","","Poaceae","Agrostis","muelleriana","",1
+43,"Agrostis mulleriana","","Poaceae","Agrostis","muelleriana","",1
+17,"Anemone multifida","","Ranunculaceae","Anemone","multifida","",1
+18,"Anemone multifida","","Ranunculaceae","Anemone","multifida","",1
+19,"Anemone multifida","","Ranunculaceae","Anemone","multifida","",1
+85,"Potentilla multifida","","Rosaceae","Potentilla","multifida","",1
+89,"Luzula multiflora","","Juncaceae","Luzula","multiflora","",1
+3,"Geranium multipartitum","","Geraniaceae","Geranium","multipartitum","",1
+86,"Solidago multiradiata","","Asteraceae","Solidago","multiradiata","",1
+87,"Solidago multiradiata","","Asteraceae","Solidago","multiradiata","",1
+95,"Solidago multiradiata","","Asteraceae","Solidago","multiradiata","",1
+43,"Dracophyllum muscoides","","Ericaceae","Dracophyllum","muscoides","",1
+3,"Ourisia muscoides","","Plantaginaceae","Ourisia","muscoides","",1
+47,"Ligusticum mutellinoides","","Apiaceae","Ligusticum","mutellinoides","",1
+52,"Ligusticum mutellinoides","","Apiaceae","Ligusticum","mutellinoides","",1
+100,"Ligusticum mutellinoides","","Apiaceae","Ligusticum","mutellinoides","",1
+16,"Plagiobothrys myosotoides","","Boraginaceae","Plagiobothrys","myosotoides","",1
+53,"Elyna myosuroides","","Cyperaceae","Elyna","myosuroides","",1
+54,"Elyna myosuroides","","Cyperaceae","Elyna","myosuroides","",1
+56,"Hieracium myriadenum","","Asteraceae","Hieracium","myriadenum","",1
+82,"Arcterica_nana","","Ericaceae","Arcterica","nana","",1
+17,"Discaria nana","","Rhamnaceae","Discaria","nana","",1
+18,"Discaria nana","","Rhamnaceae","Discaria","nana","",1
+19,"Discaria nana","","Rhamnaceae","Discaria","nana","",1
+31,"Eritrichium nanum","","Boraginaceae","Eritrichium","nanum","",1
+32,"Eritrichium nanum","","Boraginaceae","Eritrichium","nanum","",1
+33,"Eritrichium nanum","","Boraginaceae","Eritrichium","nanum","",1
+85,"Eritrichium nanum","","Boraginaceae","Eritrichium","nanum","",1
+92,"Eretrichium","","Boraginaceae","Eritrichium","nanum","",1
+49,"Leontopodium nanum(Hook.f.etThoms.)Hand.Mazz.","","Asteraceae","Leontopodium","nanum","",1
+83,"Leontopodium nanum(Hook.f.etThoms.)Hand.Mazz.","","Asteraceae","Leontopodium","nanum","",1
+84,"Leontopodium nanum(Hook.f.etThoms.)Hand.Mazz.","","Asteraceae","Leontopodium","nanum","",1
+31,"Trifolium nanum","","Fabaceae","Trifolium","nanum","",1
+32,"Trifolium nanum","","Fabaceae","Trifolium","nanum","",1
+82,"Anemone_narcisssiflora","","Ranunculaceae","Anemone","narcisssiflora","",1
+76,"Carex nardina","","Cyperaceae","Carex","nardina","",1
+67,"Saxifraga nelsoniana (Lobe leaf)","","Saxifragaceae","Saxifraga","nelsoniana","",1
+68,"Saxifraga nelsoniana (Lobe leaf)","","Saxifragaceae","Saxifraga","nelsoniana","",1
+99,"Saxifraga nelsoniana (Lobe leaf)","","Saxifragaceae","Saxifraga","nelsoniana","",1
+85,"Morane nepalensis","","Dipsacaceae","Morina","nepalensis","",1
+77,"Alyssum nevadense","","Asteraceae","Alyssum","nevadense","",1
+78,"Alyssum nevadense","","Asteraceae","Alyssum","nevadense","",1
+77,"Agrostis nevadensis","","Poaceae","Agrostis","nevadensis","",1
+77,"Euphorbia nevadensis ssp. nevadensis","","Euphorbiaceae","Euphorbia","nevadensis","nevadensis",1
+79,"Euphorbia nevadensis ssp. nevadensis","","Euphorbiaceae","Euphorbia","nevadensis","nevadensis",1
+81,"Euphorbia nevadensis ssp. nevadensis","","Euphorbiaceae","Euphorbia","nevadensis","nevadensis",1
+82,"Empetrum_nigrum","","Ericaceae","Empetrum","nigrum","",1
+16,"Epilobium nivale","","Onagraceae","Epilobium","nivale","",1
+17,"Tristagma nivale","","Liliaceae","Tristagma","nivale","",1
+18,"Tristagma nivale","","Liliaceae","Tristagma","nivale","",1
+19,"Tristagma nivale","","Liliaceae","Tristagma","nivale","",1
+52,"lichen (Cetraria nivalis)","Lichen","","Cetraria","nivalis","",1
+52,"Gentiana nivalis","","Gentianaceae","Gentiana","nivalis","",1
+89,"Ranunculus nivalis","","Ranunculaceae","Ranunculus","nivalis","",1
+67,"Saxifraga nivalis (Dandel)","","Saxifragaceae","Saxifraga","nivalis","",1
+68,"Saxifraga nivalis (Dandel)","","Saxifragaceae","Saxifraga","nivalis","",1
+69,"Saxifraga nivalis (Dandel)","","Saxifragaceae","Saxifraga","nivalis","",1
+99,"Saxifraga nivalis (Dandel)","","Saxifragaceae","Saxifraga","nivalis","",1
+2,"Senecio nivalis","","Asteraceae","Senecio","nivalis","",1
+3,"Senecio nivalis","","Asteraceae","Senecio","nivalis","",1
+4,"Senecio nivalis","","Asteraceae","Senecio","nivalis","",1
+85,"Grebera nivea","","Rosaceae","Gerbera","nivea","",1
+86,"Potentilla nivea","","Rosaceae","Potentilla","nivea","",1
+87,"Potentilla nivea","","Rosaceae","Potentilla","nivea","",1
+23,"Astragalus nivicola","","Fabaceae","Astragalus","nivicola","",1
+24,"Astragalus nivicola","","Fabaceae","Astragalus","nivicola","",1
+25,"Astragalus nivicola","","Fabaceae","Astragalus","nivicola","",1
+26,"Astragalus nivicola","","Fabaceae","Astragalus","nivicola","",1
+43,"Gaultheria nubicola","","Ericaceae","Gaultheria","nubicola","",1
+85,"Parnesia nubicola","","Saxifragaceae","Parnassia","nubicola","",1
+2,"Castilleja nubigena","","Scrophulariaceae","Castilleja","nubigena","",1
+3,"Castilleja nubigena","","Scrophulariaceae","Castilleja","nubigena","",1
+62,"Cryptantha nubigena","","Boraginaceae","Cryptantha","nubigena","",1
+63,"Cryptantha nubigena","","Boraginaceae","Cryptantha","nubigena","",1
+3,"Plantago nubigena","","Plantaginaceae","Plantago","nubigena","",1
+2,"Werneria nubigena","","Asteraceae","Werneria","nubigena","",1
+3,"Werneria nubigena","","Asteraceae","Werneria","nubigena","",1
+4,"Werneria nubigena","","Asteraceae","Werneria","nubigena","",1
+82,"Salix_numularia","","Salicaceae","Salix","nummularia","",1
+97,"Cerastrium nutans","","Brassicaceae","Cerastrium","nutans","",1
+84,"Elymus nutans Griseb. ","","Poaceae","Elymus","nutans","",1
+65,"Arabis nuttalii","","Brassicaceae","Arabis","nuttalii","",1
+88,"Arabis nuttalii","","Brassicaceae","Arabis","nuttalii","",1
+53,"Androsace obtusifolia","","Primulaceae","Androsace","obtusifolia","",1
+31,"Arenaria obtusifolia","","Caryophyllaceae","Arenaria","obtusifolia","",1
+32,"Arenaria obtusifolia","","Caryophyllaceae","Arenaria","obtusifolia","",1
+65,"Minuartia obtusiloba","","Caryophyllaceae","Minuartia","obtusiloba","",1
+88,"Minuartia obtusiloba","","Caryophyllaceae","Minuartia","obtusiloba","",1
+98,"Minuartia obtusiloba","","Caryophyllaceae","Minuartia","obtusiloba","",1
+98,"Stenanthium occidentale","","Liliaceae","Stenanthium","occidentale","",1
+65,"Anemone occidentalia","","Ranunculaceae","Anemone","occidentalis","",1
+67,"Anenome occidentalis (tiny anenome)","","Ranunculaceae","Anenome","occidentalis","",1
+69,"Anenome occidentalis (Tiny anenome)","","Ranunculaceae","Anenome","occidentalis","",1
+65,"Saxifraga occidentalis","","Saxifragaceae","Saxifraga","occidentalis","",1
+86,"Saxifraga occidentalis","","Saxifragaceae","Saxifraga","occidentalis","",1
+98,"Saxifraga occidentalis","","Saxifragaceae","Saxifraga","occidentalis","",1
+70,"Dryas octapedala","","Rosaceae","Dryas","octopetala","",1
+71,"Dryas octapedala","","Rosaceae","Dryas","octopetala","",1
+72,"Dryas octapedala","","Rosaceae","Dryas","octopetala","",1
+47,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+53,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+54,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+73,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+86,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+89,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+91,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+100,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+52,"Dyras octopetala","","Rosaceae","Dyras","octopetala","",1
+68,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+69,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+99,"Dryas octopetala","","Rosaceae","Dryas","octopetala","",1
+47,"Pedicularis oederi","","Orobanchaceae","Pedicularis","oederi","",1
+100,"Pedicularis oederi","","Orobanchaceae","Pedicularis","oederi","",1
+11,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+12,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+13,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+14,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+16,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+33,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+57,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+58,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+61,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+97,"Taraxacum officinale","","Asteraceae","Taraxacum","officinale","",1
+62,"Draba oligosperma","","Brassicaceae","Draba","oligosperma","",1
+63,"Draba oligosperma","","Brassicaceae","Draba","oligosperma","",1
+67,"Draba oligosperma (ylw flower cushion)","","Brassicaceae","Draba","oligosperma","",1
+68,"Draba oligosperma (ylw flower cushion)","","Brassicaceae","Draba","oligosperma","",1
+69,"Draba oligosperma (ylw flowered cushion)","","Brassicaceae","Draba","oligosperma","",1
+88,"Draba oligosperma","","Brassicaceae","Draba","oligosperma","",1
+98,"Draba oligosperma","","Brassicaceae","Draba","oligosperma","",1
+99,"Draba oligosperma (ylw flower cushion)","","Brassicaceae","Draba","oligosperma","",1
+13,"Chuquiraga oppositifolia","","Asteraceae","Chuquiraga","oppositifolia","",1
+50,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+53,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+73,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+86,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+87,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+89,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+91,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+92,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+97,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia","",1
+68,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia ","",1
+99,"Saxifraga oppositifolia","","Saxifragaceae","Saxifraga","oppositifolia ","",1
+47,"Phyteuma orbiculare","","Campanulaceae","Phyteuma","orbiculare","",1
+100,"Phyteuma orbiculare","","Campanulaceae","Phyteuma","orbiculare","",1
+3,"Lachemilla orbiculata","","Rosaceae","Lachemilla","orbiculata","",1
+83,"Draba oreades Schrenk var. ciliolata O. E. Schulz","","Brassicaceae","Draba","oreades","",1
+8,"Trisetum oreophilum","","Poaceae","Trisetum","oreophilum","",1
+9,"Trisetum oreophilum","","Poaceae","Trisetum","oreophilum","",1
+59,"Trisetum oreophilum","","Poaceae","Trisetum","oreophilum","",1
+60,"Trisetum oreophilum","","Poaceae","Trisetum","oreophilum","",1
+85,"Gentiana ornata","","Gentianaceae","Gentiana","ornata","",1
+84,"Barbarea orthoceras Ledeb.","","Brassicaceae","Barbarea","orthoceras","",1
+33,"Eriogonum ovalifolium","","Polygonaceae","Eriogonum","ovalifolium","",1
+34,"Eriogonum ovalifolium","","Polygonaceae","Eriogonum","ovalifolium","",1
+36,"Eriogonum ovalifolium","","Polygonaceae","Eriogonum","ovalifolium","",1
+3,"Lasiocephalus ovatus","","Asteraceae","Lasiocephalus","ovatus","",1
+31,"Festuca ovina","","Poaceae","Festuca","ovina","",1
+32,"Festuca ovina","","Poaceae","Festuca","ovina","",1
+38,"Grass cap","","Poaceae","Festuca","ovina","brachyphylla",1
+39,"Grass cap","","Poaceae","Festuca","ovina","brachyphylum",1
+83,"Festuca ovina L.","","Poaceae","Festuca","ovina","",1
+84,"Festuca ovina L.","","Poaceae","Festuca","ovina","",1
+89,"Festuca ovina or vivipara","","Poaceae","Festuca","ovina","vivipara",1
+47,"Delphinium oxysepalum","","Ranunculaceae","Delphinium","oxysepalum","",1
+100,"Delphinium oxysepalum","","Ranunculaceae","Delphinium","oxysepalum","",1
+17,"Senecio pachyphyllos","","Asteraceae","Senecio","pachyphyllos","",1
+18,"Senecio pachyphyllos","","Asteraceae","Senecio","pachyphyllos","",1
+19,"Senecio pachyphyllos","","Asteraceae","Senecio","pachyphyllos","",1
+31,"Castilleja pallescens","","Scrophulariaceae","Castilleja","pallescens","",1
+32,"Castilleja pallescens","","Scrophulariaceae","Castilleja","pallescens","",1
+47,"Parnassia palustris","","Saxifragaceae","Parnassia","palustris","",1
+100,"Parnassia palustris","","Saxifragaceae","Parnassia","palustris","",1
+47,"Saxifraga paniculata","","Saxifragaceae","Saxifraga","paniculata","",1
+100,"Saxifraga paniculata","","Saxifragaceae","Saxifraga","paniculata","",1
+53,"Ranunculus parnassifolius","","Ranunculaceae","Ranunculus","parnassifolius","",1
+54,"Ranunculus parnassifolius","","Ranunculaceae","Ranunculus","parnassifolius","",1
+98,"Carex parryana","","Cyperaceae","Carex","parryana","",1
+65,"Pedicularis parryi","","Orobanchaceae","Pedicularis","parryi","",1
+88,"Trifolium parryi","","Fabaceae","Trifolium","parryi","",1
+23,"Adesmia parviflora","","Fabaceae","Adesmia","parviflora","",1
+24,"Adesmia parviflora","","Fabaceae","Adesmia","parviflora","",1
+25,"Adesmia parviflora","","Fabaceae","Adesmia","parviflora","",1
+26,"Adesmia parviflora","","Fabaceae","Adesmia","parviflora","",1
+98,"Anenome parviflora","","Ranunculaceae","Anenome","parviflora","",1
+52,"Carex parviflora","","Cyperaceae","Carex","parviflora","",1
+46,"Catabrosella parviflora ","","Poaceae","Catabrosella","parviflora","",1
+98,"Heuchera parviflora","","Saxifragaceae","Heuchera","parviflora","",1
+88,"Heuchera parvifolia","","Saxifragaceae","Heuchera","parvifolia","",1
+23,"Arjona patagonica","","Santalaceae","Arjona","patagonica","",1
+25,"Arjona patagonica","","Santalaceae","Arjona","patagonica","",1
+24,"Oxalis patagonica","","Oxalidaceae","Oxalis","patagonica","",1
+26,"Oxalis patagonica","","Oxalidaceae","Oxalis","patagonica","",1
+34,"Plantago patagonica","","Plantaginaceae","Plantago","patagonica","",1
+36,"Plantago patagonica","","Plantaginaceae","Plantago","patagonica","",1
+17,"Sisysrinchium patagonicum","","Iridaceae","Sisyrinchium","patagonicum","",1
+18,"Sisysrinchium patagonicum","","Iridaceae","Sisyrinchium","patagonicum","",1
+19,"Sisysrinchium patagonicum","","Iridaceae","Sisyrinchium","patagonicum","",1
+85,"Stellaria patens","","Caryophyllaceae","Stellaria","patens","",1
+70,"Cordalis possiflora","","Papaveraceae","Corydalis","pauciflora","",1
+71,"Cordalis possiflora","","Papaveraceae","Corydalis","pauciflora","",1
+72,"Cordalis possiflora","","Papaveraceae","Corydalis","pauciflora","",1
+31,"Draba paysonii","","Brassicaceae","Draba","paysonii","",1
+32,"Draba paysonii","","Brassicaceae","Draba","paysonii","",1
+33,"Draba paysonii","","Brassicaceae","Draba","paysonii","",1
+34,"Eragrostis pectinacea","","Poaceae","Eragrostis","pectinacea","",1
+43,"Leptinella pectinata","","Asteraceae","Leptinella","pectinata","",1
+77,"Leucanthemopsis pectinata","","Asteraceae","Leucanthemopsis","pectinata","",1
+78,"Leucanthemopsis pectinata","","Asteraceae","Leucanthemopsis","pectinata","",1
+79,"Leucanthemopsis pectinata","","Asteraceae","Leucanthemopsis","pectinata","",1
+81,"Leucanthemopsis pectinata","","Asteraceae","Leucanthemopsis","pectinata","",1
+82,"Rubus_pedatus","","Rosaceae","Rubus","pedatus","",1
+2,"Azorella pedunculata-corymbosa","","Apiaceae","Azorella","pedunculata","corymbosa",1
+3,"Azorella pedunculata / corymbosa","","Apiaceae","Azorella","pedunculata","corymbosa",1
+4,"Azorella pedunculata/corymbosa","","Apiaceae","Azorella","pedunculata","corymbosa",1
+41,"Blechnum pennamarina","Pteridophyta","Blechnaceae","Blechnum","pennamarina","",1
+8,"Chaetanthera pentacaenoides","","Asteraceae","Chaetanthera","pentacaenoides","",1
+9,"Chaetanthera pentacaenoides ","","Asteraceae","Chaetanthera","pentacaenoides","",1
+57,"Chaetanthera pentacaenoides","","Asteraceae","Chaetanthera","pentacaenoides","",1
+59,"Chaetanthera pentacaenoides","","Asteraceae","Chaetanthera","pentacaenoides","",1
+60,"Chaetanthera pentacaenoides","","Asteraceae","Chaetanthera","pentacaenoides","",1
+61,"Chaetanthera pentacaenoides","","Asteraceae","Chaetanthera","pentacaenoides","",1
+82,"Sieversia_pentapetala","","Rosaceae","Sieversia","pentapetala","",1
+82,"Dicentra_peregrina","","Fumariaceae","Dicentra","peregrina","",1
+46,"Oxytropis persicus ","","Fabaceae","Oxytropis","persicus","",1
+3,"Oritrophium peruvianium","","Asteraceae","Oritrophium","peruvianium","",1
+2,"Ranunculus peruvianus","","Ranunculaceae","Ranunculus","peruvianus","",1
+3,"Ranunculus peruvianus","","Ranunculaceae","Ranunculus","peruvianus","",1
+4,"Ranunculus peruvianus","","Ranunculaceae","Ranunculus","peruvianus","",1
+31,"Carex phaeocephala","","Cyperaceae","Carex","phaeocephala","",1
+32,"Carex phaeocephala","","Cyperaceae","Carex","phaeocephala","",1
+8,"Viola philippii","","Violaceae","Viola","philippii","",1
+9,"Viola philippii ","","Violaceae","Viola","philippii","",1
+11,"Viola philippii","","Violaceae","Viola","philippii","",1
+14,"Viola philippii","","Violaceae","Viola","philippii","",1
+57,"Viola philippii","","Violaceae","Viola","philippii","",1
+58,"Viola philippii","","Violaceae","Viola","philippii","",1
+59,"Viola philippii","","Violaceae","Viola","philippii","",1
+60,"Viola philippii","","Violaceae","Viola","philippii","",1
+61,"Viola philippii","","Violaceae","Viola","philippii","",1
+11,"Rytidosperma pictum","","Poaceae","Rytidosperma","pictum","",1
+12,"Rytidosperma pictum","","Poaceae","Rytidosperma","pictum","",1
+13,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+14,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+23,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+24,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+25,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+26,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+57,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+58,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+61,"Perezia pilifera","","Asteraceae","Perezia","pilifera","",1
+31,"Polytrichum piliferum","Bryophyta","","Polytrichum","piliferum","",1
+33,"Polytrichum piliferum","Bryophyta","","Polytrichum","piliferum","",1
+34,"Polytrichum piliferum","Bryophyta","","Polytrichum","piliferum","",1
+36,"Polytrichum piliferum","Bryophyta","","Polytrichum","piliferum","",1
+56,"Polytrichum piliferum","Bryophyta","","Polytrichum","piliferum","",1
+83,"Pedicularis pilostachya Maxim","","Orobanchaceae","Pedicularis","pilostachya","",1
+84,"Pedicularis pilostachya Maxim","","Orobanchaceae","Pedicularis","pilostachya","",1
+98,"Synthris pinnatifia","","Scrophulariaceae","Synthris","pinnatifia","",1
+15,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+16,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+17,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+18,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+19,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+23,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+24,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+25,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+26,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+57,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+61,"Acaena pinnatifida","","Rosaceae","Acaena","pinnatifida","",1
+14,"Chaetanthera planiseta","","Asteraceae","Chaetanthera","planiseta","",1
+57,"Chaetanthera planiseta","","Asteraceae","Chaetanthera","planiseta","",1
+61,"Chaetanthera planiseta","","Asteraceae","Chaetanthera","planiseta","",1
+97,"Carex podocarpa","","Cyperaceae","Carex","podocarpa","",1
+49,"Poa poiphagorum Ber.","","Poaceae","Poa","poiphagorum","",1
+83,"Poa poiphagorum Ber.","","Poaceae","Poa","poiphagorum","",1
+50,"Salix polaris","","Salicaceae","Salix","polaris","",1
+89,"Salix polaris","","Salicaceae","Salix","polaris","",1
+49,"Astragalus Polycladus Bur. Et Franch","","Fabaceae","Astragalus","polycladus","",1
+83,"Astragalus Polycladus Bur. Et Franch","","Fabaceae","Astragalus","polycladus","",1
+13,"Senecio polygaloides","","Asteraceae","Senecio","polygaloides","",1
+14,"Senecio polygaloides","","Asteraceae","Senecio","polygaloides","",1
+57,"Senecio polygaloides","","Asteraceae","Senecio","polygaloides","",1
+61,"Senecio polygaloides","","Asteraceae","Senecio","polygaloides","",1
+56,"Paronychia polygonifolia","","Caryophyllaceae","Paronychia","polygonifolia","",1
+14,"Tropaeolum polyphyllum","","Tropaeolaceae","Tropaeolum","polyphyllum","",1
+57,"Tropaeolum polyphyllum","","Tropaeolaceae","Tropaeolum","polyphyllum","",1
+58,"Tropaeolum polyphyllum","","Tropaeolaceae","Tropaeolum","polyphyllum","",1
+61,"Tropaeolum polyphyllum","","Tropaeolaceae","Tropaeolum","polyphyllum","",1
+17,"Senecio portalesianus","","Asteraceae","Senecio","portalesianus","",1
+18,"Senecio portalesianus","","Asteraceae","Senecio","portalesianus","",1
+19,"Senecio portalesianus","","Asteraceae","Senecio","portalesianus","",1
+11,"Montiopsis potentilloides","","Portulacaceae","Montiopsis","potentilloides","",1
+57,"Montiopsis potentilloides","","Portulacaceae","Montiopsis","potentilloides","",1
+61,"Montiopsis potentilloides","","Portulacaceae","Montiopsis","potentilloides","",1
+31,"Draba praealta","","Brassicaceae","Draba","praealta","",1
+32,"Draba praealta","","Brassicaceae","Draba","praealta","",1
+14,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+23,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+24,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+25,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+26,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+57,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+61,"Poa pratensis","","Poaceae","Poa","pratensis","",1
+84,"Poa pratensis L.","","Poaceae","Poa","pratensis","",1
+11,"Trisetum preslei","","Poaceae","Trisetum","preslei","",1
+12,"Trisetum preslei","","Poaceae","Trisetum","preslei","",1
+14,"Trisetum preslei","","Poaceae","Trisetum","preslei","",1
+57,"Trisetum preslei","","Poaceae","Trisetum","preslei","",1
+58,"Trisetum preslei","","Poaceae","Trisetum","preslei","",1
+61,"Trisetum preslei","","Poaceae","Trisetum","preslei","",1
+52,"Loiseleuria procumbens","","Ericaceae","Loiseleuria","procumbens","",1
+82,"Loiseleuria_procumbens","","Ericaceae","Loiseleuria","procumbens","",1
+41,"Dracophyllum pronum","","Ericaceae","Dracophyllum","pronum","",1
+2,"Pernettya prostrata","","Ericaceae","Pernettya","prostrata","",1
+3,"Pernettya prostata","","Ericaceae","Pernettya","prostrata","",1
+4,"Pernettya prostrata","","Ericaceae","Pernettya","prostrata","",1
+70,"Gentiana prostrata","","Gentianaceae","Gentiana","prostrata ","",1
+72,"Gentiana prostrata","","Gentianaceae","Gentiana","prostrata ","",1
+43,"moss (Racomitrum pruinosum)","Bryophyta","","Racomitrium","pruinosum","",1
+47,"Ranunculus pseudomontanus","","Ranunculaceae","Ranunculus","pseudomontanus","",1
+100,"Ranunculus pseudomontanus","","Ranunculaceae","Ranunculus","pseudomontanus","",1
+85,"Calamogrostis pseudophragmites","","Poaceae","Calamagrostis","pseudophragmites","",1
+46,"Helichrysum psychrophilum","","Asteraceae","Helichrysum","psychrophilum","",1
+41,"Racometrum ptycophylla","Bryophyta","","Racomitrium","ptycophylla","",1
+5,"Senecio puchii","","Asteraceae","Senecio","puchii","",1
+98,"Fritillaria pudica","","Liliaceae","Fritillaria","pudica","",1
+46,"Draba pulchella","","Brassicaceae","Draba","pulchella","",1
+8,"Kurzamra pulchella","","Lamiaceae","Kurzamra","pulchella","",1
+9,"Kurzamra pulchella","","Lamiaceae","Kurzamra","pulchella","",1
+59,"Kurzamra pulchella","","Lamiaceae","Kurzamra","pulchella","",1
+60,"Kurzamra pulchella","","Lamiaceae","Kurzamra","pulchella","",1
+98,"Dodecatheon pulchellum","","Primulaceae","Dodecatheon","pulchellum","",1
+69,"Polemonium pulcherrimum","","Polemoniaceae","Polemonium","pulcherrimum ","",1
+52,"Thymus pulegioides","","Lamiaceae","Thymus","pulegioides","",1
+54,"Thymus pulegioides","","Lamiaceae","Thymus","pulegioides","",1
+49,"Comastoma pulmonarium(Turez.) Toyohuni","","Gentianaceae","Comastoma","pulmonarium","",1
+83,"Comastoma pulmonarium(Turez.) Toyohuni","","Gentianaceae","Comastoma","pulmonarium","",1
+84,"Comastoma pulmonarium(Turez.) Toyohuni","","Gentianaceae","Comastoma","pulmonarium","",1
+43,"Myosotis pulvinasris","","Boraginaceae","Myosotis","pulvinasris","",1
+31,"Phlox pulvinata","","Polemoniaceae","Phlox","pulvinata","",1
+32,"Phlox pulvinata","","Polemoniaceae","Phlox","pulvinata","",1
+23,"Adesmia pumila","","Fabaceae","Adesmia","pumila","",1
+24,"Adesmia pumila","","Fabaceae","Adesmia","pumila","",1
+25,"Adesmia pumila","","Fabaceae","Adesmia","pumila","",1
+26,"Adesmia pumila","","Fabaceae","Adesmia","pumila","",1
+16,"Gaultheria pumila","","Ericaceae","Gaultheria","pumila","",1
+17,"Gaultheria pumila","","Ericaceae","Gaultheria","pumila","",1
+18,"Gaultheria pumila","","Ericaceae","Gaultheria","pumila","",1
+19,"Gaultheria pumila","","Ericaceae","Gaultheria","pumila","",1
+24,"Pernettya pumila","","Ericaceae","Pernettya","pumila","",1
+26,"Pernettya pumila","","Ericaceae","Pernettya","pumila","",1
+2,"Werneria pumila","","Asteraceae","Werneria","pumila","",1
+3,"Werneria pumila","","Asteraceae","Werneria","pumila","",1
+4,"Werneria pumila","","Asteraceae","Werneria","pumila","",1
+43,"Luzula pumilia","","Juncaceae","Luzula","pumilia","",1
+77,"Nevadensia purpurea","","Brassicaceae","Nevadensia","purpurea","",1
+78,"Nevadensia purpurea","","Brassicaceae","Nevadensia","purpurea","",1
+79,"Nevadensia purpurea","","Brassicaceae","Nevadensia","purpurea","",1
+80,"Nevadensia purpurea","","Brassicaceae","Nevadensia","purpurea","",1
+81,"Nevadensia purpurea","","Brassicaceae","Nevadensia","purpurea","",1
+62,"Astralagus purshii var lectulus","","Fabaceae","Astralagus","purshii","lectulus",1
+63,"Astralagus purshii var lectulus","","Fabaceae","Astralagus","purshii","lectulus",1
+12,"Chaetanthera pusilla","","Asteraceae","Chaetanthera","pusilla","",1
+13,"Chaetanthera pusilla","","Asteraceae","Chaetanthera","pusilla","",1
+14,"Chaetanthera pusilla","","Asteraceae","Chaetanthera","pusilla","",1
+57,"Chaetanthera pusilla","","Asteraceae","Chaetanthera","pusilla","",1
+61,"Chaetanthera pusilla","","Asteraceae","Chaetanthera","pusilla","",1
+23,"Poa pusilla","","Poaceae","Poa","pusilla","",1
+24,"Poa pusilla","","Poaceae","Poa","pusilla","",1
+25,"Poa pusilla","","Poaceae","Poa","pusilla","",1
+26,"Poa pusilla","","Poaceae","Poa","pusilla","",1
+89,"Tofieldia pusilla","","Liliaceae","Tofieldia","pusilla","",1
+41,"Epilobium pycnostachyium","","Onagraceae","Epilobium","pycnostachyium","",1
+23,"Nassauvia pygmaea","","Asteraceae","Nassauvia","pygmaea","",1
+25,"Nassauvia pygmaea","","Asteraceae","Nassauvia","pygmaea","",1
+3,"Werneria pygmaea","","Asteraceae","Werneria","pygmaea","",1
+42,"Myosotis pygmea","","Boraginaceae","Myosotis","pygmea","",1
+11,"Nassauvia pyramidalis","","Asteraceae","Nassauvia","pyramidalis","",1
+12,"Nassauvia pyramidalis","","Asteraceae","Nassauvia","pyramidalis","",1
+14,"Nassauvia pyramidalis","","Asteraceae","Nassauvia","pyramidalis","",1
+57,"Nassauvia pyramidalis","","Asteraceae","Nassauvia","pyramidalis","",1
+58,"Nassauvia pyramidalis","","Asteraceae","Nassauvia","pyramidalis","",1
+61,"Nassauvia pyramidalis","","Asteraceae","Nassauvia","pyramidalis","",1
+77,"Galium pyrenaicum","","Rubiaceae","Galium","pyrenaicum","",1
+78,"Galium pyrenaicum","","Rubiaceae","Galium","pyrenaicum","",1
+79,"Galium pyrenaicum","","Rubiaceae","Galium","pyrenaicum","",1
+80,"Galium pyrenaicum","","Rubiaceae","Galium","pyrenaicum","",1
+81,"Galium pyrenaicum","","Rubiaceae","Galium","pyrenaicum","",1
+43,"moss (Racomitrum pytchophylla)","Bryophyta","","Racomitrium","pytchophylla","",1
+52,"Festuca quadriflora","","Poaceae","Festuca","quadriflora","",1
+2,"Luzula racemosa","","Fabaceae","Luzula","racemosa","",1
+3,"Luzula racemosa","","Juncaceae","Luzula","racemosa","",1
+4,"Luzula racemosa","","Juncaceae","Luzula","racemosa","",1
+16,"Hypochaeris radicata","","Asteraceae","Hypochaeris","radicata","",1
+41,"Elymus rectisetus","","Poaceae","Elymus","rectisetus","",1
+56,"Minuartia recurva","","Caryophyllaceae","Minuartia","recurva","",1
+15,"Perezia recurvata","","Asteraceae","Perezia","recurvata","",1
+16,"Cyperus reflexus","","Cyperaceae","Cyperus","reflexus","",1
+16,"Trifolium repens","","Fabaceae","Trifolium","repens","",1
+94,"Salix restrata","","Salicaceae","Salix","restrata","",1
+47,"Salix reticulata","","Salicaceae","Salix","reticulata","",1
+52,"Salix reticulata","","Salicaceae","Salix","reticulata","",1
+89,"Salix reticulata","","Salicaceae","Salix","reticulata","",1
+90,"Salix reticulata","","Salicaceae","Salix","reticulata","",1
+97,"Salix reticulata","","Salicaceae","Salix","reticulata","",1
+100,"Salix reticulata","","Salicaceae","Salix","reticulata","",1
+47,"Salix retusa","","Salicaceae","Salix","retusa","",1
+53,"Salix retusa","","Salicaceae","Salix","retusa","",1
+54,"Salix retusa","","Salicaceae","Salix","retusa","",1
+91,"Salix retusa","","Salicaceae","Salix","retusa","",1
+100,"Salix retusa","","Salicaceae","Salix","retusa","",1
+23,"Nassauvia revoluta","","Asteraceae","Nassauvia","revoluta","",1
+24,"Nassauvia revoluta","","Asteraceae","Nassauvia","revoluta","",1
+25,"Nassauvia revoluta","","Asteraceae","Nassauvia","revoluta","",1
+26,"Nassauvia revoluta","","Asteraceae","Nassauvia","revoluta","",1
+98,"Saxifraga rhomboidea","","Saxifragaceae","Saxifraga","rhomboidea","",1
+67,"Masonhalea richardsonii (brown lichen)","Fungi","Parmeliaceae","Masonhalea","richardsonii","",1
+69,"Masonhalea richardsonii (Branch lichen)","","Parmeliaceae","Masonhalea","richardsonii","",1
+3,"Plantago rigida","","Plantaginaceae","Plantago","rigida","",1
+2,"Valeriana rigida","","Valerianaceae","Valeriana","rigida","",1
+3,"Valeriana rigida","","Valerianaceae","Valeriana","rigida","",1
+4,"Valeriana rigida","","Valerianaceae","Valeriana","rigida","",1
+2,"Xenophyllum rigidum (infrasp. Level)","","Asteraceae","Xenophyllum","rigidum","",1
+3,"Xenophyllum rigidum","","Asteraceae","Xenophyllum","rigidum","",1
+4,"Xenophyllum rigidum","","Asteraceae","Xenophyllum","rigidum","",1
+47,"Rhodiola rosea","","Crassulaceae","Rhodiola","rosea","",1
+100,"Rhodiola rosea","","Crassulaceae","Rhodiola","rosea","",1
+86,"Sedum rosea","","Crassulaceae","Sedum","rosea","",1
+87,"Sedum rosea","","Crassulaceae","Sedum","rosea","",1
+65,"Sedum roseum","","Crassulaceae","Sedum","roseum","",1
+88,"Sedum roseum","","Crassulaceae","Sedum","roseum","",1
+97,"Sedum roseum","","Crassulaceae","Sedum","roseum","",1
+98,"Sedum roseum","","Crassulaceae","Sedum","roseum","",1
+88,"Geum rossi","","Rosaceae","Geum","rossii","",1
+87,"Arenaria rossii","","Caryophyllaceae","Arenaria","rossii","",1
+98,"Arenaria rossii","","Caryophyllaceae","Arenaria","rossii","",1
+31,"Geum rossii","","Rosaceae","Geum","rossii","",1
+32,"Geum rossii","","Rosaceae","Geum","rossii","",1
+86,"Geum rossii","","Rosaceae","Geum","rossii","",1
+87,"Geum rossii","","Rosaceae","Geum","rossii","",1
+98,"Geum rossii","","Rosaceae","Geum","rossii","",1
+33,"Campanula rotundifolia","","Campanulaceae","Campanula","rotundifolia","",1
+41,"Lobelia roughii","","Campanulaceae","Lobelia","roughii","",1
+85,"Pedicularis roylei","","Orobanchaceae","Pedicularis","roylei","",1
+42,"Phyllacne rubra","","Stylidiaceae","Phyllacne","rubra","",1
+16,"Spergularia rubra","","Caryophyllaceae","Spergularia","rubra","",1
+23,"Empetrum rubrum","","Ericaceae","Empetrum","rubrum","",1
+24,"Empetrum rubrum","","Ericaceae","Empetrum","rubrum","",1
+25,"Empetrum rubrum","","Ericaceae","Empetrum","rubrum","",1
+26,"Empetrum rubrum","","Ericaceae","Empetrum","rubrum","",1
+41,"Luzula rufa","","Juncaceae","Luzula","rufa","",1
+54,"Agrostis rupestris","","Poaceae","Agrostis","rupestris","",1
+33,"Carex rupestris","","Cyperaceae","Carex","rupestris","",1
+53,"Carex rupestris","","Cyperaceae","Carex","rupestris","",1
+3,"Gentianella rupicola","","Gentianaceae","Gentianella","rupicola","",1
+46,"Campanula ruprechtii","","Campanulaceae","Campanula","ruprechtii","",1
+31,"Erigeron rydbergii","","Asteraceae","Erigeron","rydbergii","",1
+32,"Erigeron rydbergii","","Asteraceae","Erigeron","rydbergii","",1
+33,"Penstemon rydbergii","","Scrophulariaceae","Penstemon","rydbergii","",1
+45,"Annuelle sÞche","Angiosperm","S45_UNKNOWN1","S45_UNKNOWN1","S45_UNKNOWN1","",1
+5,"Unknown","Angiosperm","S5_UNKNOWN1","S5_UNKNOWN1","S5_UNKNOWN1","",1
+64,"moustache","Angiosperm","S64_UNKNOWN1","S64_UNKNOWN1","S64_UNKNOWN1","",1
+65,"UNKNOWN1","Angiosperm","S65_UNKNOWN1","S65_UNKNOWN1","S65_UNKNOWN1","",1
+65,"UNKNOWN2","Angiosperm","S65_UNKNOWN2","S65_UNKNOWN2","S65_UNKNOWN2","",1
+65,"UNKNOWN3","Angiosperm","S65_UNKNOWN3","S65_UNKNOWN3","S65_UNKNOWN3","",1
+65,"UNKNOWN4","Angiosperm","S65_UNKNOWN4","S65_UNKNOWN4","S65_UNKNOWN4","",1
+65,"UNKNOWN5","Angiosperm","S65_UNKNOWN5","S65_UNKNOWN5","S65_UNKNOWN5","",1
+65,"UNKNOWN6","Angiosperm","S65_UNKNOWN6","S65_UNKNOWN6","S65_UNKNOWN6","",1
+69,"White weed?","Angiosperm","S69_UNKNOWN1","S69_UNKNOWN1","S69_UNKNOWN1","",1
+69,"Red Long","Angiosperm","S69_UNKNOWN2","S69_UNKNOWN2","S69_UNKNOWN2","",1
+69,"Green Lobe","Angiosperm","S69_UNKNOWN3","S69_UNKNOWN3","S69_UNKNOWN3","",1
+74,"unk-folded leaf","Angiosperm","S74_UNKNOWN1","S74_UNKNOWN1","S74_UNKNOWN1","",1
+86,"UNKNOWN","Angiosperm","S86_UNKNOWN1","S86_UNKNOWN1","S86_UNKNOWN1","",1
+87,"UNKNOWN","Angiosperm","S87_UNKNOWN1","S87_UNKNOWN1","S87_UNKNOWN1","",1
+88,"UNKNOWN1","Angiosperm","S88_UNKNOWN1","S88_UNKNOWN1","S88_UNKNOWN1","",1
+94,"Thlaspi","","Brassicaceae","Thlaspi","S94_UNKNOWN1","",1
+94,"Thlaspi 2","","Brassicaceae","Thlaspi","S94_UNKNOWN2","",1
+95,"UNKleaf","Angiosperm","S95_UNKNOWN1","S95_UNKNOWN1","S95_UNKNOWN1","",1
+97,"UKN fuzzy  purple","Angiosperm","S97_UNKNOWN1","S97_UNKNOWN1","S97_UNKNOWN1","",1
+98,"UNK fuzzy","Angiosperm","S98_UNKNOWN1","S98_UNKNOWN1","S98_UNKNOWN1","",1
+98,"UNK1","Angiosperm","S98_UNKNOWN2","S98_UNKNOWN2","S98_UNKNOWN2","",1
+98,"UNK2","Angiosperm","S98_UNKNOWN3","S98_UNKNOWN3","S98_UNKNOWN3","",1
+13,"Polygala salasiana","","Polygalaceae","Polygala","salasiana","",1
+17,"Polygala salasiana","","Polygalaceae","Polygala","salasiana","",1
+18,"Polygala salasiana","","Polygalaceae","Polygala","salasiana","",1
+19,"Polygala salasiana","","Polygalaceae","Polygala","salasiana","",1
+24,"Adesmia solicornioides","","Fabaceae","Adesmia","salicornioides","",1
+26,"Adesmia solicornioides","","Fabaceae","Adesmia","salicornioides","",1
+47,"Euphrasia salisburgensis","","Oroeanchaceae","Euphrasia","salisburgensis","",1
+100,"Euphrasia salisburgensis","","Oroeanchaceae","Euphrasia","salisburgensis","",1
+65,"Lomatium sandbergii","","Apiaceae","Lomatium","sandbergii","",1
+88,"Lomatium sandbergii","","Apiaceae","Lomatium","sandbergii","",1
+34,"Poa sandbergii","","Poaceae","Poa","sandbergii","",1
+36,"Poa sandbergii","","Poaceae","Poa","sandbergii","",1
+98,"Poa sandbergii","","Poaceae","Poa","sandbergii","",1
+97,"Agrostis scabra","","Poaceae","Agrostis","scabra","",1
+85,"Deyeuxia scabrescens","","Poaceae","Deyeuxia","scabrescens","",1
+65,"Cirsium scariosum","","Asteraceae","Cirsium","scariosum","",1
+52,"Campanula scheuchzeri","","Campanulaceae","Campanula","scheuchzeri","",1
+54,"Campanula scheuchzeri","","Campanulaceae","Campanula","scheuchzeri","",1
+11,"Olsynium scirpoideum","","Iridaceae","Olsynium","scirpoideum","",1
+57,"Olsynium scirpoideum","","Iridaceae","Olsynium","scirpoideum","",1
+58,"Olsynium scirpoideum","","Iridaceae","Olsynium","scirpoideum","",1
+61,"Olsynium scirpoideum","","Iridaceae","Olsynium","scirpoideum","",1
+31,"Artemisia scopulorum","","Asteraceae","Artemisia","scopulorum","",1
+32,"Artemisia scopulorum","","Asteraceae","Artemisia","scopulorum","",1
+38,"Koel","","Poaceae","Agropyron","scribneri","",1
+39,"Koel","","Poaceae","Agropyron","scribneri","",1
+13,"Haploppappus scrobiculatus","","Asteraceae","Haplopappus","scrobiculatus","",1
+14,"Haplopappus scrobiculatus","","Asteraceae","Haplopappus","scrobiculatus","",1
+57,"Haplopappus scrobiculatus","","Asteraceae","Haplopappus","scrobiculatus","",1
+61,"Haplopappus scrobiculatus","","Asteraceae","Haplopappus","scrobiculatus","",1
+8,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+9,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+11,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+13,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+14,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+57,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+58,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+59,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+60,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+61,"Phacelia secunda","","Hydrophyllaceae","Phacelia","secunda","",1
+33,"Poa secunda","","Poaceae","Poa","secunda","",1
+2,"Gentiana sedifolia","","Gentianaceae","Gentiana","sedifolia","",1
+3,"Gentiana sedifolia","","Gentianaceae","Gentiana","sedifolia","",1
+4,"Gentiana sedifolia","","Gentianaceae","Gentiana","sedifolia","",1
+47,"Minuartia sedoides","","Caryophyllaceae","Minuartia","sedoides","",1
+52,"Minuartia sedoides","","Caryophyllaceae","Minuartia","sedoides","",1
+54,"Minuartia sedoides","","Caryophyllaceae","Minuartia","sedoides","",1
+100,"Minuartia sedoides","","Caryophyllaceae","Minuartia","sedoides","",1
+34,"Vaccaria segetalis","","Caryophyllaceae","Vaccaria","segetalis","",1
+52,"Selaginella selaginoides","","Selaginaceae","Selaginella","selaginoides","",1
+89,"Selaginella selaginoides","","Selaginaceae","Selaginella","selaginoides","",1
+18,"Gamocarpa selliana","","Calyceraceae","Gamocarpa","selliana","",1
+19,"Gamocarpa selliana","","Calyceraceae","Gamocarpa","selliana","",1
+17,"Gamocarpa selliana","","Calyceraceae","Gamocarpha","selliana","",1
+47,"Carex sempervirens","","Cyperaceae","Carex","sempervirens","",1
+100,"Carex sempervirens","","Cyperaceae","Carex","sempervirens","",1
+33,"Oxytropis sericea","","Fabaceae","Oxytropis","sericea","",1
+65,"Phacelia sericea","","Hydrophyllaceae","Phacelia","sericea","",1
+86,"Phacelia sericea","","Hydrophyllaceae","Phacelia","sericea","",1
+87,"Phacelia sericea","","Hydrophyllaceae","Phacelia","sericea","",1
+88,"Phacelia sericea","","Hydrophyllaceae","Phacelia","sericea","",1
+98,"Phacelia sericea","","Hydrophyllaceae","Phacelia","sericea","",1
+49,"Potentilla sericea L.","","Rosaceae","Potentilla","sericea","",1
+83,"Potentilla sericea L.","","Rosaceae","Potentilla","sericea","",1
+84,"Potentilla sericea L.","","Rosaceae","Potentilla","sericea","",1
+98,"Lupinus sericeus","","Fabaceae","Lupinus","sericeus","",1
+85,"Androsaceae sermentosa","","Primulaceae","Androsace","sermentosa","",1
+47,"Lloydia serotina","","Liliaceae","Lloydia","serotina","",1
+100,"Lloydia serotina","","Liliaceae","Lloydia","serotina","",1
+16,"Arenaria serpens","","Caryophyllaceae","Arenaria","serpens","",1
+53,"Salix serpyllifolia","","Salicaceae","Salix","serpyllifolia","",1
+54,"Salix serpyllifolia","","Salicaceae","Salix","serpyllifolia","",1
+92,"Salix serpellyfolia","","Salicaceae","Salix","serpyllifolia","",1
+94,"Salix serpyllfolia","","Salicaceae","Salix","serpyllifolia","",1
+67,"Saxifraga serpyllifolia (Yellow flower)","","Saxifragaceae","Saxifraga","serpyllifolia","",1
+69,"Saxifraga serpyllifolia (Yellow flower)","","Saxifragaceae","Saxifraga","serpyllifolia","",1
+77,"Thymus serpylloides ssp. serpylloides","","Lamiaceae","Thymus","serpylloides","serpylloides",1
+78,"Thymus serpylloides ssp. serpylloides","","Lamiaceae","Thymus","serpylloides","serpylloides",1
+79,"Thymus serpylloides ssp. serpylloides","","Lamiaceae","Thymus","serpylloides","serpylloides",1
+81,"Thymus serpylloides ssp. serpylloides","","Lamiaceae","Thymus","serpylloides","serpylloides",1
+16,"Agrostis serranoi","","Poaceae","Agrostis","serranoi","",1
+82,"Calamagrostos_sesquiflora","","Poaceae","Calamagrostis","sesquiflora","",1
+43,"Celmisia sessilflora","","Asteraceae","Celmisia","sessiliflora","",1
+2,"Hypochaeris sessiliflora","","Asteraceae","Hypochaeris","sessiliflora","",1
+3,"Hypochaeris sessiliflora","","Asteraceae","Hypochaeris","sessiliflora","",1
+4,"Hypochaeris sessiliflora","","Asteraceae","Hypochaeris","sessiliflora","",1
+16,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+17,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+18,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+19,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+41,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+57,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+61,"Geranium sessiliflorum","","Geraniaceae","Geranium","sessiliflorum","",1
+41,"Rytidiosperma setifolium","","Poaceae","Rytidosperma","setifolium","",1
+11,"Bromus setifoluis","","Poaceae","Bromus","setifolius","",1
+12,"Bromus setifoluis","","Poaceae","Bromus","setifolius","",1
+13,"Bromus setifolius","","Poaceae","Bromus","setifolius","",1
+14,"Bromus setifoluis","","Poaceae","Bromus","setifolius","",1
+15,"Bromus setifolius","","Poaceae","Bromus","setifolius","",1
+57,"Bromus setifoluis","","Poaceae","Bromus","setifolius","",1
+58,"Bromus setifoluis","","Poaceae","Bromus","setifolius","",1
+61,"Bromus setifoluis","","Poaceae","Bromus","setifolius","",1
+82,"Patrinia_sibirica","","Valerianaceae","Patrinia","sibirica","",1
+49,"Poa sibirica Roshev.","","Poaceae","Poa","sibirica","",1
+83,"Poa sibirica Roshev.","","Poaceae","Poa","sibirica","",1
+14,"Loasa sigmoidea","","Loasaceae","Loasa","sigmoidea","",1
+57,"Loasa sigmoidea","","Loasaceae","Loasa","sigmoidea","",1
+58,"Loasa sigmoidea","","Loasaceae","Loasa","sigmoidea","",1
+61,"Loasa sigmoidea","","Loasaceae","Loasa","sigmoidea","",1
+95,"Erigeron simplex","","Asteraceae","Erigeron","simplex","",1
+41,"Brachyscome sinclairii","","Asteraceae","Brachyscome","sinclairii","",1
+43,"Haastia sinclarii","","Cucurbitaceae","Haastia","sinclarii","",1
+85,"Pedicularis siphonantha","","Orobanchaceae","Pedicularis","siphonantha","",1
+88,"Senecio canus","","Asteraceae","Senecio","","",1
+41,"Celmisia spectabilis","","Asteraceae","Celmisia","spectabilis","",1
+31,"Luzula spicata","","Juncaceae","Luzula","spicata","",1
+32,"Luzula spicata","","Juncaceae","Luzula","spicata","",1
+47,"Luzula spicata","","Juncaceae","Luzula","spicata","",1
+89,"Luzula spicata","","Juncaceae","Luzula","spicata","",1
+100,"Luzula spicata","","Juncaceae","Luzula","spicata","",1
+34,"Agropyron spicatum","","Poaceae","Agropyron","spicatum","",1
+36,"Agropyron spicatum","","Poaceae","Agropyron","spicatum","",1
+42,"Trisetum spicatum","","Poaceae","Trisetum","spicatum","",1
+95,"Trisetum spicatum","","Poaceae","Trisetum","spicatum","",1
+78,"Hormathophylla spinosa","","Fabaceae","Hormathophylla","spinosa","",1
+80,"Hormathophylla spinosa","","Fabaceae","Hormathophylla","spinosa","",1
+54,"Cirsium spinosissimum","","Asteraceae","Cirsium","spinosissimum","",1
+15,"Mulinum spinosum","","Apiaceae","Mulinum","spinosum","",1
+15,"Acaena splendens","","Rosaceae","Acaena","splendens","",1
+3,"Poaceae spp","","Poaceae","Poaceae","","",1
+13,"Oxalis squamata","","Oxalidaceae","Oxalis","squamata","",1
+82,"Carex_stenantha","","Cyperaceae","Carex","stenantha","",1
+84,"Carex. Stenophylloides V. Krecz.","","Cyperaceae","Carex","stenophylloides","",1
+16,"Juncus stipulatus","","Juncaceae","Juncus","stipulatus","",1
+85,"Euphorbia stracheyi","","Euphorbiaceae","Euphorbia","stracheyi","",1
+2,"Bartsia stricta","","Scrophulariaceae","Bartsia","stricta","",1
+3,"Bartsia stricta","","Scrophulariaceae","Bartsia","stricta","",1
+4,"Bartsia stricta","","Scrophulariaceae","Bartsia","stricta","",1
+56,"Nardus stricta","","Poaceae","Nardus","stricta","",1
+98,"Erigonum subalpinum","","Polygonaceae","Eriogonum","subalpinum","",1
+16,"Viola subandina","","Violaceae","Viola","subandina","",1
+8,"Adesmia subterranea","","Fabaceae","Adesmia","subterranea","",1
+9,"Adesmia subterranea","","Fabaceae","Adesmia","subterranea","",1
+59,"Adesmia subterranea","","Fabaceae","Adesmia","subterranea","",1
+60,"Adesmia subterranea","","Fabaceae","Adesmia","subterranea","",1
+23,"Colobanthus subulatus","","Caryophyllaceae","Colobanthus","subulatus","",1
+24,"Colobanthus subulatus","","Caryophyllaceae","Colobanthus","subulatus","",1
+25,"Colobanthus subulatus","","Caryophyllaceae","Colobanthus","subulatus","",1
+26,"Colobanthus subulatus","","Caryophyllaceae","Colobanthus","subulatus","",1
+84,"Astragalus suleatus L.","","Fabaceae","Astragalus","suleatus","",1
+89,"Gnaphalium supinum","","Asteraceae","Gnaphalium","supinum","",1
+32,"Myosotis sylvatica","","Boraginaceae","Myosotis","sylvatica","",1
+33,"Myosotis sylvatica","","Boraginaceae","Myosotis","sylvatica","",1
+88,"Myosotis sylvatica","","Boraginaceae","Myosotis","sylvatica","",1
+98,"Myosotis sylvatica alpestris","","Boraginaceae","Myosotis","sylvatica","alpestris",1
+83,"Potentilla tanacetifolia Willd ","","Rosaceae","Potentilla","tanacetifolia","",1
+49,"Astragalus Tanguticus Batalin","","Fabaceae","Astragalus","tanguticus","",1
+83,"Astragalus Tanguticus Batalin","","Fabaceae","Astragalus","tanguticus","",1
+84,"Androsace tapete Maxim. ","","Primulaceae","Androsace","tapete","",1
+47,"Campanula tatrae","","Campanulaceae","Campanula","tatrae","",1
+100,"Campanula tatrae","","Campanulaceae","Campanula","tatrae","",1
+47,"Euphrasia tatrae","","Oroeanchaceae","Euphrasia","tatrae","",1
+100,"Euphrasia tatrae","","Oroeanchaceae","Euphrasia","tatrae","",1
+47,"Sesleria tatrae","","Poaceae","Sesleria","tatrae","",1
+100,"Sesleria tatrae","","Poaceae","Sesleria","tatrae","",1
+34,"Bromus tectorum 1","","Poaceae","Bromus","tectorum","",1
+34,"Bromus tectorum 2","","Poaceae","Bromus","tectorum","",1
+36,"Bromus tectorum","","Poaceae","Bromus","tectorum","",1
+54,"Gentiana tenella","","Gentianaceae","Gentiana","tenella","",1
+47,"Comastoma tenellum","","Gentianaceae","Comastoma","tenellum","",1
+100,"Comastoma tenellum","","Gentianaceae","Comastoma","tenellum","",1
+49,"Ajania tenuifolia (Jacq.) Tzvel.","","Asteraceae","Ajania","tenuifolia","",1
+14,"Hypochaeris tenuifolia","","Asteraceae","Hypochaeris","tenuifolia","",1
+17,"Hypochaeris tenuifolia var eurylepis","","Asteraceae","Hypochaeris","tenuifolia","eurylepis",1
+18,"Hypochaeris tenuifolia var eurylepis","","Asteraceae","Hypochaeris","tenuifolia","eurylepis",1
+19,"Hypochaeris tenuifolia var eurylepis","","Asteraceae","Hypochaeris","tenuifolia","eurylepis",1
+57,"Hypochaeris tenuifolia","","Asteraceae","Hypochaeris","tenuifolia","",1
+58,"Hypochaeris tenuifolia","","Asteraceae","Hypochaeris","tenuifolia","",1
+61,"Hypochaeris tenuifolia","","Asteraceae","Hypochaeris","tenuifolia","",1
+89,"Saxifraga tenuis","","Saxifragaceae","Saxifraga","tenuis","",1
+53,"Crepis terglouensis","","Asteraceae","Crepis","terglouensis","",1
+54,"Crepis terglouensis","","Asteraceae","Crepis","terglouensis","",1
+97,"Chrysosplenium tetrandum","","Saxifragaceae","Chrysosplenium","tetrandum","",1
+81,"Arenaria tetraquetra ssp. amabilis","","Caryophyllaceae","Arenaria","tetraquetra","amabilis",1
+46,"Alopecurus textilis","","Poaceae","Alopecurus","textilis","",1
+42,"Chianohebe thomsonii","","Scrophulariaceae","Chianohebe","thomsonii","",1
+85,"Juncus thomsonii","","Juncaceae","Juncus","thomsonii","",1
+47,"Draba tomentosa","","Brassicaceae","Draba","tomentosa","",1
+100,"Draba tomentosa","","Brassicaceae","Draba","tomentosa","",1
+95,"Erigeron tomentosa","","Asteraceae","Erigeron","tomentosa","",1
+46,"Bromus tomentosus ","","Poaceae","Bromus","tomentosus","",1
+3,"Cerastium trianae Briq","","Brassicaceae","Cerastium","trianae","",1
+85,"Themeda trianda","","Poaceae","Themeda","trianda","",1
+98,"Senecio triangularis","","Asteraceae","Senecio","triangularis","",1
+70,"Saxifraga tricuspidata ","","Saxifragaceae","Saxifraga","tricuspidata","",1
+71,"Saxifraga tricuspidata ","","Saxifragaceae","Saxifraga","tricuspidata"," ",1
+72,"Saxifraga tricuspidata ","","Saxifragaceae","Saxifraga","tricuspidata"," ",1
+89,"Juncus trifidus","","Juncaceae","Juncus","trifidus","",1
+33,"Geum triflorum","","Rosaceae","Geum","triflorum","",1
+65,"Geum triflorum","","Rosaceae","Geum","triflorum","",1
+65,"Tiarella trifoliata","","Saxifragaceae","Tiarella","trifoliata","",1
+41,"Schizeilema trifoliatum","","Apiaceae","Schizeilema","trifoliatum","",1
+5,"Azorella trifurcata","","Apiaceae","Azorella","trifurcata","",1
+3,"Carex tristicha","","Cyperaceae","Carex","tristicha","",1
+56,"Agrostis truncatula","","Poaceae","Agrostis","truncatula","",1
+46,"Allium tuchalense","","Amarylidaceae","Allium","tuchalense","",1
+97,"Cirsium tweedyi","","Asteraceae","Cirsium","tweedyi","",1
+98,"Plantago tweedyi","","Plantaginaceae","Plantago","tweedyi","",1
+52,"Vaccinium uliginosum","","Ericaceae","Vaccinium","uliginosum","",1
+78,"Vaccinium uliginosum var. nana","","Ericaceae","Vaccinium","uliginosum","nana",1
+23,"Calceolaria uniflora","","Calceolareaceae","Calceolaria","uniflora","",1
+24,"Calceolaria uniflora","","Calceolareaceae","Calceolaria","uniflora","",1
+25,"Calceolaria uniflora","","Calceolareaceae","Calceolaria","uniflora","",1
+26,"Calceolaria uniflora","","Calceolareaceae","Calceolaria","uniflora","",1
+11,"Junellia uniflora","","Verbenaceae","Junellia","uniflora","",1
+57,"Junellia uniflora","","Verbenaceae","Junellia","uniflora","",1
+61,"Junellia uniflora","","Verbenaceae","Junellia","uniflora","",1
+13,"Nassauvia uniflora","","Asteraceae","Nassauvia","uniflora","",1
+13,"Rhodophiala uniflora","","Amerylidaceae","Rhodophiala","uniflora","",1
+14,"Rhodophiala uniflora","","Amerylidaceae","Rhodophiala","uniflora","",1
+57,"Rhodophiala uniflora","","Amerylidaceae","Rhodophiala","uniflora","",1
+61,"Rhodophiala uniflora","","Amerylidaceae","Rhodophiala","uniflora","",1
+41,"Dracophyllum uniflorum","","Ericaceae","Dracophyllum","uniflorum","",1
+43,"Geum uniflorum","","Rosaceae","Geum","uniflorum","",1
+47,"Erigeron uniflorus","","Asteraceae","Erigeron","uniflorus","",1
+52,"Erigeron uniflorus","","Asteraceae","Erigeron","uniflorus","",1
+100,"Erigeron uniflorus","","Asteraceae","Erigeron","uniflorus","",1
+69,"Arctostaphylos uva-ursi (Bearberry)","","Ericaceae","Arctostaphylos","uva-ursi","",1
+77,"Erophila verna","","Brassicaceae","Erophila","verna","",1
+52,"Minuartia verna","","Caryophyllaceae","Minuartia","verna","",1
+53,"Minuartia verna","","Caryophyllaceae","Minuartia","verna","",1
+54,"Minuartia verna","","Caryophyllaceae","Minuartia","verna","",1
+34,"Veronica verna","","Scrophulariaceae","Veronica","verna","",1
+36,"Veronica verna","","Scrophulariaceae","Veronica","verna","",1
+47,"Festuca versicolor","","Poaceae","Festuca","versicolor","",1
+100,"Festuca versicolor","","Poaceae","Festuca","versicolor","",1
+47,"Pedicularis verticillata","","Orobanchaceae","Pedicularis","verticillata","",1
+100,"Pedicularis verticillata","","Orobanchaceae","Pedicularis","verticillata","",1
+98,"Agoseris villosa","","Asteraceae","Agoseris","villosa","",1
+34,"Chrysopsis villosa","","Asteraceae","Chrysopsis","villosa","",1
+75,"Potentilla villosa","","Rosaceae","Potentilla","villosa","",1
+76,"Potentilla villosa","","Rosaceae","Potentilla","villosa","",1
+53,"Festuca violacea","","Poaceae","Festuca","violacea","",1
+54,"Festuca violacea","","Poaceae","Festuca","violacea","",1
+14,"Rytidosperma violaceum","","Poaceae","Rytidosperma","violaceum","",1
+57,"Rytidosperma violaceum","","Poaceae","Rytidosperma","violaceum","",1
+58,"Rytidosperma violaceum","","Poaceae","Rytidosperma","violaceum","",1
+61,"Rytidosperma violaceum","","Poaceae","Rytidosperma","violaceum","",1
+43,"Celmisia viscosa","","Asteraceae","Celmisia","viscosa","",1
+31,"Polemonium viscosum","","Polemoniaceae","Polemonium","viscosum","",1
+39,"Rubiacee","","Polemoniaceae","Polemonium","viscosum","",1
+87,"Polemonium viscosum","","Polemoniaceae","Polemonium","viscosum","",1
+97,"Polemonium viscosum","","Polemoniaceae","Polemonium","viscosum","",1
+74,"Gregoria vitaliana","","Primulaceae","Gregoria","vitaliana","",1
+82,"Vaccinium_vitis_idea","","Ericaceae","Vaccinium","vitis idaea","",1
+85,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara","",1
+89,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara","",1
+47,"Persicaria vivipara","","Polygonaceae","Persicaria","vivipara","",1
+100,"Persicaria vivipara","","Polygonaceae","Persicaria","vivipara","",1
+67,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+68,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+69,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+70,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+71,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+72,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+99,"Bistorta vivipara","","Polygonaceae","Bistorta","vivipara ","",1
+50,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+52,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+53,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+54,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+65,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+90,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+94,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+97,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+98,"Polygonum viviparum","","Polygonaceae","Polygonum","viviparum","",1
+91,"Polygonum vivparum","","Polygonaceae","Polygonum","vivparum","",1
+98,"Cerastrium vulgare","","Brassicaceae","Cerastrium","vulgare","",1
+88,"Taraxacum vulgare","","Asteraceae","Taraxacum","vulgare","",1
+98,"Taraxacum vulgare","","Asteraceae","Taraxacum","vulgare","",1
+78,"Anthyllis vulneraria ssp. pseudoarundana","","Fabaceae","Anthyllis","vulneraria","pseudoarundana",1
+79,"Anthyllis vulneraria ssp. pseudoarundana","","Fabaceae","Anthyllis","vulneraria","pseudoarundana",1
+81,"Anthyllis vulneraria ssp. pseudoarundana","","Fabaceae","Anthyllis","vulneraria","pseudoarundana",1
+88,"Saussaurea weberi","","Asteraceae","Saussurea","weberi","",1
+97,"Saussarea weberi","","Asteraceae","Saussurea","weberi","",1
+98,"Saussarea weberi","","Asteraceae","Saussurea","weberi","",1
+3,"Halenia weddeliana","","Gentianaceae","Halenia","weddeliana","",1
+56,"Euphrasia willkommii","","Oroeanchaceae","Euphrasia","willkommii","",1
+77,"Euphrasia willkommii","","Oroeanchaceae","Euphrasia","willkommii","",1
+79,"Euphrasia willkommii","","Oroeanchaceae","Euphrasia","willkommii","",1
+80,"Euphrasia willkommii","","Oroeanchaceae","Euphrasia","willkommii","",1
+81,"Euphrasia willkommii","","Oroeanchaceae","Euphrasia","willkommii","",1
+33,"Besseya wyomingensis","","Scrophulariaceae","Besseya","wyomingensis","",1
+98,"Bessyea wyomingensis","","Scrophulariaceae","Bessyea","wyomingensis","",1
+82,"Saussurea_yanagisawae","","Asteraceae","Saussurea","yanagisawae","",1
+42,"Euphrasia zealandica","","Oroeanchaceae","Euphrasia","zealandica","",1
+1,"Poaceae sp","","Poaceae","","","",1
+45,"Scrophulariacees","","Scrophulariaceae","","","",1
+24,"Abrotonella","","Asteraceae","Abrotanella","","",1
+26,"Abrotonella","","Asteraceae","Abrotanella","","",1
+64,"Acaena big","","Rosaceae","Acaena","","",1
+64,"Acaena","","Rosaceae","Acaena","","",1
+45,"Acantholimon","","Plumbaginaceae","Acantholimon","","",1
+75,"Achillea","","Asteraceae","Achillea","","",1
+41,"Aciphylla big","","Apiaceae","Aciphylla","","",1
+85,"Acronema sp.","","Apiaceae","Acronema","","",1
+8,"Adesmia sp 2","","Fabaceae","Adesmia","","",1
+9,"Adesmia sp. 2","","Fabaceae","Adesmia","","",1
+11,"Adesmia sp 1","","Fabaceae","Adesmia","","",1
+11,"Adesmia sp 2","","Fabaceae","Adesmia","","",1
+12,"Adesmia sp 1","","Fabaceae","Adesmia","","",1
+12,"Adesmia sp 2","","Fabaceae","Adesmia","","",1
+13,"Adesmia sp 3","","Fabaceae","Adesmia","","",1
+13,"Adesmia sp 4","","Fabaceae","Adesmia","","",1
+13,"Adesmia sp 6","","Fabaceae","Adesmia","","",1
+14,"Adesmia sp4","","Fabaceae","Adesmia","","",1
+15,"Adesmia sp 1","","Fabaceae","Adesmia","","",1
+15,"Adesmia sp 2","","Fabaceae","Adesmia","","",1
+57,"Adesmia sp4","","Fabaceae","Adesmia","","",1
+59,"Adesmia sp 2","","Fabaceae","Adesmia","","",1
+60,"Adesmia sp 2","","Fabaceae","Adesmia","","",1
+61,"Adesmia sp4","","Fabaceae","Adesmia","","",1
+64,"Adesmia","","Fabaceae","Adesmia","","",1
+38,"Agrostis","","Poaceae","Agrostis","","",1
+39,"Agrostis","","Poaceae","Agrostis","","",1
+73,"Agrostis","","Poaceae","Agrostis","","",1
+74,"Agrostis","","Poaceae","Agrostis","","",1
+75,"Agrostis","","Poaceae","Agrostis","","",1
+76,"Agrostis","","Poaceae","Agrostis","","",1
+88,"Agrostis spp","","Poaceae","Agrostis","","",1
+98,"Agrostis spp1","","Poaceae","Agrostis","","",1
+98,"Agrostis spp2","","Poaceae","Agrostis","","",1
+73,"Alchemilla","","Rosaceae","Alchemilla","","",1
+74,"Alchemilla","","Rosaceae","Alchemilla","","",1
+42,"lichen (Alectoria)","Lichen","","Alectoria","","",1
+45,"Alyssum","","Asteraceae","Alyssum","","",1
+69,"Big Anenome","","Ranunculaceae","Anemone","","",1
+71,"Anenome spp","","Ranunculaceae","Anenome","","",1
+72,"Anenome spp","","Ranunculaceae","Anenome","","",1
+75,"Antennaria long leaf","","Asteraceae","Antennaria","","",1
+76,"Antennaria long leaf","","Asteraceae","Antennaria","","",1
+73,"Anthyllis","","Fabaceae","Anthyllis","","",1
+74,"Anthyllis","","Fabaceae","Anthyllis","","",1
+38,"Arabis","","Brassicaceae","Arabis","","",1
+39,"Arabis","","Brassicaceae","Arabis","","",1
+62,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+63,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+73,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+74,"Arenaria","","Caryophyllaceae","Arenaria","","",1
+75,"Arnica","","Asteraceae","Arnica","","",1
+76,"Arnica","","Asteraceae","Arnica","","",1
+44,"Asperula","","Rubiaceae","Asperula","","",1
+44,"Astragalus blanc","","Fabaceae","Astragalus","","",1
+44,"Bromus","","Poaceae","Bromus","","",1
+45,"Bromus","","Poaceae","Bromus","","",1
+98,"Bromus spp","","Poaceae","Bromus","","",1
+71,"Bryoria spp","Lichen","","Bryoria","","",1
+5,"Calamagrostis sp","","Poaceae","Calamagrostis","","",1
+8,"Calandrinia sp","","Portulacaceae","Calandrinia","","",1
+9,"Calandrinia sp.","","Portulacaceae","Calandrinia","","",1
+57,"Calandrinia sp","","Portulacaceae","Calandrinia","","",1
+59,"Calandrinia sp","","Portulacaceae","Calandrinia","","",1
+60,"Calandrinia sp","","Portulacaceae","Calandrinia","","",1
+61,"Calandrinia sp","","Portulacaceae","Calandrinia","","",1
+64,"Calceolarea","","Calceolareaceae","Calceolarea","","",1
+8,"Carex sp","","Cyperaceae","Carex","","",1
+9,"Carex sp.","","Cyperaceae","Carex","","",1
+12,"Carex sp 1","","Cyperaceae","Carex","","",1
+14,"Carex sp 2","","Cyperaceae","Carex","","",1
+38,"Carex","","Cyperaceae","Carex","","",1
+39,"Carex","","Cyperaceae","Carex","","",1
+42,"Carex","","Cyperaceae","Carex","","",1
+50,"Sedge (sp)","","Cyperaceae","Carex","","",1
+57,"Carex sp 1","","Cyperaceae","Carex","","",1
+57,"Carex sp 2","","Cyperaceae","Carex","","",1
+58,"Carex sp 2","","Cyperaceae","Carex","","",1
+59,"Carex sp","","Cyperaceae","Carex","","",1
+60,"Carex sp","","Cyperaceae","Carex","","",1
+61,"Carex sp 1","","Cyperaceae","Carex","","",1
+61,"Carex sp 2","","Cyperaceae","Carex","","",1
+62,"Carex","","Cyperaceae","Carex","","",1
+63,"Carex","","Cyperaceae","Carex","","",1
+67,"Carex spp","","Cyperaceae","Carex","","",1
+68,"Carex spp","","Cyperaceae","Carex","","",1
+70,"Carex spp","","Cyperaceae","Carex","","",1
+71,"Carex spp","","Cyperaceae","Carex","","",1
+72,"Carex spp","","Cyperaceae","Carex","","",1
+74,"Carex 1","","Cyperaceae","Carex","","",1
+74,"Carex 2","","Cyperaceae","Carex","","",1
+75,"Carex Sp.","","Cyperaceae","Carex","","",1
+75,"Carex yellow","","Cyperaceae","Carex","","",1
+76,"Carex Sp.","","Cyperaceae","Carex","","",1
+82,"Carex_sp","","Cyperaceae","Carex","","",1
+85,"Carex sp.","","Cyperaceae","Carex","","",1
+92,"Carex spp1","","Cyperaceae","Carex","","",1
+99,"Carex spp","","Cyperaceae","Carex","","",1
+73,"Carex 1","","Cyperaceae","Carex ","","",1
+73,"Carex 2","","Cyperaceae","Carex ","","",1
+44,"Centaurea","","Asteraceae","Centaurea","","",1
+45,"Centaurea","","Asteraceae","Centaurea","","",1
+23,"Cerastium sp","","Brassicaceae","Cerastium","","",1
+24,"Cerastium sp","","Brassicaceae","Cerastium","","",1
+25,"Cerastium sp","","Brassicaceae","Cerastium","","",1
+26,"Cerastium sp","","Brassicaceae","Cerastium","","",1
+44,"Cerastium","","Brassicaceae","Cerastium","","",1
+45,"Cerastium","","Brassicaceae","Cerastium","","",1
+73,"Cerastium","","Brassicaceae","Cerastium","","",1
+74,"Cerastium","","Brassicaceae","Cerastium","","",1
+42,"lichen (Cetraria)","Lichen","","Cetraria","","",1
+70,"Cetraria cuc","Lichen","","Cetraria","","",1
+71,"Cetraria cuc","Lichen","","Cetraria","","",1
+72,"Cetraria cuc","Lichen","","Cetraria","","",1
+41,"Chianochloa","","Poaceae","Chianochloa","","",1
+43,"Chianochloa sp","","Poaceae","Chianochloa","","",1
+44,"Chardon dorÚ","","Asteraceae","Cirsium","","",1
+44,"Chardon gris","","Asteraceae","Cirsium","","",1
+45,"Chardon gris","","Asteraceae","Cirsium","","",1
+73,"Cirsium","","Asteraceae","Cirsium","","",1
+74,"Cirsium","","Asteraceae","Cirsium","","",1
+52,"lichen (Cladina sp (reindeer lichens))","Lichen","","Cladina","","",1
+71,"Cladina","Lichen","","Cladina ","","",1
+72,"Cladina","Lichen","","Cladina ","","",1
+42,"lichen (Cladinia)","Lichen","","Cladinia","","",1
+52,"lichen (Cladonia sp (cup and crustaceous Cladonias))","Lichen","","Cladonia","","",1
+70,"Cladonia spp","Lichen","","Cladonia","","",1
+71,"Cladonia spp","Lichen","","Cladonia","","",1
+72,"Cladonia spp","Lichen","","Cladonia","","",1
+45,"Crepis","","Asteraceae","Crepis","","",1
+73,"Crepis","","Asteraceae","Crepis","","",1
+44,"Crocus","","Liliaceae","Crocus","","",1
+9,"Crucifera","","Brassicaceae","","","",1
+85,"Cyperus sp.","","Cyperaceae","Cyperus","","",1
+73,"Daphne","","Thymelaeaceae","Daphne","","",1
+74,"Daphne","","Thymelaeaceae","Daphne","","",1
+43,"moss (Dichrhomalema)","Bryophyta","","Dichrhomalema","","",1
+75,"Doronicum","","Asteraceae","Doronicum","","",1
+57,"Draba sp 2","","Brassicaceae","Draba","","",1
+61,"Draba sp 2","","Brassicaceae","Draba","","",1
+73,"Draba","","Brassicaceae","Draba","","",1
+74,"Draba","","Brassicaceae","Draba","","",1
+75,"Draba","","Brassicaceae","Draba","","",1
+76,"Draba","","Brassicaceae","Draba","","",1
+93,"Draba red","","Brassicaceae","Draba","","",1
+23,"Elymus sp","","Poaceae","Elymus","","",1
+24,"Elymus sp","","Poaceae","Elymus","","",1
+25,"Elymus sp","","Poaceae","Elymus","","",1
+26,"Elymus sp","","Poaceae","Elymus","","",1
+38,"Elymus","","Poaceae","Elymus","","",1
+39,"Elymus","","Poaceae","Elymus","","",1
+64,"Empetrum","","Ericaceae","Empetrum","","",1
+43,"Epilobium sp","","Onagraceae","Epilobium","","",1
+64,"Epilobium","","Onagraceae","Epilobium","","",1
+89,"Equisetum sp","","Equisetaceae","Equisetum","","",1
+17,"Erigeron sp","","Asteraceae","Erigeron","","",1
+18,"Erigeron sp","","Asteraceae","Erigeron","","",1
+19,"Erigeron sp","","Asteraceae","Erigeron","","",1
+23,"Erigeron sp","","Asteraceae","Erigeron","","",1
+24,"Erigeron sp","","Asteraceae","Erigeron","","",1
+25,"Erigeron sp","","Asteraceae","Erigeron","","",1
+26,"Erigeron sp","","Asteraceae","Erigeron","","",1
+33,"Erigeron sp","","Asteraceae","Erigeron","","",1
+62,"Erigeron","","Asteraceae","Erigeron","","",1
+63,"Erigeron","","Asteraceae","Erigeron","","",1
+64,"Erigeron","","Asteraceae","Erigeron","","",1
+69,"Erigeron spp. (Red long)","","Asteraceae","Erigeron","","",1
+73,"Erigeron 1","","Asteraceae","Erigeron","","",1
+73,"Erigeron 2","","Asteraceae","Erigeron","","",1
+74,"Erigeron","","Asteraceae","Erigeron","","",1
+75,"Erigeron","","Asteraceae","Erigeron","","",1
+76,"Erigeron","","Asteraceae","Erigeron","","",1
+62,"Erigonum","","Polygonaceae","Eriogonum","","",1
+63,"Erigonum","","Polygonaceae","Eriogonum","","",1
+24,"Eudema","","Brassicaceae","Eudema","","",1
+26,"Eudema","","Brassicaceae","Eudema","","",1
+43,"Euphraisia sp","","Oroeanchaceae","Euphrasia","","",1
+5,"Festuca sp","","Poaceae","Festuca","","",1
+42,"Festuca","","Poaceae","Festuca","","",1
+44,"Festuca","","Poaceae","Festuca","","",1
+45,"Festuca","","Poaceae","Festuca","","",1
+64,"Festuca","","Poaceae","Festuca","","",1
+73,"Festuca","","Poaceae","Festuca","","",1
+74,"Festuca","","Poaceae","Festuca","","",1
+75,"Festuca","","Poaceae","Festuca","","",1
+75,"Festuca green","","Poaceae","Festuca","","",1
+76,"Festuca","","Poaceae","Festuca","","",1
+76,"Festuca green","","Poaceae","Festuca","","",1
+91,"Festuca sp.","","Poaceae","Festuca","","",1
+44,"Galium","","Rubiaceae","Galium","","",1
+45,"Galium","","Rubiaceae","Galium","","",1
+54,"Gentiana sp","","Gentianaceae","Gentiana","","",1
+68,"Red gentian?","","Gentianaceae","Gentiana","","",1
+68,"Small gen","","Gentianaceae","Gentiana","","",1
+69,"Small gentian","","Gentianaceae","Gentiana","","",1
+73,"Gentiana 1","","Gentianaceae","Gentiana","","",1
+73,"Gentiana 2 (blue)","","Gentianaceae","Gentiana","","",1
+73,"Gentiana 3 (pointed leaves)","","Gentianaceae","Gentiana","","",1
+74,"Gentiana 1","","Gentianaceae","Gentiana","","",1
+74,"Gentiana 2 (blue)","","Gentianaceae","Gentiana","","",1
+74,"Gentiana 3 (pointed leaves)","","Gentianaceae","Gentiana","","",1
+91,"Gentiana sp.","","Gentianaceae","Gentiana","","",1
+99,"Red gentian?","","Gentianaceae","Gentiana","","",1
+99,"Small gen","","Gentianaceae","Gentiana","","",1
+73,"Globularia","","Globulariaceae","Globularia","","",1
+74,"Globularia","","Globulariaceae","Globularia","","",1
+74,"Gnaphalium","","Asteraceae","Gnaphalium","","",1
+23,"Hamadryas sp","","Ranunculaceae","Hamadryas","","",1
+24,"Hamadryas sp","","Ranunculaceae","Hamadryas","","",1
+25,"Hamadryas sp","","Ranunculaceae","Hamadryas","","",1
+26,"Hamadryas sp","","Ranunculaceae","Hamadryas","","",1
+64,"Haplopappus","","Asteraceae","Haplopappus","","",1
+42,"Hectorella","","Portulaceae","Hectorella","","",1
+43,"Hectorella sp","","Portulaceae","Hectorella","","",1
+73,"Helianthemum","","Cistaceae","Helianthemum","","",1
+74,"Helianthemum","","Cistaceae","Helianthemum","","",1
+41,"Hieracium","","Asteraceae","Hieracium","","",1
+73,"Hieracium 1","","Asteraceae","Hieracium","","",1
+73,"Hieracium 2","","Asteraceae","Hieracium","","",1
+74,"Hieracium 1","","Asteraceae","Hieracium","","",1
+74,"Hieracium 2","","Asteraceae","Hieracium","","",1
+43,"lichen (Hypogymnium)","Lichen","","Hypogymnium","","",1
+15,"Juncus sp","","Juncaceae","Juncus","","",1
+41,"Koeleria","","Poaceae","Koeleria","","",1
+63,"Cholerea","","Poaceae","Koeleria","","",1
+73,"Koeleria","","Poaceae","Koeleria","","",1
+74,"Koeleria","","Poaceae","Koeleria","","",1
+75,"Koeleria","","Poaceae","Koeleria","","",1
+76,"Koeleria","","Poaceae","Koeleria","","",1
+45,"Lactuca","","Asteraceae","Lactuca","","",1
+64,"Lathyrus","","Fabaceae","Lathyrus","","",1
+45,"Leontodon","","Asteraceae","Leontodon","","",1
+63,"Leontodon","","Asteraceae","Leontodon","","",1
+73,"Leontodon","","Asteraceae","Leontodon","","",1
+74,"Leontodon","","Asteraceae","Leontodon","","",1
+42,"Leptinella 2","","Asteraceae","Leptinella","","",1
+73,"Leucanthemum","","Asteraceae","Leucanthemum","","",1
+45,"Leuzea","","Asteraceae","Leuzea","","",1
+45,"Linaria","","Scrophulariaceae","Linaria","","",1
+73,"Linaria","","Scrophulariaceae","Linaria","","",1
+74,"Linaria","","Scrophulariaceae","Linaria","","",1
+63,"Linum","","Linaceae","Linum","","",1
+64,"Lotus","","Fabaceae","Lotus","","",1
+75,"Leutkea","","Rosaceae","Luetkea","","",1
+23,"Luzula sp 1","","Juncaceae","Luzula","","",1
+23,"Luzula sp 2","","Juncaceae","Luzula","","",1
+24,"Luzula sp 1","","Juncaceae","Luzula","","",1
+24,"Luzula sp 2","","Juncaceae","Luzula","","",1
+25,"Luzula sp 1","","Juncaceae","Luzula","","",1
+25,"Luzula sp 2","","Juncaceae","Luzula","","",1
+26,"Luzula sp 1","","Juncaceae","Luzula","","",1
+26,"Luzula sp 2","","Juncaceae","Luzula","","",1
+42,"Luzula","","Juncaceae","Luzula","","",1
+64,"Luzula","","Juncaceae","Luzula","","",1
+75,"Luzula","","Juncaceae","Luzula","","",1
+76,"Luzul green","","Juncaceae","Luzula","","",1
+76,"Luzula","","Juncaceae","Luzula","","",1
+89,"Luzula sp","","Juncaceae","Luzula","","",1
+75,"Lycopodium","Pteridophyta","Lycopodiaceae","Lycopodium","","",1
+44,"Marrubium","","Lamiaceae","Marrubium","","",1
+45,"Marrubium","","Lamiaceae","Marrubium","","",1
+8,"Menonvillea sp","","Brassicaceae","Menonvillea","","",1
+9,"Menonvillea sp.","","Brassicaceae","Menonvillea","","",1
+59,"Menonvillea sp","","Brassicaceae","Menonvillea","","",1
+60,"Menonvillea sp","","Brassicaceae","Menonvillea","","",1
+38,"Mertensia","","Boraginaceae","Mertensia","","",1
+89,"Minuartia sp","","Caryophyllaceae","Minuartia","","",1
+2,"Myrosmodes sp.","","Orchidaceae","Myrosmodes","","",1
+3,"Myrosmodes sp","","Orchidaceae","Myrosmodes","","",1
+4,"Myrosmodes sp","","Orchidaceae","Myrosmodes","","",1
+64,"Nasauvia soft","","Asteraceae","Nassauvia","","",1
+64,"Nasuvia hairy","","Asteraceae","Nassauvia","","",1
+64,"Nasuvia teeth","","Asteraceae","Nassauvia","","",1
+23,"Oreobolus sp","","Cyperaceae","Oreobolus","","",1
+25,"Oreobolus sp","","Cyperaceae","Oreobolus","","",1
+73,"Oreochloa","","Poaceae","Oreochloa","","",1
+74,"Oreochloa","","Poaceae","Oreochloa","","",1
+8,"Oxalis sp","","Oxalidaceae","Oxalis","","",1
+9,"Oxalis sp.","","Oxalidaceae","Oxalis","","",1
+59,"Oxalis sp","","Oxalidaceae","Oxalis","","",1
+60,"Oxalis sp","","Oxalidaceae","Oxalis","","",1
+64,"Oxalis","","Oxalidaceae","Oxalis","","",1
+74,"Oxytropis","","Fabaceae","Oxytropis","","",1
+67,"Pedicularis spp (Lousewort)","","Orobanchaceae","Pedicularis","","",1
+69,"Pedicularis spp (lousewort)","","Orobanchaceae","Pedicularis","","",1
+70,"Pedicularis (Lousewort)","","Orobanchaceae","Pedicularis","","",1
+52,"lichen (Peltigera sp)","Lichen","Peltigeraceae","Peltigera","","",1
+67,"Peltigera spp","","Peltigeraceae","Peltigera","","",1
+68,"Peltigera spp","","Peltigeraceae","Peltigera","","",1
+70,"Peltigera spp","","Peltigeraceae","Peltigera","","",1
+71,"Peltigera spp","","Peltigeraceae","Peltigera","","",1
+72,"Peltigera spp","","Peltigeraceae","Peltigera","","",1
+99,"Peltigera spp","","Peltigeraceae","Peltigera","","",1
+75,"Penstemon","","Scrophulariaceae","Penstemon","","",1
+15,"Perezia sp","","Asteraceae","Perezia","","",1
+64,"Perezia","","Asteraceae","Perezia","","",1
+76,"Phacelia","","Hydrophyllaceae","Phacelia","","",1
+23,"Phleum sp","","Poaceae","Phleum","","",1
+24,"Phleum sp","","Poaceae","Phleum","","",1
+25,"Phleum sp","","Poaceae","Phleum","","",1
+26,"Phleum sp","","Poaceae","Phleum","","",1
+63,"Phlox","","Polemoniaceae","Phlox","","",1
+75,"Phlox","","Polemoniaceae","Phlox","","",1
+76,"Phlox","","Polemoniaceae","Phlox","","",1
+67,"Phyllodoce spp (Heather)","","Ericaceae","Phyllodoce","","",1
+68,"Phyllodoce spp (Heather)","","Ericaceae","Phyllodoce","","",1
+99,"Phyllodoce spp (Heather)","","Ericaceae","Phyllodoce","","",1
+77,"Pilosella sp.","","Asteraceae","Pilosella","","",1
+79,"Pilosella sp.","","Asteraceae","Pilosella","","",1
+81,"Pilosella sp.","","Asteraceae","Pilosella","","",1
+89,"Pinguicula sp","","Lentibulariaceae","Pinguicula","","",1
+23,"Plantago sp","","Plantaginaceae","Plantago","","",1
+24,"Plantago sp","","Plantaginaceae","Plantago","","",1
+25,"Plantago sp","","Plantaginaceae","Plantago","","",1
+26,"Plantago sp","","Plantaginaceae","Plantago","","",1
+74,"Plantago","","Plantaginaceae","Plantago","","",1
+52,"moss (Pleurocarous bryophyte)","Bryophyta","","Pleurocarous","","",1
+15,"Poa sp","","Poaceae","Poa","","",1
+16,"Poa sp 1","","Poaceae","Poa","","",1
+16,"Poa sp2","","Poaceae","Poa","","",1
+62,"Poa","","Poaceae","Poa","","",1
+63,"Poa","","Poaceae","Poa","","",1
+74,"Poa","","Poaceae","Poa","","",1
+91,"Poa sp","","Poaceae","Poa","","",1
+67,"Polemonium spp","","Polemoniaceae","Polemonium","","",1
+68,"Polemonium spp","","Polemoniaceae","Polemonium","","",1
+72,"Pulmonium","","Polemoniaceae","Polemonium","","",1
+99,"Polemonium spp","","Polemoniaceae","Polemonium","","",1
+73,"Polygala","","Polygalaceae","Polygala","","",1
+85,"Polygonatum sp.","","Ruscaceae","Polygonatum","","",1
+42,"moss (Polytrichum)","Bryophyta","","Polytrichum","","",1
+43,"moss (Polytrichum)","Bryophyta","","Polytrichum","","",1
+67,"Polytrichum spp","Bryophyta","","Polytrichum","","",1
+70,"Polytrichum spp","Bryophyta","","Polytrichum","","",1
+71,"Polytrichum spp","Bryophyta","","Polytrichum","","",1
+72,"Polytrichum spp","Bryophyta","","Polytrichum","","",1
+67,"Potentilla spp (Cinquefoil)","","Rosaceae","Potentilla","","",1
+68,"Potentilla spp (Cinquefoil)","","Rosaceae","Potentilla","","",1
+69,"Potentilla spp","","Rosaceae","Potentilla","","",1
+74,"Potentilla","","Rosaceae","Potentilla","","",1
+85,"Potentilla sp.","","Rosaceae","Potentilla","","",1
+99,"Potentilla spp (Cinquefoil)","","Rosaceae","Potentilla","","",1
+44,"Prunus","","Rosaceae","Prunus","","",1
+45,"Prunus","","Rosaceae","Prunus","","",1
+42,"moss (Psilopilum)","Bryophyta","","Psilopilum","","",1
+44,"Renoncule glauque","","Ranunculaceae","Ranunculus","","",1
+68,"Buttercup","","Ranunculaceae","Ranunculus","","",1
+99,"Buttercup","","Ranunculaceae","Ranunculus","","",1
+72,"Rumex spp","","Polygonaceae","Rumex","","",1
+67,"Salix spp","","Salicaceae","Salix","","",1
+68,"Salix spp","","Salicaceae","Salix","","",1
+69,"Salix spp","","Salicaceae","Salix","","",1
+70,"Salix spp","","Salicaceae","Salix","","",1
+71,"Salix spp","","Salicaceae","Salix","","",1
+72,"Salix spp","","Salicaceae","Salix","","",1
+89,"Salix sp.","","Salicaceae","Salix","","",1
+99,"Salix spp","","Salicaceae","Salix","","",1
+23,"Saxifraga sp","","Saxifragaceae","Saxifraga","","",1
+25,"Saxifraga sp","","Saxifragaceae","Saxifraga","","",1
+38,"Saxifraga","","Saxifragaceae","Saxifraga","","",1
+39,"Saxifraga","","Saxifragaceae","Saxifraga","","",1
+62,"Saxifraga","","Saxifragaceae","Saxifraga","","",1
+63,"Saxifrag","","Saxifragaceae","Saxifraga","","",1
+64,"Saxifrage red","","Saxifragaceae","Saxifraga","","",1
+64,"Saxifrage yellow","","Saxifragaceae","Saxifraga","","",1
+71,"Saxifraga spp","","Saxifragaceae","Saxifraga","","",1
+72,"Saxifraga spp","","Saxifragaceae","Saxifraga","","",1
+73,"Saxifraga 1 (creeping)","","Saxifragaceae","Saxifraga","","",1
+73,"Saxifraga 2 (pink/leafy)","","Saxifragaceae","Saxifraga","","",1
+74,"Saxifraga 1","","Saxifragaceae","Saxifraga","","",1
+74,"Saxifraga 2","","Saxifragaceae","Saxifraga","","",1
+91,"Saxifraga with tooth","","Saxifragaceae","Saxifraga","","",1
+92,"Saxafraga THIN","","Saxifragaceae","Saxifraga","","",1
+92,"Saxifraga ROUND","","Saxifragaceae","Saxifraga","","",1
+42,"Schizeilma","","Apiaceae","Schizeilema","","",1
+44,"Scilla","","Liliaceae","Scilla","","",1
+67,"Sedum spp (stonecrop)","","Crassulaceae","Sedum","","",1
+69,"Sedum spp (stonecrop)","","Crassulaceae","Sedum","","",1
+74,"Sedum","","Crassulaceae","Sedum","","",1
+85,"Sedum sp.","","Crassulaceae","Sedum","","",1
+8,"Senecio sp","","Asteraceae","Senecio","","",1
+9,"Senecio sp.","","Asteraceae","Senecio","","",1
+15,"Senecio sp","","Asteraceae","Senecio","","",1
+44,"Senecio","","Asteraceae","Senecio","","",1
+45,"Senecio dents","","Asteraceae","Senecio","","",1
+45,"Senecio","","Asteraceae","Senecio","","",1
+59,"Senecio sp","","Asteraceae","Senecio","","",1
+60,"Senecio sp","","Asteraceae","Senecio","","",1
+64,"Senecio falso","","Asteraceae","Senecio","","",1
+75,"Sibbaldia","","Rosaceae","Sibbaldia","","",1
+76,"Sibbaldia","","Rosaceae","Sibbaldia","","",1
+38,"Silene","","Caryophyllaceae","Silene","","",1
+42,"lichen (Siphula)","Lichen","","Siphula","","",1
+38,"Solidago","","Asteraceae","Solidago","","",1
+75,"Solidago","","Asteraceae","Solidago","","",1
+76,"Solidago","","Asteraceae","Solidago","","",1
+70,"Sphagnum spp (y= yes)","Bryophyta","Sphagnaceae","Sphagnum","","",1
+71,"Sphagnum spp (y= yes)","","Sphagnaceae","Sphagnum","","",1
+72,"Sphagnum spp (y= yes)","","Sphagnaceae","Sphagnum","","",1
+74,"Stellaria","","Caryophyllaceae","Stellaria","","",1
+44,"Taraxacum","","Asteraceae","Taraxacum","","",1
+45,"Taraxacum","","Asteraceae","Taraxacum","","",1
+74,"Taraxicum","","Asteraceae","Taraxacum","","",1
+75,"Taraxacum","","Asteraceae","Taraxacum","","",1
+76,"Taraxacum","","Asteraceae","Taraxacum","","",1
+89,"Taraxacum sp","","Asteraceae","Taraxacum","","",1
+73,"Teucrium","","Lamiaceae","Teucrium","","",1
+74,"Teucrium","","Lamiaceae","Teucrium","","",1
+42,"lichen (Thamnolia)","Lichen","","Thamnolia","","",1
+43,"lichen (Thamnolia)","Lichen","","Thamnolia","","",1
+67,"Thamnolia spp","","","Thamnolia","","",1
+70,"Thamnolia spp (worm lichen)","Lichen","","Thamnolia","","",1
+71,"Thamnolia spp (worm lichen)","Lichen","","Thamnolia","","",1
+72,"Thamnolia spp (worm lichen)","Lichen","","Thamnolia","","",1
+64,"Thlapsi","","Brassicaceae","Thlapsi","","",1
+38,"Thlaspi","","Brassicaceae","Thlaspi","","",1
+23,"Trisetum sp","","Poaceae","Trisetum","","",1
+24,"Trisetum sp","","Poaceae","Trisetum","","",1
+25,"Trisetum sp","","Poaceae","Trisetum","","",1
+26,"Trisetum sp","","Poaceae","Trisetum","","",1
+64,"Trisetum","","Poaceae","Trisetum","","",1
+45,"Tulipa","","Liliaceae","Tulipa","","",1
+44,"Veronica","","Scrophulariaceae","Veronica","","",1
+73,"Veronica","","Scrophulariaceae","Veronica","","",1
+85,"Veronica sp.","","Scrophulariaceae","Veronica","","",1
+45,"Viola","","Violaceae","Viola","","",1
+2,"Moss","Bryophyta","","","","",1
+2,"Poaceae spp.","","Poaceae","","","",1
+3,"Moss spp","Bryophyta","","","","",1
+4,"moss (Moss spp)","Bryophyta","","","","",1
+4,"Poaceae spp","","Poaceae","","","",1
+8,"Crucifera","","Brassicaceae","","","",1
+15,"Unidentified Poaceae","","Poaceae","","","",1
+38,"Apiacees","","Apiaceae","","","",1
+38,"Grosse Rosette","","Asteraceae","","","",1
+38,"Crucif Jaune","","Brassicaceae","","","",1
+38,"Rubiacee","","Rubiaceae","","","",1
+41,"moss (green)","Bryophyta","","","","",1
+44,"Apiacees","","Apiaceae","","","",1
+44,"CaryophyllacÚes","","Caryophyllaceae","","","",1
+44,"Scrophulariacees","","Scrophulariaceae","","","",1
+45,"Apiacees","","Apiaceae","","","",1
+45,"CaryophyllacÚes","","Caryophyllaceae","","","",1
+45,"Liliacees","","Liliaceae","","","",1
+45,"Ranunculacees","","Ranunculaceae","","","",1
+52,"lichen (Foliose lichen)","Lichen","","","","",1
+52,"moss (Acrocarpous bryophyte)","Bryophyta","","","","",1
+53,"mosses","Bryophyta","","","","",1
+53,"lichen","Lichen","","","","",1
+54,"mosses","Bryophyta","","","","",1
+54,"lichen","Lichen","","","","",1
+59,"Crucifera","","Brassicaceae","","","",1
+60,"Crucifera","","Brassicaceae","","","",1
+63,"Caryo","","Caryophyllaceae","","","",1
+64,"moss","Bryophyta","","","","",1
+64,"Asteraceae open","","Asteraceae","","","",1
+67,"Rock lichen","Lichen","","","","",1
+67,"Moss","Bryophyta","","","","",1
+67,"Grass spp","","Poaceae","","","",1
+68,"Rock lichen","Lichen","","","","",1
+68,"Moss","Bryophyta","","","","",1
+68,"Grass spp","","Poaceae","","","",1
+69,"Rock Lichen","Lichen","","","","",1
+69,"Moss","Bryophyta","","","","",1
+69,"Grass","","Poaceae","","","",1
+70,"Moss (y= yes)","Bryophyta","","","","",1
+70,"Rock lichen","Lichen","","","","",1
+70,"Brown lichen","Lichen","","","","",1
+70,"Green brown lichen","Lichen","","","","",1
+70,"Grass spp","","Poaceae","","","",1
+71,"Moss (y= yes)","Bryophyta","","","","",1
+71,"Rock lichen","Lichen","","","","",1
+71,"Cloud lichen","Lichen","","","","",1
+71,"Rock","Rock","","","","",1
+71,"Brown lichen","Lichen","","","","",1
+71,"Grass spp","","Poaceae","","","",1
+72,"Rock lichen","Lichen","","","","",1
+72,"Cloud lichen","Lichen","","","","",1
+72,"Rock","Rock","","","","",1
+72,"Brown lichen","Lichen","","","","",1
+72,"Moss (y= yes)","Bryophyta","","","","",1
+72,"Grass spp","","Poaceae","","","",1
+73,"Caryophyllaceae","","Caryophyllaceae","","","",1
+73,"Lamiaceae","","Lamiaceae","","","",1
+74,"Caryophyllaceae","","Caryophyllaceae","","","",1
+74,"Lamiaceae","","Lamiaceae","","","",1
+75,"Caryophyllaceae","","Caryophyllaceae","","","",1
+76,"Caryophyllaceae","","Caryophyllaceae","","","",1
+90,"Flat grass","","Poaceae","","","",1
+99,"Moss","Bryophyta","","","","",1
+99,"Rock lichen","Lichen","","","","",1
+99,"Grass spp","","Poaceae","","","",1
+37,"Agoseris aurantiaca","","Asteraceae","Agoseris","aurantiaca","",1
+37,"Agoseris glauca","","Asteraceae","Agoseris","glauca","",1
+37,"Antenaria lanata","","Asteraceae","Antenaria","lanata","",1
+37,"Arenaria congesta","","Caryophyllaceae","Arenaria","congesta","",1
+37,"Arnica diversifolia","","Asteraceae","Arnica","diversifolia","",1
+37,"Carex bigelowii","","Cyperaceae","Carex","bigelowii","",1
