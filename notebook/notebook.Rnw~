@@ -17,15 +17,15 @@
                        %\hypertarget{label}{link caption}
 \linespread{1.5}
 
-\title{}
+\title{Cushions Rebooted}
 \author{M.K. Lau}
 %\date{}                                           % Activate to display a given date or no date
 
 \begin{document}
 \maketitle
 
-%\setcounter{tocdepth}{3}  %%activate to number sections
-%\tableofcontents
+\setcounter{tocdepth}{3}  %%activate to number sections
+\tableofcontents
 
 %\thispagestyle{empty}
 %\setcounter{page}{0}
@@ -33,24 +33,70 @@
 %on the second page
 
 
-%\section{}
-%\subsection{}
+\section{14 Jan 2014}
 
-%% %%Figure construction
-%% <<echo=false,results=hide,label=fig1,include=false>>=
-%% @ 
+Outline:
+\begin{itemize}
+\item Facilitation is known to increase diversity locally through the
+  amelioration of local environmental effects
+\item The effect that this has on the interactions among species has
+  not been explored
+\item Here, we use a combination of network modeling and co-occurrence
+  analysis on a world-wide alpine plant dataset to test how: 1)
+  plant-plant facilitation structures communities, 2) how this effect
+  varies with climate and 3) how trait similarity of the nurse plant
+  influences this effect
+\item We predict that:
+  \begin{itemize}
+  \item Plant facilitation will generally create species aggregations
+  \item This effect will increase over a gradient of environmental
+    severity
+  \item Ecosystems with nurse plants that have more similar traits
+    will have more similar co-occurrence patterns
+  \end{itemize}
+\item These results will contribute to our understanding of the forces
+  that shape networks of interactions among species
+\end{itemize}
 
+Familarizing with the data.
 
-%% %%Figure plotting
-%% \begin{figure} 
-%% \begin{center} 
-%% <<label=fig1,fig=TRUE,echo=false>>=
-%% <<fig1>> 
-%% @ 
-%% \end{center} 
-%% \caption{}
-%% \label{fig:one}
-%% \end{figure}
+\begin{itemize}
+\item All datasets have:
+  \begin{itemize}
+  \item col1 = site
+  \item col2 = cushion
+  \item col3 = sample
+  \item col4 = location
+  \item col5:ncol = community
+  \end{itemize}
+\end{itemize}
+
+<<>>=
+owd <- getwd()
+setwd('../data/')
+data <- sapply(dir(),read.csv)
+setwd(owd)
+
+col.names <- lapply(data,function(x) colnames(x)[1:5])
+test <- do.call(rbind,col.names)
+
+com <- lapply(data,function(x) x[,5:ncol(x)])
+com <- lapply(com,as.matrix)
+for (i in 1:length(com)){com[[i]][is.na(com[[i]])] <- 0}
+loc <- lapply(data,function(x) as.character(x[,4]))
+obs <- lapply(data,function(x) as.character(x[,3]))
+###Fix typos
+for (i in 1:length(loc)){
+  loc[[i]] <- as.character(loc[[i]])
+  loc[[i]][loc[[i]]=='cusion'] <- 'cushion'
+  loc[[i]][loc[[i]]=='cusion '] <- 'cushion'
+  loc[[i]][loc[[i]]=='cushion '] <- 'cushion'
+  loc[[i]][loc[[i]]=='open '] <- 'open'
+}
+all(unlist(lapply(obs,function(x) all(table(x)==2))))
+all(unlist(lapply(loc,function(x) all(length(unique(x))==2))))
+
+@ 
 
 
 %% %%Activate for bibtex vibliography

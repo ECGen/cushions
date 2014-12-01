@@ -72,11 +72,7 @@ Familarizing with the data.
 \end{itemize}
 
 <<>>=
-owd <- getwd()
-setwd('../data/')
-data <- sapply(dir(),read.csv)
-setwd(owd)
-
+data <- sapply(dir('../data/',full.names=TRUE),read.csv)
 col.names <- lapply(data,function(x) colnames(x)[1:5])
 test <- do.call(rbind,col.names)
 
@@ -95,6 +91,36 @@ for (i in 1:length(loc)){
 }
 all(unlist(lapply(obs,function(x) all(table(x)==2))))
 all(unlist(lapply(loc,function(x) all(length(unique(x))==2))))
+
+@ 
+
+<<>>=
+library(bipartite)
+###Look at abundance distributions of all communities
+ta <- lapply(com,function(x) apply(x,2,sum))
+ta <- lapply(ta,sort,decreasing=TRUE)
+ra <- lapply(ta,function(x) x/sum(x))
+ns.max <- max(unlist(lapply(ta,length)))
+ta.max <- max(unlist(ta))
+###relative abundance
+plot(seq(0,max(unlist(ra)),length=10)~seq(0,ns.max,length=10),pch='',
+xaxt='n',xlab='Rank Species',ylab='Relative Total Abundance')
+for (i in 1:length(ra)){
+  lines(ra[[i]]~I(1:length(ra[[i]])),col=rainbow(length(ra))[i])
+}
+###total abudance
+plot(seq(0,max(unlist(ta)),length=10)~seq(0,ns.max,length=10),pch='',
+xaxt='n',xlab='Rank Species',ylab='Total Abundance')
+for (i in 1:length(ra)){
+  lines(ta[[i]]~I(1:length(ta[[i]])),col=rainbow(length(ta))[i])
+}
+###all abudance
+plot(sort(unlist(ta),decreasing=TRUE),type='l')
+
+tta <- as.numeric(table(unlist(ta)))
+ctta <- as.numeric(names(table(unlist(ta))))
+plot(log(tta),log(ctta))
+abline(lsfit((1:5),(5:1)))
 
 @ 
 
