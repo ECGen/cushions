@@ -2,6 +2,9 @@
 ###14 Jan 2014
 ###
 
+
+###https://github.com/CommunityGeneticsAnalyses/ComGenR
+
 library(ComGenR)
 
 ###Import Data
